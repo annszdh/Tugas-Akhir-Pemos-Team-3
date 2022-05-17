@@ -11,17 +11,17 @@ Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang 
 6. Yosefa Pramudita 26050120140151 B
 7. Adzkia Fara Ananda 26050120120014 A
 
-# Teori Dasar Model Hidrodinamika
+# 2. Teori Dasar Model Hidrodinamika
 sebelum ke metodenya jelasin dulu soal pengertian Model Hidrodinamika, dasar simulasi model (parameter dan anomali jelasin), persamaan persamaan dan perbedaan model hidrodinamika 1D dan 2D (dikerjain sama 2 orang)
 
-# Cara Penggunaan Executable File (.exe)
+# 3. Cara Penggunaan Executable File (.exe)
 disini isinya masukin file library yang digunakan sama ipymb file kita. prosesnya make screenshot (dikerjain sama 1 orang)
 
-# Metode Pengerjaan
+# 4. Metode Pengerjaan
 step by step maksud script modul 3 (flowchart dan script python yang digunakan mulai dari persamaan hidrodinamikanya, persamaan pembangun, persamaan transport, diskretitasi, penyelesaian analitik). bagian ini cara nulisnya sama kaya yang contoh asisten kirim. (dikerjain sama 3 orang)
 
-# Kegunaan dan Penerapan Script dalam Oseanografi
+# 5. Kegunaan dan Penerapan Script dalam Oseanografi
 ini lebih ke penjelasan dari kegunaan dan penerapannya di ose bisa buat apa aja, tambahin kekurangan dan kelebihan dari penggunaan model hidrodinamika
 
-# Penutup
+# 6. Penutup
 yang kebagian ini berarti otomatis nulis juga bagian kegunaan dan penerapan script (dikerjain sama 1 orang)
