@@ -13,6 +13,7 @@ Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang 
 
 # 2. Teori Dasar Model Hidrodinamika
 sebelum ke metodenya jelasin dulu soal pengertian Model Hidrodinamika, dasar simulasi model (parameter dan anomali jelasin), persamaan persamaan dan perbedaan model hidrodinamika 1D dan 2D (dikerjain sama 2 orang)
+Hidrodinamika adalah
 
 # 3. Cara Penggunaan Executable File (.exe)
 disini isinya masukin file library yang digunakan sama ipymb file kita. prosesnya make screenshot (dikerjain sama 1 orang)
