@@ -27,3 +27,4 @@ ini lebih ke penjelasan dari kegunaan dan penerapannya di ose bisa buat apa aja,
 yang kebagian ini berarti otomatis nulis juga bagian kegunaan dan penerapan script (dikerjain sama 1 orang)
 
 # 7. Referensi
+Diisi jurnal atau buku semisal mengambil materi dari pustaka
