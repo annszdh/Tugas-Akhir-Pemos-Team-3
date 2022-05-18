@@ -43,8 +43,6 @@ Adapun langkah pembuatan script sebagai berikut :
 ![11](https://user-images.githubusercontent.com/76476526/168938845-a05e65ca-e402-4a73-9cd5-b493f00e5c19.PNG)
 13. Langkah terakhir _running script_ pada menu _cell_ dan dipilih _running all_
 ![14](https://user-images.githubusercontent.com/76476526/168939038-dfd3beb2-a039-4777-9f3e-4dee1012870c.PNG)
-14. Contoh grafik yang dihasilkan
-![12](https://user-images.githubusercontent.com/76476526/168939134-8f0dfef1-1d75-458c-919a-8871cfa87bb1.png)
 
 
 # 4. Metode Pengerjaan
