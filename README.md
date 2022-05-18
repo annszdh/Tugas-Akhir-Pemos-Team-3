@@ -22,6 +22,7 @@ Adapun langkah pembuatan script sebagai berikut :
 ![img](SS/1.png)
 
 
+
 # 4. Metode Pengerjaan
 step by step maksud script modul 3 (flowchart dan script python yang digunakan mulai dari persamaan hidrodinamikanya, persamaan pembangun, persamaan transport, diskretitasi, penyelesaian analitik). bagian ini cara nulisnya sama kaya yang contoh asisten kirim. (dikerjain sama 3 orang)
 
