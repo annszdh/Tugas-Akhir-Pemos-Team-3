@@ -16,7 +16,7 @@ Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liq
 
 sebelum ke metodenya jelasin dulu soal pengertian Model Hidrodinamika, dasar simulasi model (parameter dan anomali jelasin), persamaan persamaan dan perbedaan model hidrodinamika 1D dan 2D (dikerjain sama 2 orang)
 
-# 3. Pembuatan Script Python (.ipynb)
+# 3. Pembuatan _Script Python (.ipynb)_
 Pembuatan Script Pyhton dapat dilakukan dengan menggunakan Miniconda atau menggunakan Google Colaboratory. Setup Miniconda dapat diunduh pada File Terlampir
 Adapun langkah pembuatan script sebagai berikut :
 1. Pengguna dapat mengunduh **setup miniconda** terlebih dahulu kemudian dilakukan instalasi
