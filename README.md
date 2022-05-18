@@ -30,6 +30,8 @@ Adapun langkah pembuatan script sebagai berikut :
 11. Kemudian dibuat _script_ untuk grafik Perubahan Kecepatan Arus Dalam Waktu Tertentu di sepanjang Grid
 12. Berikutnya dibuat _script_ untuk grafik Perubahan Elevasi Permukaan Air Dalam Waktu Tertentu di Sepanjang Grid dan menampilkan hasil grafik secara keseluruhan
 13. Langkah terakhir _running script_
+![8](https://user-images.githubusercontent.com/76476526/168938250-16476b21-c118-46fd-bf8a-cbd2ba82dae5.PNG)
+
 
 
 # 4. Metode Pengerjaan
