@@ -45,8 +45,6 @@ Adapun langkah pembuatan script sebagai berikut :
 ![11](https://user-images.githubusercontent.com/76476526/168938845-a05e65ca-e402-4a73-9cd5-b493f00e5c19.PNG)
 13. Langkah terakhir _running script_ pada menu _cell_ dan dipilih _running all_
 ![14](https://user-images.githubusercontent.com/76476526/168939038-dfd3beb2-a039-4777-9f3e-4dee1012870c.PNG)
-![12](https://user-images.githubusercontent.com/76476526/169170671-888662a0-ea7c-4333-bd43-445be6a601c6.png)
-
 
 # 4. Metode Pengerjaan
 step by step maksud script modul 3 (flowchart dan script python yang digunakan mulai dari persamaan hidrodinamikanya, persamaan pembangun, persamaan transport, diskretitasi, penyelesaian analitik). bagian ini cara nulisnya sama kaya yang contoh asisten kirim. (dikerjain sama 3 orang)
