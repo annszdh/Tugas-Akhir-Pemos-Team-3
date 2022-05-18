@@ -30,6 +30,8 @@ Adapun langkah instalasi miniconda sebagai berikut :
 
 
 # 4. Metode Pengerjaan
+step by step maksud script modul 3 (flowchart dan script python yang digunakan mulai dari persamaan hidrodinamikanya, persamaan pembangun, persamaan transport, diskretitasi, penyelesaian analitik). bagian ini cara nulisnya sama kaya yang contoh asisten kirim. (dikerjain sama 3 orang)
+
 1. Modul 2 : Adveksi Difusi 2D
 2. Modul 3 : Model Hidrodinamika 1D
 3. Modul 4 : Model Hidrodinamika 2D
@@ -37,7 +39,6 @@ Adapun langkah instalasi miniconda sebagai berikut :
 **📌 4.1. Adveksi Difusi 2D**
 
 **📌 4.2. Model Hidrodinamika 1D**
-step by step maksud script modul 3 (flowchart dan script python yang digunakan mulai dari persamaan hidrodinamikanya, persamaan pembangun, persamaan transport, diskretitasi, penyelesaian analitik). bagian ini cara nulisnya sama kaya yang contoh asisten kirim. (dikerjain sama 3 orang)
 
 1. Maka akan muncul laman jupyter notebook kemudian dipilih _new phyton 3_ untuk membuat script
 ![13](https://user-images.githubusercontent.com/76476526/168938644-84a816b9-967b-440c-87a9-ddd69e17463c.PNG)
