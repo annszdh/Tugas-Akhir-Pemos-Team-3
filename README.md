@@ -19,10 +19,9 @@ Pembuatan Script Pyhton dapat dilakukan dengan menggunakan Miniconda atau menggu
 Adapun langkah pembuatan script sebagai berikut :
 1. Pengguna dapat mengunduh setup miniconda terlebih dahulu kemudian dilakukan instalasi
 2. Setelah itu, pengguna dapat membuka Anaconda Prompt 
-![img](SS/1.png)
 3. Kemudian dilakukan instalasi Library Matplotlib untuk membangun objek visual berupa grafik dan Numpy untuk perhitungan numerik
-![img](SS/2.png)
-![img](SS/3.png)
+4.  Selanjutnya Anaconda Prompt dibuka dan dilakukan perintah jupyter notebook kemudian enter
+
 
 
 # 4. Metode Pengerjaan
