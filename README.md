@@ -1,4 +1,4 @@
-# Tugas-Akhir-Pemos-Team-3
+# Tugas Akhir Pemos Team 3
 Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat executable (.exe) file yang dapat memproses beberapa persamaan model hidrodinamika untuk penyelesaian dalam pemodelan dari suatu fenomena atau dinamika oseanografi.
 Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, dan Pprint. Seluruh script yang dibuat adalah hasil Team 3 Oseanografi 2020. Semoga dapat bermanfaat!
 
@@ -16,7 +16,7 @@ Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liq
 
 sebelum ke metodenya jelasin dulu soal pengertian Model Hidrodinamika, dasar simulasi model (parameter dan anomali jelasin), persamaan persamaan dan perbedaan model hidrodinamika 1D dan 2D (dikerjain sama 2 orang)
 
-# 3. Instalasi Miniconda 
+# 3. _Installasi Miniconda 3_ 
 Pembuatan Script Pyhton dapat dilakukan dengan menggunakan Miniconda atau menggunakan Google Colaboratory. Setup Miniconda dapat diunduh pada File Terlampir
 Adapun langkah instalasi miniconda sebagai berikut :
 1. Pengguna dapat mengunduh **setup miniconda** terlebih dahulu kemudian dilakukan instalasi
@@ -35,6 +35,7 @@ Adapun langkah instalasi miniconda sebagai berikut :
 3. Modul 4 : Model Hidrodinamika 2D
 
 **📌 4.1. Adveksi Difusi 2D**
+
 **📌 4.2. Model Hidrodinamika 1D**
 step by step maksud script modul 3 (flowchart dan script python yang digunakan mulai dari persamaan hidrodinamikanya, persamaan pembangun, persamaan transport, diskretitasi, penyelesaian analitik). bagian ini cara nulisnya sama kaya yang contoh asisten kirim. (dikerjain sama 3 orang)
 
