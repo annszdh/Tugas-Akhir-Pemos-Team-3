@@ -27,7 +27,12 @@ Adapun langkah pembuatan script sebagai berikut :
 ![3](https://user-images.githubusercontent.com/76476526/168938581-59a2e20e-2aec-4276-be7b-43287c58998e.png)
 4. Selanjutnya **Anaconda Promp** dibuka dan dilakukan perintah **jupyter notebook** kemudian enter
 ![4](https://user-images.githubusercontent.com/76476526/168938615-af06021c-3227-4fff-91cf-67ac1b128d24.png)
-5. Maka akan muncul laman jupyter notebook kemudian dipilih _new phyton 3_ untuk membuat script
+
+# 4. Metode Pengerjaan
+# 📌 4.1. Model Adveksi Difusi 2D
+# 📌 4.2. Model Hidrodinamika 1D
+# 📌 4.3. Model Hidrodinamika 2D
+5. Buka laman jupyter notebook, kemudian dipilih _new phyton 3_ untuk membuat script
 ![13](https://user-images.githubusercontent.com/76476526/168938644-84a816b9-967b-440c-87a9-ddd69e17463c.PNG)
 6. Setelah itu, dilakukan **import library python matplotlib** dan **numpy**
 ![5](https://user-images.githubusercontent.com/76476526/168938673-e9d229be-3649-4da6-9db6-1127555f524e.png)
