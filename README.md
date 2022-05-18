@@ -20,8 +20,16 @@ Adapun langkah pembuatan script sebagai berikut :
 1. Pengguna dapat mengunduh setup miniconda terlebih dahulu kemudian dilakukan instalasi
 2. Setelah itu, pengguna dapat membuka Anaconda Prompt 
 3. Kemudian dilakukan instalasi Library Matplotlib untuk membangun objek visual berupa grafik dan Numpy untuk perhitungan numerik
-4.  Selanjutnya Anaconda Prompt dibuka dan dilakukan perintah jupyter notebook kemudian enter
-
+4. Selanjutnya Anaconda Prompt dibuka dan dilakukan perintah jupyter notebook kemudian enter
+5. Maka akan muncul laman jupyter notebook kemudian dipilih new untuk membuat script
+6. Setelah itu, dilakukan import library python matplotlib dan numpy
+7. Langkah selanjutnya dimasukkan parameter yang dibutuhkan 
+8. Kemudian dibuat script perhitungan 
+9. Langkah berikutnya membuat script untuk grafik Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu
+10. Selanjutnya dibuat script untuk grafik Perubahan Elevasi Permukaan Air Dalam Grid Tertentu di Sepanjang Waktu
+11. Kemudian dibuat script untuk grafik Perubahan Kecepatan Arus Dalam Waktu Tertentu di sepanjang Grid
+12. Berikutnya dibuat script untuk grafik Perubahan Elevasi Permukaan Air Dalam Waktu Tertentu di Sepanjang Grid dan menampilkan hasil grafik secara keseluruhan
+13. Langkah terakhir running script
 
 
 # 4. Metode Pengerjaan
