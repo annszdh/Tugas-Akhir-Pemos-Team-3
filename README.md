@@ -44,7 +44,7 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 
 **📌 4.2. Model Hidrodinamika 1D**
 
-1. Maka akan muncul laman jupyter notebook kemudian dipilih _new phyton 3_ untuk membuat script
+1. Buka laman _jupyter notebook_, kemudian dipilih _new phyton 3_ untuk membuat script
 ![13](https://user-images.githubusercontent.com/76476526/168938644-84a816b9-967b-440c-87a9-ddd69e17463c.PNG)
 2. Setelah itu, dilakukan **import library python matplotlib** dan **numpy**
 ![5](https://user-images.githubusercontent.com/76476526/168938673-e9d229be-3649-4da6-9db6-1127555f524e.png)
