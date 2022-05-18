@@ -29,8 +29,15 @@ Adapun langkah instalasi miniconda sebagai berikut :
 ![4](https://user-images.githubusercontent.com/76476526/168938615-af06021c-3227-4fff-91cf-67ac1b128d24.png)
 
 
-# 4. Metode Pembuatan
+# 4. Metode Pengerjaan
+1. Modul 2 : Adveksi Difusi 2D
+2. Modul 3 : Model Hidrodinamika 1D
+3. Modul 4 : Model Hidrodinamika 2D
+
+**📌 4.1. Adveksi Difusi 2D**
+**📌 4.2. Model Hidrodinamika 1D**
 step by step maksud script modul 3 (flowchart dan script python yang digunakan mulai dari persamaan hidrodinamikanya, persamaan pembangun, persamaan transport, diskretitasi, penyelesaian analitik). bagian ini cara nulisnya sama kaya yang contoh asisten kirim. (dikerjain sama 3 orang)
+
 1. Maka akan muncul laman jupyter notebook kemudian dipilih _new phyton 3_ untuk membuat script
 ![13](https://user-images.githubusercontent.com/76476526/168938644-84a816b9-967b-440c-87a9-ddd69e17463c.PNG)
 2. Setelah itu, dilakukan **import library python matplotlib** dan **numpy**
@@ -49,6 +56,8 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 ![11](https://user-images.githubusercontent.com/76476526/168938845-a05e65ca-e402-4a73-9cd5-b493f00e5c19.PNG)
 9. Langkah terakhir _running script_ pada menu _cell_ dan dipilih _running all_
 ![14](https://user-images.githubusercontent.com/76476526/168939038-dfd3beb2-a039-4777-9f3e-4dee1012870c.PNG)
+
+**📌 4.3. Model Hidrodinamika 2D**
 
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
 ini lebih ke penjelasan dari kegunaan dan penerapannya di ose bisa buat apa aja, tambahin kekurangan dan kelebihan dari penggunaan model hidrodinamika
