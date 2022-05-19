@@ -35,15 +35,13 @@ Persamaan adveksi-difusi merupakan persamaan yang digunakan untuk memodelkan pro
 
 **📌 2.2. Model Hidrodinamika**
 
-- Apa itu Model Hidrodinamika?
+**2.2.1 Apa itu Model Hidrodinamika?**
 
 Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liquid atau lebih dikhususkan pada gerak air. Skala atau lingkup analisis ilmu ini adalah pada gerak partikel air atau dapat disebut dalam skala makroskopik. Skala makroskopik disini memiliki maksud air tersusun dari partikel-partikel fluida. Fluida bukanlah partikel dengan skala terkecil, tetapi partikel atomlah yang merupakan partikel skala terkecil di air. Bidang hidrodinamika merupakan aplikasi matematik bukan fisika. Model hidrodinamika adalah model yang disarankan kepada deskripsi proses-proses yang memengaruhi sirkulasi dan pencampuran massa air. Pembangun nya yaitu hukum konservasi massa dan hukum kekelan momentum. Model ini dapat mensimulasikan variasi tinggi muka air laut dan aliran arus yang dibangkitkan oleh parameter angin, pasang surut, gelombang laut, debit perairan, dan lain-lain.
 
-- Persamaan-persamaan Model Hidrodinamika 1 Dimensi
+**2.2.2 Persamaan-persamaan Model Hidrodinamika 1 Dimensi**
 
-
-
-- Contoh Model Hidrodinamika 1 Dimensi
+**2.2.3 Contoh Model Hidrodinamika 1 Dimensi**
 
 Dalam model hidrodinamika 1 dimensi nantinya akan mempelajari mengenai sifat-sifat penjalaran fenomena oseanografi terkait gelombang pasang surut dan memahami model kaitannya dengan stabilitas numerik dengan metode eksplisit. Model hidrodinamika dalam air laut dapat digunakan untuk mengkaji disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut, serta untuk pengkajian klimatologi laut, Meneliti konsentrasi unsur kimia di perairan terhadap kedalaman; dapat juga memodelkan mengenai tumpahan minyak (_oil spill_) di perairan terhadap luasan laut. 
 
@@ -63,7 +61,7 @@ Dalam model 3, dilakukan untuk mensimulasikan elevasi muka air laut dan arus yan
 
 Kesimpulan dari keempat grafik tersebut sangat dipengaruhi oleh _boundary_. Nilai amplitudo dan kedalaman juga sangat berpengaruh terhadap nilai yang dihasilkan. amplitudo yang tinggi berakibat pada kecepatan dan elevasi permukaan air yang lebih besar pula. Perairan yang memiliki kedalaman besar akan cenderung memiliki kestabilan yang tinggi karena tidak dipengaruhi oleh oleh gesekan dasar. Sementara itu, pada kedalaman yang rendah akan membentuk pola ketidakstabilan akibat adanya gesekan dasar perairan. 
 
-- Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi
+**2.2.4 Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi**
 
 ![1D vs  2D](https://user-images.githubusercontent.com/105702913/169360716-ce873920-c909-4566-8856-84ebcb545b65.png)
 
