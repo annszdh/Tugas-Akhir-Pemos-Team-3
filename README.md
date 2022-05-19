@@ -43,6 +43,8 @@ Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liq
 
 - Contoh Model Hidrodinamika 1 Dimensi
 
+Dalam model hidrodinamika 1 dimensi nantinya akan mempelajari mengenai sifat-sifat penjalaran fenomena oseanografi terkait gelombang pasang surut dan memahami model kaitannya dengan stabilitas numerik dengan metode eksplisit. Model hidrodinamika dalam air laut dapat digunakan untuk mengkaji disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut, serta untuk pengkajian klimatologi laut, Meneliti konsentrasi unsur kimia di perairan terhadap kedalaman; dapat juga memodelkan mengenai tumpahan minyak (_oil spill_) di perairan terhadap luasan laut. Pada praktikum kali ini, contoh dari pemodelan hidrodinamika 1 dimensi adalah memodelkan perubahan kecepatan arus terhadap ruang, perubahan kecepatan arus terhadap waktu, perubahan elevasi permukaan air terhadap ruang, dan perubahan elevasi permukaan air terhadap waktu. Ketika memodelkan keempat kasus tersebut adanya parameter yang dikaji dan anomali. 
+
 - Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi
 
 sebelum ke metodenya jelasin dulu soal pengertian Model Hidrodinamika, dasar simulasi model (parameter dan anomali jelasin), persamaan persamaan dan perbedaan model hidrodinamika 1D dan 2D (dikerjain sama 2 orang)
