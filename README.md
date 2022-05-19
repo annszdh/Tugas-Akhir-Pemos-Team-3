@@ -16,18 +16,23 @@ Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang 
 
 Model hidrodinamika diatur oleh persamaan pengatur yaitu persamaan adveksi, difusi, dan adveksi-difusi
 - Persamaan Adveksi 
+
 Persamaan adveksi termasuk ke dalam persamaan gelombang linear orde satu dan termasuk dalam persamaan differensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu
 - Persamaan Difusi
+
 Persamaan difusi termasuk ke dalam persamaan diferensial parsial yang merupakan representasi perpindahan suatu zat dalam pelarut dari bagian konsentrasi tinggi ke konsentrasi rendah tanpa dipengaruhi oleh kecepatan gerak fluida media.
 - Persamaan Adveksi-Difusi
+
 Persamaan adveksi-difusi merupakan persamaan yang digunakan untuk memodelkan proses transportasi/adveksi dan sekaligus proses difusi. Penerapan model adveksi-difusi dapat diterapkan dalam berbagai masalah nyata, seperti memodelkan kualitas air, polusi udara, meteorologi, dan oseanografi. Dalam penerapan nya dalam mencari solusi analitik yang cukup sulit menggunakan pendekatan metode numerik.
 
 **📌 2.2. Model Hidrodinamika**
 
 - Apa itu Model Hidrodinamika?
+
 Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liquid atau lebih dikhususkan pada gerak air. Skala atau lingkup analisis ilmu ini adalah pada gerak partikel air atau dapat disebut dalam skala makroskopik. Skala makroskopik disini memiliki maksud air tersusun dari partikel-partikel fluida. Fluida bukanlah partikel dengan skala terkecil, tetapi partikel atomlah yang merupakan partikel skala terkecil di air. Bidang hidrodinamika merupakan aplikasi matematik bukan fisika. Model hidrodinamika adalah model yang disarankan kepada deskripsi proses-proses yang memengaruhi sirkulasi dan pencampuran massa air. Pembangun nya yaitu hukum konservasi massa dan hukum kekelan momentum. Model ini dapat mensimulasikan variasi tinggi muka air laut dan aliran arus yang dibangkitkan oleh parameter angin, pasang surut, gelombang laut, debit perairan, dan lain-lain.
 - Persamaan-persamaan Model Hidrodinamika 1 Dimensi
 - Contoh Model Hidrodinamika 1 Dimensi
+
 Misalnya dalam memodelkan 
 
 - Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi
