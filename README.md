@@ -128,6 +128,16 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 
 **📌 4.3. Model Hidrodinamika 2D**
 
+1. Buka **Anaconda prompt** (Miniconda 3) yang sudah di unduh sebelumnya
+![image](https://user-images.githubusercontent.com/105741300/169322300-0e28fbeb-28b0-4e0e-9234-deccb9f883bc.png)
+2. _Instal_ **siphon** dan **Matplotlib** dengan menuliskan **pip install siphon** dan **pip install Matplotlib**
+![image](https://user-images.githubusercontent.com/105741300/169322611-81829675-5403-4ede-9730-1a62fe5dd0c3.png)
+3. Setelah **Siphon** dan **Matplotlib** _terinstal_, ketik _jupyter notebook_
+![image](https://user-images.githubusercontent.com/105741300/169323277-95c70011-f79c-41db-8e5b-321ddc028c62.png)
+4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script_
+![image](https://user-images.githubusercontent.com/105741300/169323949-4d802292-1cb3-4fe4-8116-1dde85b94a27.png)
+5. 
+
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
 ini lebih ke penjelasan dari kegunaan dan penerapannya di ose bisa buat apa aja, tambahin kekurangan dan kelebihan dari penggunaan model hidrodinamika
 
