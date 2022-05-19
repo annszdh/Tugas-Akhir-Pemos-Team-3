@@ -41,9 +41,22 @@ Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liq
 
 - Persamaan-persamaan Model Hidrodinamika 1 Dimensi
 
+
+
 - Contoh Model Hidrodinamika 1 Dimensi
 
-Dalam model hidrodinamika 1 dimensi nantinya akan mempelajari mengenai sifat-sifat penjalaran fenomena oseanografi terkait gelombang pasang surut dan memahami model kaitannya dengan stabilitas numerik dengan metode eksplisit. Model hidrodinamika dalam air laut dapat digunakan untuk mengkaji disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut, serta untuk pengkajian klimatologi laut, Meneliti konsentrasi unsur kimia di perairan terhadap kedalaman; dapat juga memodelkan mengenai tumpahan minyak (_oil spill_) di perairan terhadap luasan laut. Pada praktikum kali ini, contoh dari pemodelan hidrodinamika 1 dimensi adalah memodelkan perubahan kecepatan arus terhadap ruang, perubahan kecepatan arus terhadap waktu, perubahan elevasi permukaan air terhadap ruang, dan perubahan elevasi permukaan air terhadap waktu. Ketika memodelkan keempat kasus tersebut adanya parameter yang dikaji dan anomali. 
+Dalam model hidrodinamika 1 dimensi nantinya akan mempelajari mengenai sifat-sifat penjalaran fenomena oseanografi terkait gelombang pasang surut dan memahami model kaitannya dengan stabilitas numerik dengan metode eksplisit. Model hidrodinamika dalam air laut dapat digunakan untuk mengkaji disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut, serta untuk pengkajian klimatologi laut, Meneliti konsentrasi unsur kimia di perairan terhadap kedalaman; dapat juga memodelkan mengenai tumpahan minyak (_oil spill_) di perairan terhadap luasan laut. 
+
+Dalam model 3, dilakukan untuk mensimulasikan elevasi muka air laut dan arus yang dipengaruhi oleh beberapa parameter. Pada praktikum kali ini, hasil dari pemodelan hidrodinamika 1 dimensi adalah grafik pemodelan perubahan kecepatan arus terhadap ruang, perubahan kecepatan arus terhadap waktu, perubahan elevasi permukaan air terhadap ruang, dan perubahan elevasi permukaan air terhadap waktu. Ketika memodelkan keempat kasus tersebut adanya parameter yang dikaji yaitu kecepatan arus dan elevasi permukaan air dan anomali.	Anomali sering kali ditemukan dalam melakukan pemodelan oseanografi atau pemodelan lainnya. Anomali merupakan penyimpangan dari keadaan normal dalam suatu lingkungan. Anomali suatu nilai dapat dikarenakan adanya perubahan pada jangka waktu ketika terjadinya kenaikan atau penurunan nlai karena faktor perubahan musim, curah hujan, badai, dan angin siklon sehingga mampu mengubah nilai pada parameter dan berdampak pada hasil dari pemodelan yang berbeda. Anomali dalam grafik terlihat dari ketidakstabilan grafik di setiap grid.
+**a).Grafik 1**
+![Grafik 1 Perubahan Kecepatan Arus (1)](https://user-images.githubusercontent.com/105702913/169354698-f185d0e1-e8f2-4207-a44a-79f4f2d608fc.png)
+**b).Grafik 2**
+![Grafik 2 Perubahan Elevasi Muka air (1)](https://user-images.githubusercontent.com/105702913/169354750-3339a0fd-dbdc-4af1-b2b7-7f4c70f53a51.png)
+**c).Grafik 3**
+![Grafik 3 Perubahan Kecepatan arus (1)](https://user-images.githubusercontent.com/105702913/169354848-019a714a-04ab-4f3e-b755-0f5167a769c4.png)
+**d).Grafik 4**
+![Grafik 4 Perubahan Elevasi Muka air (1)](https://user-images.githubusercontent.com/105702913/169354616-4163eb58-8d65-46a2-b56e-f2472fc7dbf2.png)
+Keempat grafik tersebut
 
 - Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi
 
