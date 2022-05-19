@@ -16,19 +16,37 @@ Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang 
 
 Model hidrodinamika diatur oleh persamaan pengatur yaitu persamaan adveksi, difusi, dan adveksi-difusi
 - Persamaan Adveksi 
+
 Persamaan adveksi termasuk ke dalam persamaan gelombang linear orde satu dan termasuk dalam persamaan differensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu
+
+![Screenshot (878)](https://user-images.githubusercontent.com/105702913/169316707-ae7dc8b7-24d4-4b99-b190-860125d60f7c.png)
+
 - Persamaan Difusi
+
 Persamaan difusi termasuk ke dalam persamaan diferensial parsial yang merupakan representasi perpindahan suatu zat dalam pelarut dari bagian konsentrasi tinggi ke konsentrasi rendah tanpa dipengaruhi oleh kecepatan gerak fluida media.
+
+![Screenshot (879)](https://user-images.githubusercontent.com/105702913/169318097-697d436c-157c-4ef4-bacd-ca42ce695cc6.png)
+
 - Persamaan Adveksi-Difusi
+
 Persamaan adveksi-difusi merupakan persamaan yang digunakan untuk memodelkan proses transportasi/adveksi dan sekaligus proses difusi. Penerapan model adveksi-difusi dapat diterapkan dalam berbagai masalah nyata, seperti memodelkan kualitas air, polusi udara, meteorologi, dan oseanografi. Dalam penerapan nya dalam mencari solusi analitik yang cukup sulit menggunakan pendekatan metode numerik.
+
+![Screenshot (880)](https://user-images.githubusercontent.com/105702913/169318937-d8b8053c-f078-4a5b-a61a-90deedd1fd70.png)
 
 **📌 2.2. Model Hidrodinamika**
 
 - Apa itu Model Hidrodinamika?
+
 Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liquid atau lebih dikhususkan pada gerak air. Skala atau lingkup analisis ilmu ini adalah pada gerak partikel air atau dapat disebut dalam skala makroskopik. Skala makroskopik disini memiliki maksud air tersusun dari partikel-partikel fluida. Fluida bukanlah partikel dengan skala terkecil, tetapi partikel atomlah yang merupakan partikel skala terkecil di air. Bidang hidrodinamika merupakan aplikasi matematik bukan fisika. Model hidrodinamika adalah model yang disarankan kepada deskripsi proses-proses yang memengaruhi sirkulasi dan pencampuran massa air. Pembangun nya yaitu hukum konservasi massa dan hukum kekelan momentum. Model ini dapat mensimulasikan variasi tinggi muka air laut dan aliran arus yang dibangkitkan oleh parameter angin, pasang surut, gelombang laut, debit perairan, dan lain-lain.
+
 - Persamaan-persamaan Model Hidrodinamika 1 Dimensi
+
 - Contoh Model Hidrodinamika 1 Dimensi
+
+Misalnya dalam memodelkan 
+
 - Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi
+
 sebelum ke metodenya jelasin dulu soal pengertian Model Hidrodinamika, dasar simulasi model (parameter dan anomali jelasin), persamaan persamaan dan perbedaan model hidrodinamika 1D dan 2D (dikerjain sama 2 orang)
 
 # 3. _Installasi Miniconda 3_ 
@@ -78,7 +96,7 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 ![image](https://user-images.githubusercontent.com/105741300/169245860-8eb49961-1fac-436a-ad41-66c719b79c5b.png)
 4. Kemudian dibuat _script_ perhitungan untuk mengetahui persebaran polutan
 ![image](https://user-images.githubusercontent.com/105741300/169246416-32b33897-5f23-4d2d-aab0-a8839ec3b67e.png)
-5. Setelah itu membuat _script_ untuk membuatan _grid_ dari persebaran polutan
+5. Setelah itu membuat _script_ untuk membuatan _grid dari persebaran polutan
 ![image](https://user-images.githubusercontent.com/105741300/169247085-4979a547-7888-408f-8e68-e516ba98ca78.png)
 6. Selanjutnya melakukan iterasi sampai semua syarat batas terpenuhi
 ![image](https://user-images.githubusercontent.com/105741300/169248728-7d6f022d-eda6-43a5-9ad1-4bd6acef288d.png)
@@ -109,14 +127,6 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 ![14](https://user-images.githubusercontent.com/76476526/168939038-dfd3beb2-a039-4777-9f3e-4dee1012870c.PNG)
 
 **📌 4.3. Model Hidrodinamika 2D**
-
-1. Buka aplikasi **Anaconda prompt** (Miniconda 3) yang sudah di unduh sebelumnya
-![image](https://user-images.githubusercontent.com/105741300/169315913-792b9490-639b-4aa3-a3da-2abff583f638.png)
-2. _Instal_ **siphon** dan **Matplotlib** dengan menuliskan **pip install siphon** dan **pip install Matplotlib**
-![image](https://user-images.githubusercontent.com/105741300/169316392-05c47250-64f3-4029-8dc0-bebdb541acb9.png)
-3. Setelah **Siphon** dan **Matplotlib** _terisntal_, pada _miniconda_ 3 ketik _Jupyter Notebook_
-![image](https://user-images.githubusercontent.com/105741300/169317173-d5b73542-eba6-4d60-ace6-08321ba9a63d.png)
-
 
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
 ini lebih ke penjelasan dari kegunaan dan penerapannya di ose bisa buat apa aja, tambahin kekurangan dan kelebihan dari penggunaan model hidrodinamika
