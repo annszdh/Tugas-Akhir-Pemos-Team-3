@@ -68,14 +68,19 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 
 ![image](https://user-images.githubusercontent.com/105741300/169245860-8eb49961-1fac-436a-ad41-66c719b79c5b.png)
 4. Kemudian dibuat _script_ perhitungan
+
 ![image](https://user-images.githubusercontent.com/105741300/169246416-32b33897-5f23-4d2d-aab0-a8839ec3b67e.png)
 5. Setelah itu membuat _script_ untuk membuatan _grid_
+
 ![image](https://user-images.githubusercontent.com/105741300/169247085-4979a547-7888-408f-8e68-e516ba98ca78.png)
 6. Selanjutnya melakukan iterasi sampai semua syarat batas terpenuhi
+
 ![image](https://user-images.githubusercontent.com/105741300/169248728-7d6f022d-eda6-43a5-9ad1-4bd6acef288d.png)
 7. Langkah berikutnya membuat _script_ untuk _output_ gambar penyebaran polutan 
+
 ![image](https://user-images.githubusercontent.com/105741300/169250267-e66e1089-cf64-47c8-9a0f-e1eceac3c16f.png)
 8. Langkah terakhir klik  _running script_ yang terdapat pada menu
+
 ![image](https://user-images.githubusercontent.com/105741300/169250673-f9439955-97ad-45bf-bed9-78e5f07a7892.png)
 
 **📌 4.2. Model Hidrodinamika 1D**
