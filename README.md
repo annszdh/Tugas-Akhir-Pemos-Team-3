@@ -49,8 +49,9 @@ Dalam model hidrodinamika 1 dimensi nantinya akan mempelajari mengenai sifat-sif
 
 Dalam model 3, dilakukan untuk mensimulasikan elevasi muka air laut dan arus yang dipengaruhi oleh beberapa parameter. Pada praktikum kali ini, hasil dari pemodelan hidrodinamika 1 dimensi adalah grafik pemodelan perubahan kecepatan arus terhadap ruang, perubahan kecepatan arus terhadap waktu, perubahan elevasi permukaan air terhadap ruang, dan perubahan elevasi permukaan air terhadap waktu. Ketika memodelkan keempat kasus tersebut adanya parameter yang dikaji yaitu kecepatan arus dan elevasi permukaan air dan anomali.	Anomali sering kali ditemukan dalam melakukan pemodelan oseanografi atau pemodelan lainnya. Anomali merupakan penyimpangan dari keadaan normal dalam suatu lingkungan. Anomali suatu nilai dapat dikarenakan adanya perubahan pada jangka waktu ketika terjadinya kenaikan atau penurunan nlai karena faktor perubahan musim, curah hujan, badai, dan angin siklon sehingga mampu mengubah nilai pada parameter dan berdampak pada hasil dari pemodelan yang berbeda. Anomali dalam grafik terlihat dari ketidakstabilan grafik di setiap grid.
 
-a).Grafik 1
 ![Grafik 1 Perubahan Kecepatan Arus (2)](https://user-images.githubusercontent.com/105702913/169355176-43cbee1c-d14e-4c48-a4d2-058079e6692e.png)
+**a).Grafik 1**
+
 b).Grafik 2
 ![Grafik 2 Perubahan Elevasi Muka air (2)](https://user-images.githubusercontent.com/105702913/169355283-f0df2609-93fa-4a93-8b21-930428dce19e.png)
 c).Grafik 3
