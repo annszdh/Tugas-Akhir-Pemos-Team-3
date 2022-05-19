@@ -136,7 +136,7 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 ![image](https://user-images.githubusercontent.com/105741300/169323277-95c70011-f79c-41db-8e5b-321ddc028c62.png)
 4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script_
 ![image](https://user-images.githubusercontent.com/105741300/169323949-4d802292-1cb3-4fe4-8116-1dde85b94a27.png)
-5. Setelah itu, ketik _script_ yang akan dijalankan, _import_ juga data **import matplotlib** dan **import NDBC**, setelah itu masukan juga stasiun id yang didapatkan
+5. Setelah itu, ketik _script_ yang akan dijalankan, _import_ juga data **import matplotlib** dan **import NDBC**, setelah itu masukan nomor stasiun id
 ![image](https://user-images.githubusercontent.com/105741300/169328662-5e40ab1b-ca60-4522-a3ee-052394263bf6.png)
 6. Langkah selanjutnya, masukan rumus dan memasukan nama dengan format nama_nim_kelas
 ![image](https://user-images.githubusercontent.com/105741300/169329197-dbfece0b-922c-4058-8ef7-fd1345b24613.png)
