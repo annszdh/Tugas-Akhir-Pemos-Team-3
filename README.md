@@ -67,7 +67,9 @@ Kesimpulan dari keempat grafik tersebut sangat dipengaruhi oleh _boundary_. Nila
 
 Konsep Hidrodinamika 1 Dimensi vs. 2 Dimensi, adalah sebagai berikut.
 1. Hidrodinamika 1 dimensi
-- xxx
+- Sebuah penampang diambil tegak lurus terhadap aliran sungai (x)
+![image](https://user-images.githubusercontent.com/105702913/169362828-1efb2a88-663f-41c2-b106-6692880777a1.png)
+
 2. Hidrodinamika 2 dimensi
 
 sebelum ke metodenya jelasin dulu soal pengertian Model Hidrodinamika, dasar simulasi model (parameter dan anomali jelasin), persamaan persamaan dan perbedaan model hidrodinamika 1D dan 2D (dikerjain sama 2 orang)
