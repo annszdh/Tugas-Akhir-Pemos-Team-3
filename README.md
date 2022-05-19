@@ -24,13 +24,30 @@ sebelum ke metodenya jelasin dulu soal pengertian Model Hidrodinamika, dasar sim
 Pembuatan Script Pyhton dapat dilakukan dengan menggunakan Miniconda atau menggunakan Google Colaboratory. Setup Miniconda dapat diunduh pada File Terlampir
 Adapun langkah instalasi miniconda sebagai berikut :
 1. Pengguna dapat mengunduh **setup miniconda** terlebih dahulu kemudian dilakukan instalasi
-2. Setelah itu, pengguna dapat membuka **Anaconda Prompt** 
+![1](https://user-images.githubusercontent.com/76476526/169210880-481f7e89-8f5f-49e5-a9f0-aa84c69193eb.png)
+2. Kemudian _setup_ di klik hingga muncul jendela _installer_ dan dipilih _next_
+![2](https://user-images.githubusercontent.com/76476526/169211002-36ce5bda-f41d-4a1c-8629-06a9c2bbbf91.PNG)
+3. Kemudian dilih _I agree_ pada jendela berikutnya
+![3](https://user-images.githubusercontent.com/76476526/169211154-ace3dfea-ec5d-4ed7-88fb-3ec480231af5.PNG)
+4. Selanjutnya dipilih _just me_ pada jendela selanjutnya jika penggunaan hanya untuk pribadi
+![4](https://user-images.githubusercontent.com/76476526/169211256-4cdc9d38-1edc-4163-bda2-be5fb8f24b7f.PNG)
+5. Setelah itu _directory setup_ dipilih atau menyesuaikan dengan yang telah direkomendasikan oleh sistem dan dipilih _next_
+![5](https://user-images.githubusercontent.com/76476526/169211344-01ad1182-f706-4b27-828f-76850aac6116.PNG)
+6. Setelah itu dipilih _install_ pada pilihan berikutnya
+![6](https://user-images.githubusercontent.com/76476526/169211430-ccf5f67d-88a8-4053-82e7-3e9309696217.PNG)
+![7](https://user-images.githubusercontent.com/76476526/169211509-9c3adb74-4b8d-487b-8d15-70ea6bddd1a7.PNG)
+7. setelah proses instalasi selesai kemudian dipilih _next_
+![8](https://user-images.githubusercontent.com/76476526/169211633-fc6adfb8-5c76-4821-a66c-e9181e6d2b24.PNG)
+8. pada jendela berikutnya dipilih _finish_
+![9](https://user-images.githubusercontent.com/76476526/169211679-3c04f8ac-65cc-4032-970b-6f28992c3356.PNG)
+10. Setelah itu, pengguna dapat membuka **Anaconda Prompt** 
 ![1](https://user-images.githubusercontent.com/76476526/168938548-9f5fcaeb-66ec-4aa1-9d76-a03874283c4f.png)
-3. Kemudian dilakukan **instalasi Library Matplotlib** untuk membangun objek visual berupa grafik dan **Numpy** untuk perhitungan numerik
-![2](https://user-images.githubusercontent.com/76476526/168938574-708aa546-1df3-4989-9e4d-c5e48f089070.png)
-![3](https://user-images.githubusercontent.com/76476526/168938581-59a2e20e-2aec-4276-be7b-43287c58998e.png)
-4. Selanjutnya **Anaconda Promp** dibuka dan dilakukan perintah **jupyter notebook** kemudian enter
-![4](https://user-images.githubusercontent.com/76476526/168938615-af06021c-3227-4fff-91cf-67ac1b128d24.png)
+11. Kemudian dilakukan instalasi **Jupyterlab** dengan perintah **_pip install jupyterlab_** kemudian enter
+![13](https://user-images.githubusercontent.com/76476526/169211855-0aa39807-e870-438f-b671-2703411d41b5.PNG)
+12. Setelah itu, dilakukan instalasi **Library Matplotlib** dengan perintah _**pip install matplotlib**_  atau dengan perintah _**conda install matplotlib**_kemudian enter
+![12](https://user-images.githubusercontent.com/76476526/169213321-e6e37ce4-10be-40d7-bbbe-6a058a935b71.PNG)
+13. Setelah itu, dilakukan instalasi **Library Numpy** dengan perintah _**pip install numpy**_  atau dengan perintah _**conda install numpy**_kemudian enter
+![22](https://user-images.githubusercontent.com/76476526/169213723-008394bd-5201-4319-a5cd-5e2d3932d73e.PNG)
 
 
 # 4. Metode Pengerjaan
