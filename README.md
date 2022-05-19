@@ -80,7 +80,7 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 
 1. Buka laman _jupyter notebook_, kemudian dipilih _new phyton 3_ untuk membuat script
 ![13](https://user-images.githubusercontent.com/76476526/168938644-84a816b9-967b-440c-87a9-ddd69e17463c.PNG)
-2. Setelah itu, dilakukan **import library python matplotlib** dan **numpy**
+2. Setelah itu, dilakukan **_import library python matplotlib_** untuk memberikan efek visual berupa grafik dan **_numpy_** untuk perhitungan numerik
 ![5](https://user-images.githubusercontent.com/76476526/168938673-e9d229be-3649-4da6-9db6-1127555f524e.png)
 3. Langkah selanjutnya dimasukkan parameter yang akan digunakan 
 ![6](https://user-images.githubusercontent.com/76476526/168938702-24782b41-815f-4485-8970-8943018b4d3c.png)
