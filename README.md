@@ -43,8 +43,6 @@ Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liq
 
 - Contoh Model Hidrodinamika 1 Dimensi
 
-Misalnya dalam memodelkan 
-
 - Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi
 
 sebelum ke metodenya jelasin dulu soal pengertian Model Hidrodinamika, dasar simulasi model (parameter dan anomali jelasin), persamaan persamaan dan perbedaan model hidrodinamika 1D dan 2D (dikerjain sama 2 orang)
