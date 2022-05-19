@@ -35,6 +35,7 @@ Adapun langkah instalasi miniconda sebagai berikut :
 ![5](https://user-images.githubusercontent.com/76476526/169211344-01ad1182-f706-4b27-828f-76850aac6116.PNG)
 6. Setelah itu dipilih _install_ pada pilihan berikutnya
 ![6](https://user-images.githubusercontent.com/76476526/169211430-ccf5f67d-88a8-4053-82e7-3e9309696217.PNG)
+
 ![7](https://user-images.githubusercontent.com/76476526/169211509-9c3adb74-4b8d-487b-8d15-70ea6bddd1a7.PNG)
 7. setelah proses instalasi selesai kemudian dipilih _next_
 ![8](https://user-images.githubusercontent.com/76476526/169211633-fc6adfb8-5c76-4821-a66c-e9181e6d2b24.PNG)
