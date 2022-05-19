@@ -65,6 +65,12 @@ Kesimpulan dari keempat grafik tersebut sangat dipengaruhi oleh _boundary_. Nila
 
 - Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi
 
+![1D vs  2D](https://user-images.githubusercontent.com/105702913/169360716-ce873920-c909-4566-8856-84ebcb545b65.png)
+Konsep Hidrodinamika 1 Dimensi vs. 2 Dimensi, adalah sebagai berikut.
+1. Hidrodinamika 1 dimensi
+- xxx
+2. Hidrodinamika 2 dimensi
+
 sebelum ke metodenya jelasin dulu soal pengertian Model Hidrodinamika, dasar simulasi model (parameter dan anomali jelasin), persamaan persamaan dan perbedaan model hidrodinamika 1D dan 2D (dikerjain sama 2 orang)
 
 # 3. _Installasi Miniconda 3_ 
