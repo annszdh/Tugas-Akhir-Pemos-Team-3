@@ -42,7 +42,7 @@ Adapun langkah instalasi miniconda sebagai berikut :
 ![9](https://user-images.githubusercontent.com/76476526/169211679-3c04f8ac-65cc-4032-970b-6f28992c3356.PNG)
 10. Setelah itu, pengguna dapat membuka **Anaconda Prompt** untuk membuka **_jupyter notebook_**
 ![1](https://user-images.githubusercontent.com/76476526/168938548-9f5fcaeb-66ec-4aa1-9d76-a03874283c4f.png)
-11. Kemudian dilakukan instalasi **Jupyterlab** dengan perintah **_pip install jupyterlab_** kemudian enter. Library _**sihpon**_ sudah masuk dalam instalasi namun apabila ingin melakukan instalasi kembali dapat dilakukan dengan perintah _**pip install siphon**_ atau **_ conda install siphon_**
+11. Kemudian dilakukan instalasi **Jupyterlab** dengan perintah **_pip install jupyterlab_** kemudian enter. _Library_ _**siphon**_ sudah masuk dalam instalasi namun apabila ingin melakukan instalasi kembali dapat dilakukan dengan perintah _**pip install siphon**_ atau **_ conda install siphon_**
 ![13](https://user-images.githubusercontent.com/76476526/169211855-0aa39807-e870-438f-b671-2703411d41b5.PNG)
 12. Setelah itu, dilakukan instalasi **Library Matplotlib** dengan perintah _**pip install matplotlib**_  atau dengan perintah _**conda install matplotlib**_kemudian enter
 ![12](https://user-images.githubusercontent.com/76476526/169213321-e6e37ce4-10be-40d7-bbbe-6a058a935b71.PNG)
