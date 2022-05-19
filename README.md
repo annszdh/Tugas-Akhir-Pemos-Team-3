@@ -37,6 +37,10 @@ Persamaan adveksi-difusi merupakan persamaan yang digunakan untuk memodelkan pro
 
 **2.2.1 Apa itu Model Hidrodinamika?**
 
+Hidro adalah air
+
+Dinamika adalah benda bergerak atau tenaga yang menggerakan
+
 Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liquid atau lebih dikhususkan pada gerak air. Skala atau lingkup analisis ilmu ini adalah pada gerak partikel air atau dapat disebut dalam skala makroskopik. Skala makroskopik disini memiliki maksud air tersusun dari partikel-partikel fluida. Fluida bukanlah partikel dengan skala terkecil, tetapi partikel atomlah yang merupakan partikel skala terkecil di air. Bidang hidrodinamika merupakan aplikasi matematik bukan fisika. Model hidrodinamika adalah model yang disarankan kepada deskripsi proses-proses yang memengaruhi sirkulasi dan pencampuran massa air. Pembangun nya yaitu hukum konservasi massa dan hukum kekelan momentum. Model ini dapat mensimulasikan variasi tinggi muka air laut dan aliran arus yang dibangkitkan oleh parameter angin, pasang surut, gelombang laut, debit perairan, dan lain-lain.
 
 **2.2.2 Persamaan-persamaan Model Hidrodinamika 1 Dimensi**
@@ -68,9 +72,17 @@ Kesimpulan dari keempat grafik tersebut sangat dipengaruhi oleh _boundary_. Nila
 Konsep Hidrodinamika 1 Dimensi vs. 2 Dimensi, adalah sebagai berikut.
 1. Hidrodinamika 1 dimensi
 - Sebuah penampang diambil tegak lurus terhadap aliran sungai (x)
-![image](https://user-images.githubusercontent.com/105702913/169362828-1efb2a88-663f-41c2-b106-6692880777a1.png)
+- Water level seragam di seluruh penampang karena tidak dipengaruhi oleh kedalaman
+- Kecepatan arus dan gelombang seragam melitasi penampang
+- Kemiringan rendah
 
 2. Hidrodinamika 2 dimensi
+- Daerah yang direpresentasikan sebagai permukaan kontinu (x,y)
+- Water level di seluruh penampang tidak pernah sama karena kedalaman
+- Kecepatan dari arus dan gelombang tidak pernah sama saat melintasi penampang
+- Kemiringan terjal
+
+Contoh penerapan : meneliti konsentrasi unsur kimia di perairan A, ketika memodelkan dalam skema 1 dimensi maka akan memodelkan terhadap kedalaman nya saja (1 arah); tetapi kita ingin meniliti unsur kimia berdasarkan kedalaman dan luas nya (2 arah) misalkan dari panjang alirannya dan berapa kedalamannya lalu meninjau konsentrasi unsur kimianya maka diperlukan skema 2 dimensi. Contoh lainnya ketika meneliti _oil spil_ (tumpahan zat di laut) namun ketika meninjau nya di 1 titik aja itu hanya perlu memodelkan menggunakan skema 1 dimensi; namun ketika adanya perbedaan ketinggian topografi maka dapat memodelkan menggunakan skema 2 dimensi
 
 sebelum ke metodenya jelasin dulu soal pengertian Model Hidrodinamika, dasar simulasi model (parameter dan anomali jelasin), persamaan persamaan dan perbedaan model hidrodinamika 1D dan 2D (dikerjain sama 2 orang)
 
