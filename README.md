@@ -136,7 +136,20 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 ![image](https://user-images.githubusercontent.com/105741300/169323277-95c70011-f79c-41db-8e5b-321ddc028c62.png)
 4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script_
 ![image](https://user-images.githubusercontent.com/105741300/169323949-4d802292-1cb3-4fe4-8116-1dde85b94a27.png)
-5. 
+5. Setelah itu, ketik _script_ yang akan dijalankan, _import_ juga data **import matplotlib** dan **import NDBC**, setelah itu masukan juga stasiun id yang didapatkan
+![image](https://user-images.githubusercontent.com/105741300/169328662-5e40ab1b-ca60-4522-a3ee-052394263bf6.png)
+6. Langkah selanjutnya, masukan rumus dan memasukan nama dengan format nama_nim_kelas
+![image](https://user-images.githubusercontent.com/105741300/169329197-dbfece0b-922c-4058-8ef7-fd1345b24613.png)
+7. Setelah itu, ketik run untuk menjalankan program dari _script_ yang telah dibuat
+![image](https://user-images.githubusercontent.com/105741300/169330101-8efbfa77-3577-4faa-9c59-6350428a4fb9.png)
+8. Selanjutnya masuk ke _website_ **NDBC-NOAA**, _website_ ini dapat diakses melalui _browser_ atau _google_
+![image](https://user-images.githubusercontent.com/105741300/169331207-226a318d-dea7-414e-8418-6e774f782972.png)
+9. Cari lokasi stasiun id sesuai dengan ketentuan yang sudah di tentukan oleh asisten
+![image](https://user-images.githubusercontent.com/105741300/169331717-40b9520f-8163-4a8a-bd76-3b3dd71259fb.png)
+10. Langkah terakhir, lakukan identifikasi pengamatan sesuai stasiun id yang didapatkan
+![image](https://user-images.githubusercontent.com/105741300/169332430-ff8b57cb-708e-4579-8cd2-3f8078545233.png)
+
+
 
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
 ini lebih ke penjelasan dari kegunaan dan penerapannya di ose bisa buat apa aja, tambahin kekurangan dan kelebihan dari penggunaan model hidrodinamika
