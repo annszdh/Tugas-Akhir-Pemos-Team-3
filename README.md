@@ -46,6 +46,7 @@ Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liq
 **2.2.2 Persamaan-persamaan Model Hidrodinamika 1 Dimensi**
 
 - Persamaan Pengatur Fluida yaitu persamaan kontinuitas dan momentum
+
 ![Screenshot (917)](https://user-images.githubusercontent.com/105702913/169476453-0c0eaf2e-8ddc-4683-a57d-9b1c130fafc2.png)
 
 Dimana, persamaan pengatur ini mempunyai arti fisis yaitu u merupakan kecepatan sesaat (m/s), ζ adalah elevasi (m), ∂ adalah total (m), H adalah kedalaman terukur (m) yang konstan terhadap ruang, dan g adalah koefisien gravitasi bumi (m²/s). Persamaan hidrodinamika sederhana ini dapat di diskretisasi secara ekplisit dengan metode FTCS beda maju untuk waktu (t) dan beda pusat untuk ruang (x).
