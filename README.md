@@ -182,7 +182,7 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 **📌 4.1. Adveksi Difusi 2D**
 
 1. Buka laman _jupyter notebook_, kemudian pilih _new pyhton 3_ untuk membuat script
-![image](https://user-images.githubusercontent.com/105741300/169244169-ad063e33-0c5d-4ffc-bfb9-5e65790fe393.png)
+![image](https://user-images.githubusercontent.com/105660616/169575203-41673726-0802-48cd-9562-83cce2747e62.png)
 2. Setelah itu lakukan **import library python matploblib**, **numpy**, dan **sys**
 ![image](https://user-images.githubusercontent.com/105741300/169255244-e1b50ab2-a52c-4322-adc2-274199f832f8.png)
 3. Langkah selanjutnya masukan parameter persebaran polutan yang akan digunakan
@@ -230,19 +230,27 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script python_ yang akan digunakan dalam pemodelan.
 ![image](https://user-images.githubusercontent.com/105660616/169573735-73cde62c-c160-41a2-bb42-3c5055435571.png)
 5. Setelah itu, ketik _script python_ yang akan dijalankan, _import_ juga data _**import matplotlib**_ dan _**import NDBC**_ dari _Siphon_.
-![image](https://user-images.githubusercontent.com/105741300/169328662-5e40ab1b-ca60-4522-a3ee-052394263bf6.png)
-6. Langkah selanjutnya, masukan rumus dan memasukan nama dengan format nama_nim_kelas
-![image](https://user-images.githubusercontent.com/105741300/169329197-dbfece0b-922c-4058-8ef7-fd1345b24613.png)
-7. Setelah itu, ketik run untuk menjalankan program dari _script_ yang telah dibuat
-![image](https://user-images.githubusercontent.com/105741300/169330101-8efbfa77-3577-4faa-9c59-6350428a4fb9.png)
-8. Selanjutnya masuk ke _website_ **NDBC-NOAA**, _website_ ini dapat diakses melalui _browser_ atau _google_
+![image](https://user-images.githubusercontent.com/105660616/169575508-3b3c2157-a021-44e6-ad82-bde6cb4468bc.png)
+6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
+![image](https://user-images.githubusercontent.com/105660616/169577200-a063a41d-dc91-4c71-a0a4-f3b3fb3718d7.png)
+8. Langkah selanjutnya, masukan _time series plot_ dari gambar grafik yang akan dijadikan _outputnya_. Sesuaikan ukuran gambar agar hasil grafik terlihat jelas. 
+![image](https://user-images.githubusercontent.com/105660616/169577849-b68c5d25-0a94-4034-a6b8-e8162313e442.png)
+10. Tambahkan grafik parameter gelombang yang akan dianalisa meliputi tekanan (_presurre_), angin (_wind speed, gust, and direction_), dan suhu (_water temperature_) dengan cara menuliskan _plot_ yang sesuai dengan_data frame_. Sesuaikan juga ukuran dan warna dari masing-masing parameter serta pada kolom nama diubah menjadi Nama_NIM_Kelas.
+![image](https://user-images.githubusercontent.com/105660616/169579069-767e1e87-d547-4fea-9933-93bf0c7f043a.png)
+11. Tampilkan hasil _script_ dengan menggunakan _directory matplotlib plt_.
+![image](https://user-images.githubusercontent.com/105660616/169579484-0f7ca9c0-469c-460d-bf87-69078e16dbc7.png)
+13. Setelah itu, _run script_ yang sudah disesuaikan dengan _Station ID_. Kemudian simpan dan tinjau hasilnya.
+![image](https://user-images.githubusercontent.com/105660616/169580310-77c79395-3d61-45ee-b327-d0143fca5958.png)
+14. Selanjutnya masuk ke laman _website_ **NDBC-NOAA**, _website_ ini dapat diakses melalui _browser_.
 ![image](https://user-images.githubusercontent.com/105741300/169331207-226a318d-dea7-414e-8418-6e774f782972.png)
-9. Cari lokasi stasiun id sesuai dengan ketentuan yang sudah di tentukan oleh asisten
+15. Cari lokasi _Station ID_ yang akan ditinjau.
 ![image](https://user-images.githubusercontent.com/105741300/169331717-40b9520f-8163-4a8a-bd76-3b3dd71259fb.png)
-10. Langkah terakhir, lakukan identifikasi pengamatan sesuai stasiun id yang didapatkan
+16. Langkah terakhir, lakukan identifikasi mengenai karakteristik hasil parameter pengamatan sesuai _Station ID_. 
 ![image](https://user-images.githubusercontent.com/105741300/169332430-ff8b57cb-708e-4579-8cd2-3f8078545233.png)
-
-
+17. Untuk mengetahui anomali yang terjadi pada lokasi _Station ID_, Anda bisa membuka _website Zoom Earth_.
+![image](https://user-images.githubusercontent.com/105660616/169581147-848241bb-667e-4880-8ccb-aa15fd9fce14.png)
+18. Klik logo _search_ dan pilih lokasi untuk melihat anomali yang terjadi.
+![image](https://user-images.githubusercontent.com/105660616/169581451-f2887d44-12a2-4744-9e3b-0d29131d0c0d.png)
 
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
 ini lebih ke penjelasan dari kegunaan dan penerapannya di ose bisa buat apa aja, tambahin kekurangan dan kelebihan dari penggunaan model hidrodinamika
