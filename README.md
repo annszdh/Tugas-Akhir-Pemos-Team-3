@@ -47,12 +47,15 @@ Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liq
 
 - Persamaan Pengatur Fluida yaitu persamaan kontinuitas dan momentum
 
-![Screenshot (917)](https://user-images.githubusercontent.com/105702913/169476453-0c0eaf2e-8ddc-4683-a57d-9b1c130fafc2.png)
+∂ζ/∂t+H ∂u/∂x=0 --> Persamaan Kontinuitas
+∂u/∂t+g ∂ζ/∂x=0 --> Persamaan Momentum
 
 Dimana, persamaan pengatur ini mempunyai arti fisis yaitu u merupakan kecepatan sesaat (m/s), ζ adalah elevasi (m), ∂ adalah total (m), H adalah kedalaman terukur (m) yang konstan terhadap ruang, dan g adalah koefisien gravitasi bumi (m²/s). Persamaan hidrodinamika sederhana ini dapat di diskretisasi secara ekplisit dengan metode FTCS beda maju untuk waktu (t) dan beda pusat untuk ruang (x).
 
 - Persamaan Diskretisasi
 Persamaan kontinuitas dan persamaan momentum
+
+![Screenshot (918)](https://user-images.githubusercontent.com/105702913/169481077-c696ff01-9aa6-4bf8-95d6-f282b86d8091.png)
 
 **2.2.3 Contoh Model Hidrodinamika 1 Dimensi**
 
