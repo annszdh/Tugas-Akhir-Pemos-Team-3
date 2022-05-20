@@ -32,19 +32,19 @@ Gabungan beberapa pendekatan beda hingga, dimana :
 Turunan pertama terhadap waktu  dengan beda maju 
 Turunan kedua  terhadap ruang dengan beda tengah
 Solusi FTCS salah satu solusi yang memiliki syarat kestabilan
-
 ![image](https://user-images.githubusercontent.com/105660616/169566493-321dae35-8989-4dff-8e50-c2ccc0829803.png)
 
 **🔍 _Leapfrog/CTCS (Center Time Center Space_)**
 Perluasan metode beda tengah terhadap ruang dan waktu, dimana skema yang dalam metode ini didapatkan hasil turunan deret taylor. Skema yang dihasilkan termasuk skemanya konsisten jika C<1.
-![image](https://user-images.githubusercontent.com/105660616/169563707-5aac5ea4-77a7-4236-bbe3-28a47176b849.png)
+![image](https://user-images.githubusercontent.com/105660616/169568591-244e0b9f-8089-465f-abf9-37e152e510ac.png)
 
 **🔍 _Upstream (Forward Time, Forward/Back Space_)**
 Penyempurna metode leapfrog yang dibuat untuk model positif. Dalam pendekatan menggunakan beda maju untuk turunan waktu dan turunan ruang berpacu pada arah kecepatan u
 U, dimana :
 U > 0, turunan ruang dengan beda mundur
 U < 0 digunakan pendekatan beda maju untu turunan ruang
-![image](https://user-images.githubusercontent.com/105660616/169564064-37ebb40a-9bef-4517-a20b-08c295237751.png)
+![image](https://user-images.githubusercontent.com/105660616/169571094-29e223be-cac0-4693-a282-f05848c55c98.png)
+
 
 **- Persamaan Difusi**
 
