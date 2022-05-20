@@ -2,7 +2,7 @@
 Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat executable (.exe) file yang dapat memproses beberapa persamaan model hidrodinamika untuk penyelesaian dalam pemodelan dari suatu fenomena atau dinamika oseanografi.
 Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, dan Pprint. Seluruh script yang dibuat adalah hasil Team 3 Oseanografi 2020. Semoga dapat bermanfaat!
 
-# 1. AUTHORS of TEAM 3
+# 1. AUTHORS of TEAM 3 👥
 1. Hanna Sazidah 26050120120002 A
 2. Sinta Dwi Rosalia 26050120120019 A
 3. Savira Aulia Zahra 26050120140154 B
@@ -11,7 +11,7 @@ Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang 
 6. Yosefa Pramudita 26050120140151 B
 7. Adzkia Fara Ananda 26050120120014 A
 
-# 2. Teori Dasar 
+# 2. Teori Dasar 📝📝
 **📌 2.1. Adveksi Difusi**
 
 Dalam melakukan suatu pemodelan pasti mempunyai dasar dari persamaannya, salah satunya menggunakan persamaan pengatur yaitu persamaan adveksi, difusi, dan adveksi-difusi.
@@ -32,7 +32,8 @@ Gabungan beberapa pendekatan beda hingga, dimana :
 Turunan pertama terhadap waktu  dengan beda maju 
 Turunan kedua  terhadap ruang dengan beda tengah
 Solusi FTCS salah satu solusi yang memiliki syarat kestabilan
-![image](https://user-images.githubusercontent.com/105660616/169563373-d946089c-215e-45bd-b186-94ca3c6ca298.png)
+
+![image](https://user-images.githubusercontent.com/105660616/169566493-321dae35-8989-4dff-8e50-c2ccc0829803.png)
 
 **🔍 _Leapfrog/CTCS (Center Time Center Space_)**
 Perluasan metode beda tengah terhadap ruang dan waktu, dimana skema yang dalam metode ini didapatkan hasil turunan deret taylor. Skema yang dihasilkan termasuk skemanya konsisten jika C<1.
