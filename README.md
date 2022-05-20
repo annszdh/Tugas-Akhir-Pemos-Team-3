@@ -22,19 +22,23 @@ Persamaan adveksi termasuk ke dalam persamaan gelombang linear orde satu dan ter
 
 ![image](https://user-images.githubusercontent.com/105660616/169559459-3a7e3e8d-1b47-4ac9-90a7-fc785586b3e3.png)
 
-
 ![image](https://user-images.githubusercontent.com/105660616/169559068-073bbed3-683a-4f8a-9387-3a91b029c2ea.png)
-
 
 ![Screenshot (878)](https://user-images.githubusercontent.com/105702913/169316707-ae7dc8b7-24d4-4b99-b190-860125d60f7c.png)
 
-- Persamaan Difusi
+Berdasarkan persamaan diatas, maka deskritisasi model penyelesaian difusi terbagi menjadi 2 metode persamaan dengan pendekatan beda hingga sesuai yaitu metode eksplisit dan metode implisit. Dalam hal ini terdapat perbedaan dari kedua metode tersebut, yaitu: 
+![ss aja (2)](https://user-images.githubusercontent.com/105660616/169561870-b770f079-56be-4f35-9ab8-9666a1836ad3.png)
+
+Pendekatan dalam metode ini terdiri atas FTCS ((Forward in Time Central in Space)
+![image](https://user-images.githubusercontent.com/105660616/169562430-7fd3fa4d-d503-45cd-bbb2-fe8e37015a9c.png)
+
+**- Persamaan Difusi**
 
 Persamaan difusi termasuk ke dalam persamaan diferensial parsial yang merupakan representasi perpindahan suatu zat dalam pelarut dari bagian konsentrasi tinggi ke konsentrasi rendah tanpa dipengaruhi oleh kecepatan gerak fluida media.
 
 ![Screenshot (879)](https://user-images.githubusercontent.com/105702913/169318097-697d436c-157c-4ef4-bacd-ca42ce695cc6.png)
 
-- Persamaan Adveksi-Difusi
+**- Persamaan Adveksi-Difusi**
 
 Persamaan adveksi-difusi merupakan persamaan yang digunakan untuk memodelkan proses transportasi/adveksi dan sekaligus proses difusi. Penerapan model adveksi-difusi dapat diterapkan dalam berbagai masalah nyata, seperti memodelkan kualitas air, polusi udara, meteorologi, dan oseanografi. Dalam penerapan nya dalam mencari solusi analitik yang cukup sulit menggunakan pendekatan metode numerik.Persamaan adveksi-difusi dapat mensimulasikan bagaimana profil suhu perairan yang kemudian didistribusikan dari waktu ke waktu sebagaimana yang dicontohnya pada ilustrasi di atas. 
 
