@@ -27,7 +27,9 @@ Berdasarkan persamaan diatas, maka deskritisasi model penyelesaian difusi terbag
 ![ss aja (2)](https://user-images.githubusercontent.com/105660616/169561870-b770f079-56be-4f35-9ab8-9666a1836ad3.png)
 
 Pendekatan dalam metode ini terdiri atas FTCS (_Forward in Time Central in Space), Leapfrog/CTCS (Center Time Center Space),_ dan _Upstream (Forward Time, Forward/Back Space)_
+
 **🔍 FTCS (_Forward in Time Central in Space_)**
+
 Gabungan beberapa pendekatan beda hingga, dimana :
 Turunan pertama terhadap waktu  dengan beda maju 
 Turunan kedua  terhadap ruang dengan beda tengah
@@ -36,11 +38,13 @@ Solusi FTCS salah satu solusi yang memiliki syarat kestabilan
 ![image](https://user-images.githubusercontent.com/105660616/169566493-321dae35-8989-4dff-8e50-c2ccc0829803.png)
 
 **🔍 _Leapfrog/CTCS (Center Time Center Space_)**
+
 Perluasan metode beda tengah terhadap ruang dan waktu, dimana skema yang dalam metode ini didapatkan hasil turunan deret taylor. Skema yang dihasilkan termasuk skemanya konsisten jika C<1.
 
 ![image](https://user-images.githubusercontent.com/105660616/169568591-244e0b9f-8089-465f-abf9-37e152e510ac.png)
 
 **🔍 _Upstream (Forward Time, Forward/Back Space_)**
+
 Penyempurna metode leapfrog yang dibuat untuk model positif. Dalam pendekatan menggunakan beda maju untuk turunan waktu dan turunan ruang berpacu pada arah kecepatan u
 U, dimana :
 U > 0, turunan ruang dengan beda mundur
