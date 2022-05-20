@@ -219,20 +219,28 @@ Adapun langkah instalasi miniconda sebagai berikut :
 
 **📌 4.3. Model Hidrodinamika 2D**
 1. Buka _**Anaconda prompt** (Miniconda 3)_ yang sudah di unduh sebelumnya.
+
 ![image](https://user-images.githubusercontent.com/105660616/169572507-3bf2c3d8-d2ed-4384-b574-fca0a4827314.png)
 2. _Install_ terlebih dahulu _mandatory library_ yang digunakan yaitu _**Matplotlib**_ dan _**Siphon**_ dengan menuliskan _**pip install Matplotlib**_ dan _**pip install Siphon**_.
+
 ![image](https://user-images.githubusercontent.com/105660616/169572567-008cf63a-b8cd-42d0-899c-cb79b29e1b07.png)
 3. Setelah _**Matplotlib**_ dan _**Siphon**_ _terinstall_, buka _jupyter notebook_ atau _text editor lainnya_.
+
 ![image](https://user-images.githubusercontent.com/105741300/169323277-95c70011-f79c-41db-8e5b-321ddc028c62.png)
 4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script python_ yang akan digunakan dalam pemodelan.
+
 ![image](https://user-images.githubusercontent.com/105660616/169573735-73cde62c-c160-41a2-bb42-3c5055435571.png)
 5. Setelah itu, ketik _script python_ yang akan dijalankan, _import_ juga data _**import matplotlib**_ dan _**import NDBC**_ dari _Siphon_.
+
 ![image](https://user-images.githubusercontent.com/105660616/169575508-3b3c2157-a021-44e6-ad82-bde6cb4468bc.png)
 6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
+
 ![image](https://user-images.githubusercontent.com/105660616/169577200-a063a41d-dc91-4c71-a0a4-f3b3fb3718d7.png)
 7. Langkah selanjutnya, masukan _time series plot_ dari gambar grafik yang akan dijadikan _outputnya_. Sesuaikan ukuran gambar agar hasil grafik terlihat jelas. 
+
 ![image](https://user-images.githubusercontent.com/105660616/169577849-b68c5d25-0a94-4034-a6b8-e8162313e442.png)
 8. Tambahkan grafik parameter gelombang yang akan dianalisa meliputi tekanan (_presurre_), angin (_wind speed, gust, and direction_), dan suhu (_water temperature_) dengan cara menuliskan _plot_ yang sesuai dengan_data frame_. Sesuaikan juga ukuran dan warna dari masing-masing parameter serta pada kolom nama diubah menjadi Nama_NIM_Kelas.
+
 ![image](https://user-images.githubusercontent.com/105660616/169579069-767e1e87-d547-4fea-9933-93bf0c7f043a.png)
 9. Tampilkan hasil _script_ dengan menggunakan _directory matplotlib plt_.
 ![image](https://user-images.githubusercontent.com/105660616/169579484-0f7ca9c0-469c-460d-bf87-69078e16dbc7.png)
