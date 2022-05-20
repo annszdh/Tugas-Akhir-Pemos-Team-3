@@ -14,11 +14,14 @@ Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang 
 # 2. Teori Dasar 
 **📌 2.1. Adveksi Difusi**
 
-Dalam melakukan suatu pemodelan pasti mempunyai dasar dari persamaannya, salah satunya menggunakan persamaan pengatur yaitu persamaan adveksi, difusi, dan adveksi-difusi
+Dalam melakukan suatu pemodelan pasti mempunyai dasar dari persamaannya, salah satunya menggunakan persamaan pengatur yaitu persamaan adveksi, difusi, dan adveksi-difusi.
 
 **- Persamaan Adveksi**
 
-Persamaan adveksi termasuk ke dalam persamaan gelombang linear orde satu dan termasuk dalam persamaan differensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu. Adveksi adalah transportasi mekanis zat terlarut bersama dengan fluks curah air. Hal ini didorong oleh gradien energi mekanik total larutan, seperti halnya fluks air yang digerakkan. 
+Persamaan adveksi termasuk ke dalam persamaan gelombang linear orde satu dan termasuk dalam persamaan differensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu. Adveksi menjelaskan tentang mekanisme perpindahan materi dari titik satu ke titik lainnya. 
+
+![image](https://user-images.githubusercontent.com/105660616/169559459-3a7e3e8d-1b47-4ac9-90a7-fc785586b3e3.png)
+
 
 ![image](https://user-images.githubusercontent.com/105660616/169559068-073bbed3-683a-4f8a-9387-3a91b029c2ea.png)
 
