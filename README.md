@@ -19,7 +19,7 @@ Dalam melakukan suatu pemodelan pasti mempunyai dasar dari persamaannya, salah s
 **- Persamaan Adveksi**
 
 Persamaan adveksi termasuk ke dalam persamaan gelombang linear orde satu dan termasuk dalam persamaan differensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu. Adveksi menjelaskan tentang mekanisme perpindahan materi dari titik satu ke titik lainnya. 
-![image](https://user-images.githubusercontent.com/105660616/169559459-3a7e3e8d-1b47-4ac9-90a7-fc785586b3e3.png)
+
 ![image](https://user-images.githubusercontent.com/105660616/169559068-073bbed3-683a-4f8a-9387-3a91b029c2ea.png)
 ![Screenshot (878)](https://user-images.githubusercontent.com/105702913/169316707-ae7dc8b7-24d4-4b99-b190-860125d60f7c.png)
 
