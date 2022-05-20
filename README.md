@@ -220,7 +220,6 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 ![14](https://user-images.githubusercontent.com/76476526/168939038-dfd3beb2-a039-4777-9f3e-4dee1012870c.PNG)
 
 **📌 4.3. Model Hidrodinamika 2D**
-
 1. Buka _**Anaconda prompt** (Miniconda 3)_ yang sudah di unduh sebelumnya.
 ![image](https://user-images.githubusercontent.com/105660616/169572507-3bf2c3d8-d2ed-4384-b574-fca0a4827314.png)
 2. _Install_ terlebih dahulu _mandatory library_ yang digunakan yaitu _**Matplotlib**_ dan _**Siphon**_ dengan menuliskan _**pip install Matplotlib**_ dan _**pip install Siphon**_.
@@ -233,23 +232,23 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 ![image](https://user-images.githubusercontent.com/105660616/169575508-3b3c2157-a021-44e6-ad82-bde6cb4468bc.png)
 6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
 ![image](https://user-images.githubusercontent.com/105660616/169577200-a063a41d-dc91-4c71-a0a4-f3b3fb3718d7.png)
-8. Langkah selanjutnya, masukan _time series plot_ dari gambar grafik yang akan dijadikan _outputnya_. Sesuaikan ukuran gambar agar hasil grafik terlihat jelas. 
+7. Langkah selanjutnya, masukan _time series plot_ dari gambar grafik yang akan dijadikan _outputnya_. Sesuaikan ukuran gambar agar hasil grafik terlihat jelas. 
 ![image](https://user-images.githubusercontent.com/105660616/169577849-b68c5d25-0a94-4034-a6b8-e8162313e442.png)
-10. Tambahkan grafik parameter gelombang yang akan dianalisa meliputi tekanan (_presurre_), angin (_wind speed, gust, and direction_), dan suhu (_water temperature_) dengan cara menuliskan _plot_ yang sesuai dengan_data frame_. Sesuaikan juga ukuran dan warna dari masing-masing parameter serta pada kolom nama diubah menjadi Nama_NIM_Kelas.
+8. Tambahkan grafik parameter gelombang yang akan dianalisa meliputi tekanan (_presurre_), angin (_wind speed, gust, and direction_), dan suhu (_water temperature_) dengan cara menuliskan _plot_ yang sesuai dengan_data frame_. Sesuaikan juga ukuran dan warna dari masing-masing parameter serta pada kolom nama diubah menjadi Nama_NIM_Kelas.
 ![image](https://user-images.githubusercontent.com/105660616/169579069-767e1e87-d547-4fea-9933-93bf0c7f043a.png)
-11. Tampilkan hasil _script_ dengan menggunakan _directory matplotlib plt_.
+9. Tampilkan hasil _script_ dengan menggunakan _directory matplotlib plt_.
 ![image](https://user-images.githubusercontent.com/105660616/169579484-0f7ca9c0-469c-460d-bf87-69078e16dbc7.png)
-13. Setelah itu, _run script_ yang sudah disesuaikan dengan _Station ID_. Kemudian simpan dan tinjau hasilnya.
+10. Setelah itu, _run script_ yang sudah disesuaikan dengan _Station ID_. Kemudian simpan dan tinjau hasilnya.
 ![image](https://user-images.githubusercontent.com/105660616/169580310-77c79395-3d61-45ee-b327-d0143fca5958.png)
-14. Selanjutnya masuk ke laman _website_ **NDBC-NOAA**, _website_ ini dapat diakses melalui _browser_.
+11. Selanjutnya masuk ke laman _website_ **NDBC-NOAA**, _website_ ini dapat diakses melalui _browser_.
 ![image](https://user-images.githubusercontent.com/105741300/169331207-226a318d-dea7-414e-8418-6e774f782972.png)
-15. Cari lokasi _Station ID_ yang akan ditinjau.
+12. Cari lokasi _Station ID_ yang akan ditinjau.
 ![image](https://user-images.githubusercontent.com/105741300/169331717-40b9520f-8163-4a8a-bd76-3b3dd71259fb.png)
-16. Langkah terakhir, lakukan identifikasi mengenai karakteristik hasil parameter pengamatan sesuai _Station ID_. 
+13. Langkah terakhir, lakukan identifikasi mengenai karakteristik hasil parameter pengamatan sesuai _Station ID_. 
 ![image](https://user-images.githubusercontent.com/105741300/169332430-ff8b57cb-708e-4579-8cd2-3f8078545233.png)
-17. Untuk mengetahui anomali yang terjadi pada lokasi _Station ID_, Anda bisa membuka _website Zoom Earth_.
+14. Untuk mengetahui anomali yang terjadi pada lokasi _Station ID_, Anda bisa membuka _website Zoom Earth_.
 ![image](https://user-images.githubusercontent.com/105660616/169581147-848241bb-667e-4880-8ccb-aa15fd9fce14.png)
-18. Klik logo _search_ dan pilih lokasi untuk melihat anomali yang terjadi.
+15. Klik logo _search_ dan pilih lokasi untuk melihat anomali yang terjadi.
 ![image](https://user-images.githubusercontent.com/105660616/169581451-f2887d44-12a2-4744-9e3b-0d29131d0c0d.png)
 
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
