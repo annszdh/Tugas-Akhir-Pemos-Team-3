@@ -19,18 +19,24 @@ Dalam melakukan suatu pemodelan pasti mempunyai dasar dari persamaannya, salah s
 **- Persamaan Adveksi**
 
 Persamaan adveksi termasuk ke dalam persamaan gelombang linear orde satu dan termasuk dalam persamaan differensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu. Adveksi menjelaskan tentang mekanisme perpindahan materi dari titik satu ke titik lainnya. 
-
 ![image](https://user-images.githubusercontent.com/105660616/169559459-3a7e3e8d-1b47-4ac9-90a7-fc785586b3e3.png)
-
 ![image](https://user-images.githubusercontent.com/105660616/169559068-073bbed3-683a-4f8a-9387-3a91b029c2ea.png)
-
 ![Screenshot (878)](https://user-images.githubusercontent.com/105702913/169316707-ae7dc8b7-24d4-4b99-b190-860125d60f7c.png)
 
 Berdasarkan persamaan diatas, maka deskritisasi model penyelesaian difusi terbagi menjadi 2 metode persamaan dengan pendekatan beda hingga sesuai yaitu metode eksplisit dan metode implisit. Dalam hal ini terdapat perbedaan dari kedua metode tersebut, yaitu: 
 ![ss aja (2)](https://user-images.githubusercontent.com/105660616/169561870-b770f079-56be-4f35-9ab8-9666a1836ad3.png)
 
-Pendekatan dalam metode ini terdiri atas FTCS ((Forward in Time Central in Space)
-![image](https://user-images.githubusercontent.com/105660616/169562430-7fd3fa4d-d503-45cd-bbb2-fe8e37015a9c.png)
+Pendekatan dalam metode ini terdiri atas FTCS (_Forward in Time Central in Space), Leapfrog/CTCS (Center Time Center Space),_ dan _Upstream (Forward Time, Forward/Back Space)_
+**🔍 FTCS (_Forward in Time Central in Space_)**
+Gabungan beberapa pendekatan beda hingga, dimana :
+Turunan pertama terhadap waktu  dengan beda maju 
+Turunan kedua  terhadap ruang dengan beda tengah
+Solusi FTCS salah satu solusi yang memiliki syarat kestabilan
+![image](https://user-images.githubusercontent.com/105660616/169563195-bf97ce88-4a31-4045-8a41-da842c8c0ac6.png)
+
+
+
+
 
 **- Persamaan Difusi**
 
