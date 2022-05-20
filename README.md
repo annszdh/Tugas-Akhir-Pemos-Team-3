@@ -221,15 +221,15 @@ step by step maksud script modul 3 (flowchart dan script python yang digunakan m
 
 **📌 4.3. Model Hidrodinamika 2D**
 
-1. Buka **Anaconda prompt** (Miniconda 3) yang sudah di unduh sebelumnya
-![image](https://user-images.githubusercontent.com/105741300/169322300-0e28fbeb-28b0-4e0e-9234-deccb9f883bc.png)
-2. _Instal_ **siphon** dan **Matplotlib** dengan menuliskan **pip install siphon** dan **pip install Matplotlib**
-![image](https://user-images.githubusercontent.com/105741300/169322611-81829675-5403-4ede-9730-1a62fe5dd0c3.png)
-3. Setelah **Siphon** dan **Matplotlib** _terinstal_, ketik _jupyter notebook_
+1. Buka _**Anaconda prompt** (Miniconda 3)_ yang sudah di unduh sebelumnya.
+![image](https://user-images.githubusercontent.com/105660616/169572507-3bf2c3d8-d2ed-4384-b574-fca0a4827314.png)
+2. _Install_ terlebih dahulu _mandatory library_ yang digunakan yaitu _**Matplotlib**_ dan _**Siphon**_ dengan menuliskan _**pip install Matplotlib**_ dan _**pip install Siphon**_.
+![image](https://user-images.githubusercontent.com/105660616/169572567-008cf63a-b8cd-42d0-899c-cb79b29e1b07.png)
+3. Setelah _**Matplotlib**_ dan _**Siphon**_ _terinstall_, buka _jupyter notebook_ atau _text editor lainnya_.
 ![image](https://user-images.githubusercontent.com/105741300/169323277-95c70011-f79c-41db-8e5b-321ddc028c62.png)
-4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script_
-![image](https://user-images.githubusercontent.com/105741300/169323949-4d802292-1cb3-4fe4-8116-1dde85b94a27.png)
-5. Setelah itu, ketik _script_ yang akan dijalankan, _import_ juga data **import matplotlib** dan **import NDBC**, setelah itu masukan nomor stasiun id
+4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script python_ yang akan digunakan dalam pemodelan.
+![image](https://user-images.githubusercontent.com/105660616/169573735-73cde62c-c160-41a2-bb42-3c5055435571.png)
+5. Setelah itu, ketik _script python_ yang akan dijalankan, _import_ juga data _**import matplotlib**_ dan _**import NDBC**_ dari _Siphon_.
 ![image](https://user-images.githubusercontent.com/105741300/169328662-5e40ab1b-ca60-4522-a3ee-052394263bf6.png)
 6. Langkah selanjutnya, masukan rumus dan memasukan nama dengan format nama_nim_kelas
 ![image](https://user-images.githubusercontent.com/105741300/169329197-dbfece0b-922c-4058-8ef7-fd1345b24613.png)
