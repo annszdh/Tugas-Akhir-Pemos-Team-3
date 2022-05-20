@@ -45,6 +45,14 @@ Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liq
 
 **2.2.2 Persamaan-persamaan Model Hidrodinamika 1 Dimensi**
 
+- Persamaan Pengatur Fluida yaitu persamaan kontinuitas dan momentum
+![Screenshot (917)](https://user-images.githubusercontent.com/105702913/169476453-0c0eaf2e-8ddc-4683-a57d-9b1c130fafc2.png)
+
+Dimana, persamaan pengatur ini mempunyai arti fisis yaitu u merupakan kecepatan sesaat (m/s), ζ adalah elevasi (m), ∂ adalah total (m), H adalah kedalaman terukur (m) yang konstan terhadap ruang, dan g adalah koefisien gravitasi bumi (m²/s). Persamaan hidrodinamika sederhana ini dapat di diskretisasi secara ekplisit dengan metode FTCS beda maju untuk waktu (t) dan beda pusat untuk ruang (x).
+
+- Persamaan Diskretisasi
+Persamaan kontinuitas dan persamaan momentum
+
 **2.2.3 Contoh Model Hidrodinamika 1 Dimensi**
 
 Dalam model hidrodinamika 1 dimensi nantinya akan mempelajari mengenai sifat-sifat penjalaran fenomena oseanografi terkait gelombang pasang surut dan memahami model kaitannya dengan stabilitas numerik dengan metode eksplisit. Model hidrodinamika dalam air laut dapat digunakan untuk mengkaji disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut, serta untuk pengkajian klimatologi laut, Meneliti konsentrasi unsur kimia di perairan terhadap kedalaman; dapat juga memodelkan mengenai tumpahan minyak (_oil spill_) di perairan terhadap luasan laut. 
