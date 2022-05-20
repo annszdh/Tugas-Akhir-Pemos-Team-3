@@ -54,9 +54,15 @@ Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liq
 Dimana, persamaan pengatur ini mempunyai arti fisis yaitu u merupakan kecepatan sesaat (m/s), ζ adalah elevasi (m), ∂ adalah total (m), H adalah kedalaman terukur (m) yang konstan terhadap ruang, dan g adalah koefisien gravitasi bumi (m²/s). Persamaan hidrodinamika sederhana ini dapat di diskretisasi secara ekplisit dengan metode FTCS beda maju untuk waktu (t) dan beda pusat untuk ruang (x).
 
 - Persamaan Diskretisasi
-Persamaan kontinuitas dan persamaan momentum
+Persamaan kontinuitas dan persamaan momentum dengan Metode FTCS
 
-![Screenshot (918)](https://user-images.githubusercontent.com/105702913/169481077-c696ff01-9aa6-4bf8-95d6-f282b86d8091.png)
+![Screenshot (919)](https://user-images.githubusercontent.com/105702913/169481690-ad3449e2-daeb-4217-9837-004ea55f991f.png)
+
+Diskretisasi numerik persamaan hidrodinamika 1 dimensi secara eksplisit harus mempunyai kriteria stabilitas Courant-Freiderichs-Lewy (CFL) sebagai berikut:
+
+![Screenshot (918)(1)](https://user-images.githubusercontent.com/105702913/169482788-09464d8c-c118-4bde-a23f-9a37361ff072.png)
+
+Dari kedua persamaan tersebut, nantinya akan dilakukan penyelesaian secara analitik sehingga memberikan nilai elevasi secara sinusoidal dan solusi analitik kecepatan; dimana nantinya akan menghasilkan nilai awal dan syarat batas pemodelan hidrodinamika. 
 
 **2.2.3 Contoh Model Hidrodinamika 1 Dimensi**
 
