@@ -32,11 +32,18 @@ Gabungan beberapa pendekatan beda hingga, dimana :
 Turunan pertama terhadap waktu  dengan beda maju 
 Turunan kedua  terhadap ruang dengan beda tengah
 Solusi FTCS salah satu solusi yang memiliki syarat kestabilan
-![image](https://user-images.githubusercontent.com/105660616/169563195-bf97ce88-4a31-4045-8a41-da842c8c0ac6.png)
+![image](https://user-images.githubusercontent.com/105660616/169563373-d946089c-215e-45bd-b186-94ca3c6ca298.png)
 
+**🔍 _Leapfrog/CTCS (Center Time Center Space_)**
+Perluasan metode beda tengah terhadap ruang dan waktu, dimana skema yang dalam metode ini didapatkan hasil turunan deret taylor. Skema yang dihasilkan termasuk skemanya konsisten jika C<1.
+![image](https://user-images.githubusercontent.com/105660616/169563707-5aac5ea4-77a7-4236-bbe3-28a47176b849.png)
 
-
-
+**🔍 _Upstream (Forward Time, Forward/Back Space_)**
+Penyempurna metode leapfrog yang dibuat untuk model positif. Dalam pendekatan menggunakan beda maju untuk turunan waktu dan turunan ruang berpacu pada arah kecepatan u
+U, dimana :
+U > 0, turunan ruang dengan beda mundur
+U < 0 digunakan pendekatan beda maju untu turunan ruang
+![image](https://user-images.githubusercontent.com/105660616/169564064-37ebb40a-9bef-4517-a20b-08c295237751.png)
 
 **- Persamaan Difusi**
 
@@ -54,9 +61,8 @@ Persamaan adveksi-difusi merupakan persamaan yang digunakan untuk memodelkan pro
 
 **2.2.1 Apa itu Model Hidrodinamika?**
 
-Hidro adalah air
-
-Dinamika adalah benda bergerak atau tenaga yang menggerakan
+Hidro adalah air.
+Dinamika adalah benda bergerak atau tenaga yang menggerakan.
 
 Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liquid atau lebih dikhususkan pada gerak air. Skala atau lingkup analisis ilmu ini adalah pada gerak partikel air atau dapat disebut dalam skala makroskopik. Skala makroskopik disini memiliki maksud air tersusun dari partikel-partikel fluida. Fluida bukanlah partikel dengan skala terkecil, tetapi partikel atomlah yang merupakan partikel skala terkecil di air. Bidang hidrodinamika merupakan aplikasi matematik bukan fisika. Model hidrodinamika adalah model yang disarankan kepada deskripsi proses-proses yang memengaruhi sirkulasi dan pencampuran massa air. Pembangun nya yaitu hukum konservasi massa dan hukum kekelan momentum. Model ini dapat mensimulasikan variasi tinggi muka air laut dan aliran arus yang dibangkitkan oleh parameter angin, pasang surut, gelombang laut, debit perairan, dan lain-lain. Permodelan hidrodinamika dapat mensimulasikan gerakan laut dengan memecahkan serangkaian persamaan yang memberikan hubungan antara gerakan fluida, yaitu tiga komponen kecepatan, dan gaya yang bekerja pada fluida, misalnya gaya gravitasi, gaya tekanan, angin dan gaya hambat dasar, dan gaya Coriolis. 
 
