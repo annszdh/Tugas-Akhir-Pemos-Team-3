@@ -219,9 +219,9 @@ Adapun langkah instalasi miniconda sebagai berikut :
 
 **📌 4.3. Model Hidrodinamika 2D**
 1. Buka _**Anaconda prompt** (Miniconda 3)_ yang sudah di unduh sebelumnya.
-![image](https://user-images.githubusercontent.com/105660616/169572507-3bf2c3d8-d2ed-4384-b574-fca0a4827314.png)
+![image](https://user-images.githubusercontent.com/105660616/169582987-a690ac86-58ef-43fb-85bb-e29025707293.png)
 2. _Install_ terlebih dahulu _mandatory library_ yang digunakan yaitu _**Matplotlib**_ dan _**Siphon**_ dengan menuliskan _**pip install Matplotlib**_ dan _**pip install Siphon**_.
-![image](https://user-images.githubusercontent.com/105660616/169572567-008cf63a-b8cd-42d0-899c-cb79b29e1b07.png)
+![image](https://user-images.githubusercontent.com/105660616/169583086-7d28098b-4553-4064-bb87-1cab0615e906.png)
 3. Setelah _**Matplotlib**_ dan _**Siphon**_ _terinstall_, buka _jupyter notebook_ atau _text editor lainnya_.
 ![image](https://user-images.githubusercontent.com/105741300/169323277-95c70011-f79c-41db-8e5b-321ddc028c62.png)
 4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script python_ yang akan digunakan dalam pemodelan.
