@@ -18,18 +18,21 @@ Model hidrodinamika diatur oleh persamaan pengatur yaitu persamaan adveksi, difu
 - Persamaan Adveksi 
 
 Persamaan adveksi termasuk ke dalam persamaan gelombang linear orde satu dan termasuk dalam persamaan differensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu
+Persamaan adveksi merupakan persamaan linier orde satu atau persamaan gelombang satu arah.
 
 ![Screenshot (878)](https://user-images.githubusercontent.com/105702913/169316707-ae7dc8b7-24d4-4b99-b190-860125d60f7c.png)
 
 - Persamaan Difusi
 
 Persamaan difusi termasuk ke dalam persamaan diferensial parsial yang merupakan representasi perpindahan suatu zat dalam pelarut dari bagian konsentrasi tinggi ke konsentrasi rendah tanpa dipengaruhi oleh kecepatan gerak fluida media.
+Persamaan difusi adalah representasi dari perpindahan molekul-molekul kimia dari bagian yang berkonsentrasi tinggi ke bagian yang berkonsentrasi rendah.
 
 ![Screenshot (879)](https://user-images.githubusercontent.com/105702913/169318097-697d436c-157c-4ef4-bacd-ca42ce695cc6.png)
 
 - Persamaan Adveksi-Difusi
 
-Persamaan adveksi-difusi merupakan persamaan yang digunakan untuk memodelkan proses transportasi/adveksi dan sekaligus proses difusi. Penerapan model adveksi-difusi dapat diterapkan dalam berbagai masalah nyata, seperti memodelkan kualitas air, polusi udara, meteorologi, dan oseanografi. Dalam penerapan nya dalam mencari solusi analitik yang cukup sulit menggunakan pendekatan metode numerik.Persamaan adveksi-difusi dapat mensimulasikan bagaimana profil suhu perairan yang kemudian didistribusikan dari waktu ke waktu sebagaimana yang dicontohnya pada ilustrasi di atas. 
+Persamaan adveksi-difusi merupakan persamaan yang digunakan untuk memodelkan proses transportasi/adveksi dan sekaligus proses difusi. Penerapan model adveksi-difusi dapat diterapkan dalam berbagai masalah nyata, seperti memodelkan kualitas air, polusi udara, meteorologi, dan oseanografi. Dalam penerapan nya dalam mencari solusi analitik yang cukup sulit menggunakan pendekatan metode numerik. Persamaan adveksi-difusi dapat mensimulasikan bagaimana profil suhu perairan yang kemudian didistribusikan dari waktu ke waktu sebagaimana yang dicontohnya pada ilustrasi di atas. 
+Persamaan adveksi-divusi termasuk dalam bentuk persamaan diferensial parsial. Persamaan adveksi-difusi adalah persamaan yang memuat persamaan adveksi dan persamaan difusi.
 
 ![Screenshot (880)](https://user-images.githubusercontent.com/105702913/169318937-d8b8053c-f078-4a5b-a61a-90deedd1fd70.png)
 
@@ -41,7 +44,9 @@ Hidro adalah air
 
 Dinamika adalah benda bergerak atau tenaga yang menggerakan
 
-Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liquid atau lebih dikhususkan pada gerak air. Skala atau lingkup analisis ilmu ini adalah pada gerak partikel air atau dapat disebut dalam skala makroskopik. Skala makroskopik disini memiliki maksud air tersusun dari partikel-partikel fluida. Fluida bukanlah partikel dengan skala terkecil, tetapi partikel atomlah yang merupakan partikel skala terkecil di air. Bidang hidrodinamika merupakan aplikasi matematik bukan fisika. Model hidrodinamika adalah model yang disarankan kepada deskripsi proses-proses yang memengaruhi sirkulasi dan pencampuran massa air. Pembangun nya yaitu hukum konservasi massa dan hukum kekelan momentum. Model ini dapat mensimulasikan variasi tinggi muka air laut dan aliran arus yang dibangkitkan oleh parameter angin, pasang surut, gelombang laut, debit perairan, dan lain-lain. Permodelan hidrodinamika dapat mensimulasikan gerakan laut dengan memecahkan serangkaian persamaan yang memberikan hubungan antara gerakan fluida, yaitu tiga komponen kecepatan, dan gaya yang bekerja pada fluida, misalnya gaya gravitasi, gaya tekanan, angin dan gaya hambat dasar, dan gaya Coriolis. 
+Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liquid atau lebih dikhususkan pada gerak air. Skala atau lingkup analisis ilmu ini adalah pada gerak partikel air atau dapat disebut dalam skala makroskopik. Skala makroskopik disini memiliki maksud air tersusun dari partikel-partikel fluida. Fluida bukanlah partikel dengan skala terkecil, tetapi partikel atomlah yang merupakan partikel skala terkecil di air. Bidang hidrodinamika merupakan aplikasi matematik bukan fisika. Model hidrodinamika adalah model yang disarankan kepada deskripsi proses-proses yang memengaruhi sirkulasi dan pencampuran massa air. Pembangun nya yaitu hukum konservasi massa dan hukum kekelan momentum. Model ini dapat mensimulasikan variasi tinggi muka air laut dan aliran arus yang dibangkitkan oleh parameter angin, pasang surut, gelombang laut, debit perairan, dan lain-lain. 
+
+Permodelan hidrodinamika dapat mensimulasikan gerakan laut dengan memecahkan serangkaian persamaan yang memberikan hubungan antara gerakan fluida, yaitu tiga komponen kecepatan, dan gaya yang bekerja pada fluida, misalnya gaya gravitasi, gaya tekanan, angin dan gaya hambat dasar, dan gaya Coriolis. 
 
 **2.2.2 Persamaan-persamaan Model Hidrodinamika 1 Dimensi**
 
