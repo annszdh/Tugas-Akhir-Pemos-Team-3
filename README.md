@@ -89,7 +89,7 @@ Dalam model 4, dilakukan untuk memodelkan peristiwa gelombang laut di suatu pera
 **Grafik**
 ![Hasil modul 4 (1)](https://user-images.githubusercontent.com/105702913/169522601-39369da4-0dff-432b-a403-9d48569a6df1.png)
 
-Grafik tersebut dapat dilihat dari adanya korelasi antar parameter kecepatan angin, arah angin, suhu perairan. Menurut Suhanda _et al._(2021), gradien tekanan dapat memengaruhi distribusi angin dan suhu. Dengan kata lain, gradien tekanan yang berbeda dapat menyebabkan bertiupnya angin yang merupakan faktor utama penyebab gelombang laut. arus yang dihasilkan oleh angin membawa massa air bersuhu tinggi bergerak dari tekanan tinggi ke tekanan rendah. Selanjutnya, hubungan antara suhu dan gradien tekanan berbanding terbalik. Hal tersebut dijelaskan pada Haryanto _et al_.(2020), yang menjelaskan bahwa massa udara bergerak dari wilayah yang memiliki suhu lebih rendah dan memiliki tekanan yan lebih tinggi begitu pula sebaliknya.  
+Kesimpulan dari grafik tersebut dapat dilihat dari adanya korelasi antar parameter kecepatan angin, arah angin, suhu perairan. Menurut Suhanda _et al._(2021), gradien tekanan dapat memengaruhi distribusi angin dan suhu. Dengan kata lain, gradien tekanan yang berbeda dapat menyebabkan bertiupnya angin yang merupakan faktor utama penyebab gelombang laut. arus yang dihasilkan oleh angin membawa massa air bersuhu tinggi bergerak dari tekanan tinggi ke tekanan rendah. Selanjutnya, hubungan antara suhu dan gradien tekanan berbanding terbalik. Hal tersebut dijelaskan pada Haryanto _et al_.(2020), yang menjelaskan bahwa massa udara bergerak dari wilayah yang memiliki suhu lebih rendah dan memiliki tekanan yan lebih tinggi begitu pula sebaliknya.  
 
 **2.2.4 Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi**
 
@@ -110,7 +110,6 @@ Konsep Hidrodinamika 1 Dimensi vs. 2 Dimensi, adalah sebagai berikut.
 
 Contoh penerapan : meneliti konsentrasi unsur kimia di perairan A, ketika memodelkan dalam skema 1 dimensi maka akan memodelkan terhadap kedalaman nya saja (1 arah); tetapi kita ingin meniliti unsur kimia berdasarkan kedalaman dan luas nya (2 arah) misalkan dari panjang alirannya dan berapa kedalamannya lalu meninjau konsentrasi unsur kimianya maka diperlukan skema 2 dimensi. Contoh lainnya ketika meneliti _oil spil_ (tumpahan zat di laut) namun ketika meninjau nya di 1 titik aja itu hanya perlu memodelkan menggunakan skema 1 dimensi; namun ketika adanya perbedaan ketinggian topografi maka dapat memodelkan menggunakan skema 2 dimensi
 
-sebelum ke metodenya jelasin dulu soal pengertian Model Hidrodinamika, dasar simulasi model (parameter dan anomali jelasin), persamaan persamaan dan perbedaan model hidrodinamika 1D dan 2D (dikerjain sama 2 orang)
 
 # 3. _Installasi Miniconda 3_ 
 Pembuatan Script Pyhton dapat dilakukan dengan menggunakan Miniconda atau menggunakan Google Colaboratory. Setup Miniconda dapat diunduh pada File Terlampir
