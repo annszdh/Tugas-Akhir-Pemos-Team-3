@@ -219,24 +219,24 @@ Adapun langkah instalasi miniconda sebagai berikut :
 
 **📌 4.3. Model Hidrodinamika 2D**
 
-1. Buka _**Anaconda prompt** (Miniconda 3)_ yang sudah di unduh sebelumnya.
+1. Buka _**Anaconda prompt** (Miniconda 3)_ yang sudah di unduh sebelumnya menggunakan fitur _search_.
 ![image](https://user-images.githubusercontent.com/105660616/169584779-2bc7e183-dbe9-4fd6-aef0-ef073d321db6.png)
-2. _Install_ terlebih dahulu _mandatory library_ yang digunakan yaitu _**Matplotlib**_ dan _**Siphon**_ dengan menuliskan _**pip install Matplotlib**_ dan _**pip install Siphon**_.
+2. _Install_ terlebih dahulu _library_ yang digunakan yaitu _**Matplotlib**_ dan _**Siphon**_ dengan menuliskan _**pip install Matplotlib**_ dan _**pip install Siphon**_.
 ![image](https://user-images.githubusercontent.com/105660616/169585224-3bb39d56-3d09-4fc4-84a0-3acf7e2ec5ac.png)
 3. Setelah _**Matplotlib**_ dan _**Siphon**_ _terinstall_, buka _jupyter notebook_ atau _text editor lainnya_ 
 ![image](https://user-images.githubusercontent.com/105660616/169586358-c123031f-9e46-41c4-8040-9c4fa878d506.png)
 4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script python_ yang akan digunakan dalam pemodelan.
 ![image](https://user-images.githubusercontent.com/105660616/169586505-fdd23d0a-6ba3-485a-98a3-5ff1f35c2362.png)
 5. Setelah itu, ketik _script python_ yang akan dijalankan, _import_ juga data _**import matplotlib**_ dan _**import NDBC**_ dari _Siphon_ untuk mendapatkan data bouy.
-![image](https://user-images.githubusercontent.com/105660616/169586719-5f3bf9e1-13c2-467b-856e-84b207b07bbf.png)
+![24](https://user-images.githubusercontent.com/76476526/169627296-074bd354-85a9-41c5-9392-acbecba50d02.PNG)
 6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
-![image](https://user-images.githubusercontent.com/105660616/169586882-38641ab0-978e-4aa7-a0f1-5201e3a56baf.png)
+![23](https://user-images.githubusercontent.com/76476526/169627309-cfd8a27a-f026-4eea-8d25-c589565490e2.PNG)
 7. Langkah selanjutnya, masukan _time series plot_ dari gambar grafik yang akan dijadikan _outputnya_. Sesuaikan ukuran gambar agar hasil grafik terlihat jelas.
 ![image](https://user-images.githubusercontent.com/105660616/169587027-2b8afdd2-ea97-4bf7-b70d-ac59df317fa6.png)
 8. Tambahkan grafik parameter gelombang yang akan dianalisa meliputi tekanan (_presurre_), angin (_wind speed, gust, and direction_), dan suhu (_water temperature_) dengan cara menuliskan _plot_ yang sesuai dengan_data frame_. Sesuaikan juga ukuran dan warna grafik dari masing-masing parameter serta pada kolom nama diubah menjadi Nama_NIM_Kelas.
 ![image](https://user-images.githubusercontent.com/105660616/169579069-767e1e87-d547-4fea-9933-93bf0c7f043a.png)
 9. Tampilkan hasil _script_ dengan menggunakan _directory matplotlib plt_.
-![image](https://user-images.githubusercontent.com/105660616/169587303-c33c10d9-68c8-4e4c-8341-f1992ffabf48.png)
+![20](https://user-images.githubusercontent.com/76476526/169627260-25a78901-6781-42c3-af65-50e7219fe155.PNG)
 10. Setelah itu, _run script_ yang sudah disesuaikan dengan _Station ID_. Kemudian simpan dan tinjau hasilnya.
 ![image](https://user-images.githubusercontent.com/105660616/169580310-77c79395-3d61-45ee-b327-d0143fca5958.png)
 11. Selanjutnya masuk ke laman _website_ **NDBC-NOAA**, _website_ ini dapat diakses melalui _browser_.
