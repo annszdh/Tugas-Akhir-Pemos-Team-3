@@ -221,12 +221,12 @@ Adapun langkah instalasi miniconda sebagai berikut :
 
 1. Buka _**Anaconda prompt** (Miniconda 3)_ yang sudah di unduh sebelumnya menggunakan fitur _search_.
 ![image](https://user-images.githubusercontent.com/105660616/169584779-2bc7e183-dbe9-4fd6-aef0-ef073d321db6.png)
-2. _Install_ terlebih dahulu _library_ yang digunakan yaitu _**Matplotlib**_ dan _**Siphon**_ dengan menuliskan _**pip install Matplotlib**_ dan _**pip install Siphon**_.
+2. _Install_ terlebih dahulu _library_ yang digunakan yaitu _**Matplotlib**_ dan _**Siphon**_ dengan menuliskan _**pip install Matplotlib**_ atau _**conda install matplotlib**_dan _**pip install Siphon**_ atau _**conda install siphon**_.
 ![image](https://user-images.githubusercontent.com/105660616/169585224-3bb39d56-3d09-4fc4-84a0-3acf7e2ec5ac.png)
 3. Setelah _**Matplotlib**_ dan _**Siphon**_ _terinstall_, buka _jupyter notebook_ atau _text editor lainnya_ 
 ![image](https://user-images.githubusercontent.com/105660616/169586358-c123031f-9e46-41c4-8040-9c4fa878d506.png)
 4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script python_ yang akan digunakan dalam pemodelan.
-![image](https://user-images.githubusercontent.com/105660616/169586505-fdd23d0a-6ba3-485a-98a3-5ff1f35c2362.png)
+![168938644-84a816b9-967b-440c-87a9-ddd69e17463c](https://user-images.githubusercontent.com/76476526/169627684-2104fe78-a4cf-49d9-ae5c-d4980e080ec7.png)
 5. Setelah itu, ketik _script python_ yang akan dijalankan, _import_ juga data _**import matplotlib**_ dan _**import NDBC**_ dari _Siphon_ untuk mendapatkan data bouy.
 ![24](https://user-images.githubusercontent.com/76476526/169627296-074bd354-85a9-41c5-9392-acbecba50d02.PNG)
 6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
