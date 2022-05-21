@@ -257,4 +257,9 @@ ini lebih ke penjelasan dari kegunaan dan penerapannya di ose bisa buat apa aja,
 yang kebagian ini berarti otomatis nulis juga bagian kegunaan dan penerapan script (dikerjain sama 1 orang)
 
 # 7. Referensi
+
+Haryanto, Y. D., S. S. Prayuda, R. Agdialta, N. F. Riama, A. Hartoko, S. Anggoro, dan M. Zainuri. Identifikasi Borneo Vortex Terhadap Dinamika Suhu Permukaan Laut di Laut Jawa. JPS: Jurnal Penelitian Sains. 22(3): 104 – 107.
+
+Suhanda, D., dan M. G. A. Putra. 2021. Pengaruh Musim Terhadap Distribusi Temperatur, Salinitas, dan Densitas di Laut Halmahera. J-Tropimar: Jurnal Riset Kelautan Tropis. 3(1): 1 – 11.
+
 Diisi jurnal atau buku semisal mengambil materi dari pustaka
