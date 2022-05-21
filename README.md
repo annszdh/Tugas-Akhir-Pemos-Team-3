@@ -253,11 +253,14 @@ ini lebih ke penjelasan dari kegunaan dan penerapannya di ose bisa buat apa aja,
 
 **📌 5.4. Model Hidrodinamika 2 Dimensi**
 
-**5.4.1. Kegunaan Model Hidrodinamika 2 Dimensi**
+Model hidrodinamika 2 dimensi dapat digunakan dan diterapkan dalam oseanografi seperti berikut ini :
+1. Pemodelan gelombang karena angin
+2. Pemodelan _longshore current_ beserta proses sedimentasinya
+3. Pemodelan sampah plastik di laut
+4. Pemodelan _coastal dynamics_ dan sedimentasi pantai
+5. Pemodelan konsentrasi unsur kimia berdasarkan kedalaman dan luasnya
+6. Pemodelan _oil spill_ (tumpahan minyak di laut)
 
-**5.4.2. Penerapan Model Hidrodinamika 2 Dimensi dalam Oseanografi**
-
-Contoh penerapan : meneliti konsentrasi unsur kimia di perairan A, ketika memodelkan dalam skema 1 dimensi maka akan memodelkan terhadap kedalaman nya saja (1 arah); tetapi kita ingin meniliti unsur kimia berdasarkan kedalaman dan luas nya (2 arah) misalkan dari panjang alirannya dan berapa kedalamannya lalu meninjau konsentrasi unsur kimianya maka diperlukan skema 2 dimensi. Contoh lainnya ketika meneliti _oil spil_ (tumpahan zat di laut) namun ketika meninjau nya di 1 titik aja itu hanya perlu memodelkan menggunakan skema 1 dimensi; namun ketika adanya perbedaan ketinggian topografi maka dapat memodelkan menggunakan skema 2 dimensi
 
 # 6. Penutup
 yang kebagian ini berarti otomatis nulis juga bagian kegunaan dan penerapan script (dikerjain sama 1 orang)
