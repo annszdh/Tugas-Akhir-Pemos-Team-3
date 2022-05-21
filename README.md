@@ -289,10 +289,10 @@ Pemodelan Oseanografi ini merupakan suatu sistem pembelajaran berbagai fenomena 
 **📌 6.3. Ucapan Terima Kasih**
 
 Demikianlah tugas akhir repository ini kami buat. Kami dari kelompok 7 selaku authors memohon maaf apabila masih terdapat kekurangan dan kesalahan. Terimakasih pula kami ucapkan khususnya kepada :
-1. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-2. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-3. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-4. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+1. Dr. Aris Ismanto, S. Si., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+2. Prof. Dr. Denny Nugroho Sugianto, S. T., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+3. Dr. Elis Indrayanti, S. T., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+4. Rikha Widiaratih, S. Si., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
 5. Tim asisten Praktikum Pemodelan Oseanografi yang telah membimbing selama keberlangsungan praktikum
 6. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repository ini
 
