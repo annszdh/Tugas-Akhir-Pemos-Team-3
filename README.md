@@ -1,5 +1,5 @@
 # Tugas Akhir Pemos Team 3
-Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat teori, metode, dan file aplikasi yang dapat memproses beberapa persamaan untuk penyelesaian dalam pemodelan dari suatu fenomena atau dinamika oseanografi.
+Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat executable (.exe) file yang dapat memproses beberapa persamaan model hidrodinamika untuk penyelesaian dalam pemodelan dari suatu fenomena atau dinamika oseanografi.
 Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, dan Pprint. Seluruh script yang dibuat adalah hasil Team 3 Oseanografi 2020. Semoga dapat bermanfaat!
 
 # 1. AUTHORS of TEAM 3 👥
@@ -139,8 +139,6 @@ Konsep Hidrodinamika 1 Dimensi vs. 2 Dimensi, adalah sebagai berikut.
 - Kecepatan dari arus dan gelombang tidak pernah sama saat melintasi penampang
 - Kemiringan terjal
 
-Contoh penerapan : meneliti konsentrasi unsur kimia di perairan A, ketika memodelkan dalam skema 1 dimensi maka akan memodelkan terhadap kedalaman nya saja (1 arah); tetapi kita ingin meniliti unsur kimia berdasarkan kedalaman dan luas nya (2 arah) misalkan dari panjang alirannya dan berapa kedalamannya lalu meninjau konsentrasi unsur kimianya maka diperlukan skema 2 dimensi. Contoh lainnya ketika meneliti _oil spil_ (tumpahan zat di laut) namun ketika meninjau nya di 1 titik aja itu hanya perlu memodelkan menggunakan skema 1 dimensi; namun ketika adanya perbedaan ketinggian topografi maka dapat memodelkan menggunakan skema 2 dimensi
-
 
 # 3. _Installasi Miniconda 3_ 
 Pembuatan Script Pyhton dapat dilakukan dengan menggunakan Miniconda atau menggunakan Google Colaboratory. Setup Miniconda dapat diunduh pada File Terlampir
@@ -219,24 +217,24 @@ Adapun langkah instalasi miniconda sebagai berikut :
 
 **📌 4.3. Model Hidrodinamika 2D**
 
-1. Buka _**Anaconda prompt** (Miniconda 3)_ yang sudah di unduh sebelumnya menggunakan fitur _search_.
+1. Buka _**Anaconda prompt** (Miniconda 3)_ yang sudah di unduh sebelumnya.
 ![image](https://user-images.githubusercontent.com/105660616/169584779-2bc7e183-dbe9-4fd6-aef0-ef073d321db6.png)
-2. _Install_ terlebih dahulu _library_ yang digunakan yaitu _**Matplotlib**_ dan _**Siphon**_ dengan menuliskan _**pip install Matplotlib**_ atau _**conda install matplotlib**_dan _**pip install Siphon**_ atau _**conda install siphon**_.
+2. _Install_ terlebih dahulu _mandatory library_ yang digunakan yaitu _**Matplotlib**_ dan _**Siphon**_ dengan menuliskan _**pip install Matplotlib**_ dan _**pip install Siphon**_.
 ![image](https://user-images.githubusercontent.com/105660616/169585224-3bb39d56-3d09-4fc4-84a0-3acf7e2ec5ac.png)
 3. Setelah _**Matplotlib**_ dan _**Siphon**_ _terinstall_, buka _jupyter notebook_ atau _text editor lainnya_ 
 ![image](https://user-images.githubusercontent.com/105660616/169586358-c123031f-9e46-41c4-8040-9c4fa878d506.png)
 4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script python_ yang akan digunakan dalam pemodelan.
-![168938644-84a816b9-967b-440c-87a9-ddd69e17463c](https://user-images.githubusercontent.com/76476526/169627684-2104fe78-a4cf-49d9-ae5c-d4980e080ec7.png)
-5. Setelah itu, ketik _script python_ yang akan dijalankan, _import_ juga data _**import matplotlib**_ dan _**import NDBC**_ dari _Siphon_ untuk mendapatkan data bouy.
-![24](https://user-images.githubusercontent.com/76476526/169627296-074bd354-85a9-41c5-9392-acbecba50d02.PNG)
+![image](https://user-images.githubusercontent.com/105660616/169586505-fdd23d0a-6ba3-485a-98a3-5ff1f35c2362.png)
+5. Setelah itu, ketik _script python_ yang akan dijalankan, _import_ juga data _**import matplotlib**_ dan _**import NDBC**_ dari _Siphon_.
+![image](https://user-images.githubusercontent.com/105660616/169586719-5f3bf9e1-13c2-467b-856e-84b207b07bbf.png)
 6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
-![23](https://user-images.githubusercontent.com/76476526/169627309-cfd8a27a-f026-4eea-8d25-c589565490e2.PNG)
+![image](https://user-images.githubusercontent.com/105660616/169586882-38641ab0-978e-4aa7-a0f1-5201e3a56baf.png)
 7. Langkah selanjutnya, masukan _time series plot_ dari gambar grafik yang akan dijadikan _outputnya_. Sesuaikan ukuran gambar agar hasil grafik terlihat jelas.
-![22](https://user-images.githubusercontent.com/76476526/169628129-1ecae11a-afbd-47ea-84a6-519e36ba3ac2.PNG)
-8. Tambahkan grafik parameter gelombang yang akan dianalisa meliputi tekanan (_presurre_), angin (_wind speed, gust, and direction_), dan suhu (_water temperature_) dengan cara menuliskan _plot_ yang sesuai dengan_data frame_. Sesuaikan juga ukuran dan warna grafik dari masing-masing parameter serta pada kolom nama diubah menjadi Nama_NIM_Kelas.
-![25](https://user-images.githubusercontent.com/76476526/169628420-51fd2302-7aa0-482c-a65f-c5d9b3880eb6.PNG)
+![image](https://user-images.githubusercontent.com/105660616/169587027-2b8afdd2-ea97-4bf7-b70d-ac59df317fa6.png)
+8. Tambahkan grafik parameter gelombang yang akan dianalisa meliputi tekanan (_presurre_), angin (_wind speed, gust, and direction_), dan suhu (_water temperature_) dengan cara menuliskan _plot_ yang sesuai dengan_data frame_. Sesuaikan juga ukuran dan warna dari masing-masing parameter serta pada kolom nama diubah menjadi Nama_NIM_Kelas.
+![image](https://user-images.githubusercontent.com/105660616/169579069-767e1e87-d547-4fea-9933-93bf0c7f043a.png)
 9. Tampilkan hasil _script_ dengan menggunakan _directory matplotlib plt_.
-![21](https://user-images.githubusercontent.com/76476526/169628245-ca8e6355-aafc-40e1-9ce1-545390d3861a.PNG)
+![image](https://user-images.githubusercontent.com/105660616/169587303-c33c10d9-68c8-4e4c-8341-f1992ffabf48.png)
 10. Setelah itu, _run script_ yang sudah disesuaikan dengan _Station ID_. Kemudian simpan dan tinjau hasilnya.
 ![image](https://user-images.githubusercontent.com/105660616/169580310-77c79395-3d61-45ee-b327-d0143fca5958.png)
 11. Selanjutnya masuk ke laman _website_ **NDBC-NOAA**, _website_ ini dapat diakses melalui _browser_.
@@ -253,13 +251,16 @@ Adapun langkah instalasi miniconda sebagai berikut :
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
 ini lebih ke penjelasan dari kegunaan dan penerapannya di ose bisa buat apa aja, tambahin kekurangan dan kelebihan dari penggunaan model hidrodinamika
 
+**📌 5.4. Model Hidrodinamika 2 Dimensi**
+
+**5.4.1. Kegunaan Model Hidrodinamika 2 Dimensi**
+
+**5.4.2. Penerapan Model Hidrodinamika 2 Dimensi dalam Oseanografi**
+
+Contoh penerapan : meneliti konsentrasi unsur kimia di perairan A, ketika memodelkan dalam skema 1 dimensi maka akan memodelkan terhadap kedalaman nya saja (1 arah); tetapi kita ingin meniliti unsur kimia berdasarkan kedalaman dan luas nya (2 arah) misalkan dari panjang alirannya dan berapa kedalamannya lalu meninjau konsentrasi unsur kimianya maka diperlukan skema 2 dimensi. Contoh lainnya ketika meneliti _oil spil_ (tumpahan zat di laut) namun ketika meninjau nya di 1 titik aja itu hanya perlu memodelkan menggunakan skema 1 dimensi; namun ketika adanya perbedaan ketinggian topografi maka dapat memodelkan menggunakan skema 2 dimensi
+
 # 6. Penutup
 yang kebagian ini berarti otomatis nulis juga bagian kegunaan dan penerapan script (dikerjain sama 1 orang)
 
 # 7. Referensi
-
-Haryanto, Y. D., S. S. Prayuda, R. Agdialta, N. F. Riama, A. Hartoko, S. Anggoro, dan M. Zainuri. 2020. Identifikasi Borneo Vortex Terhadap Dinamika Suhu Permukaan Laut di Laut Jawa. _JPS: Jurnal Penelitian Sains_. 22(3): 104 – 107.
-
-Suhanda, D., dan M. G. A. Putra. 2021. Pengaruh Musim Terhadap Distribusi Temperatur, Salinitas, dan Densitas di Laut Halmahera. _J-Tropimar: Jurnal Riset Kelautan Tropis_. 3(1): 1 – 11.
-
 Diisi jurnal atau buku semisal mengambil materi dari pustaka
