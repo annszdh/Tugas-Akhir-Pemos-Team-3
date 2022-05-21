@@ -258,8 +258,8 @@ yang kebagian ini berarti otomatis nulis juga bagian kegunaan dan penerapan scri
 
 # 7. Referensi
 
-Haryanto, Y. D., S. S. Prayuda, R. Agdialta, N. F. Riama, A. Hartoko, S. Anggoro, dan M. Zainuri. Identifikasi Borneo Vortex Terhadap Dinamika Suhu Permukaan Laut di Laut Jawa. JPS: Jurnal Penelitian Sains. 22(3): 104 – 107.
+Haryanto, Y. D., S. S. Prayuda, R. Agdialta, N. F. Riama, A. Hartoko, S. Anggoro, dan M. Zainuri. 2020. Identifikasi Borneo Vortex Terhadap Dinamika Suhu Permukaan Laut di Laut Jawa. _JPS: Jurnal Penelitian Sains_. 22(3): 104 – 107.
 
-Suhanda, D., dan M. G. A. Putra. 2021. Pengaruh Musim Terhadap Distribusi Temperatur, Salinitas, dan Densitas di Laut Halmahera. J-Tropimar: Jurnal Riset Kelautan Tropis. 3(1): 1 – 11.
+Suhanda, D., dan M. G. A. Putra. 2021. Pengaruh Musim Terhadap Distribusi Temperatur, Salinitas, dan Densitas di Laut Halmahera. _J-Tropimar: Jurnal Riset Kelautan Tropis_. 3(1): 1 – 11.
 
 Diisi jurnal atau buku semisal mengambil materi dari pustaka
