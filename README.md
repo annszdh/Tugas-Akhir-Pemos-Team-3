@@ -234,9 +234,9 @@ Adapun langkah instalasi miniconda sebagai berikut :
 7. Langkah selanjutnya, masukan _time series plot_ dari gambar grafik yang akan dijadikan _outputnya_. Sesuaikan ukuran gambar agar hasil grafik terlihat jelas.
 ![22](https://user-images.githubusercontent.com/76476526/169628129-1ecae11a-afbd-47ea-84a6-519e36ba3ac2.PNG)
 8. Tambahkan grafik parameter gelombang yang akan dianalisa meliputi tekanan (_presurre_), angin (_wind speed, gust, and direction_), dan suhu (_water temperature_) dengan cara menuliskan _plot_ yang sesuai dengan_data frame_. Sesuaikan juga ukuran dan warna grafik dari masing-masing parameter serta pada kolom nama diubah menjadi Nama_NIM_Kelas.
-![image](https://user-images.githubusercontent.com/105660616/169579069-767e1e87-d547-4fea-9933-93bf0c7f043a.png)
+![25](https://user-images.githubusercontent.com/76476526/169628256-b98a3517-5893-4e06-8604-ec48252ea0e5.PNG)
 9. Tampilkan hasil _script_ dengan menggunakan _directory matplotlib plt_.
-![20](https://user-images.githubusercontent.com/76476526/169627260-25a78901-6781-42c3-af65-50e7219fe155.PNG)
+![21](https://user-images.githubusercontent.com/76476526/169628245-ca8e6355-aafc-40e1-9ce1-545390d3861a.PNG)
 10. Setelah itu, _run script_ yang sudah disesuaikan dengan _Station ID_. Kemudian simpan dan tinjau hasilnya.
 ![image](https://user-images.githubusercontent.com/105660616/169580310-77c79395-3d61-45ee-b327-d0143fca5958.png)
 11. Selanjutnya masuk ke laman _website_ **NDBC-NOAA**, _website_ ini dapat diakses melalui _browser_.
