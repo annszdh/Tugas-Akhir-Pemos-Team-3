@@ -278,10 +278,23 @@ Kekurangan dari model hidrodinamika 2 dimensi adalah sebagai berikut :
 
 **📌 6.1. Kesimpulan**
 
-Pemodelan Oseanografi ini merupakan suatu sistem pembelajaran berbagai fenomena oseanografi dengan persamaan-persamaan diskrit atau numerik. Dalam Praktikum Pemodelan Oseanografi ini dipelajari 4 modul yaitu modul 1 mengenai Adveksi-Difusi 1 Dimensi, modul 2 mengenai Adveksi-Difusi 2 Dimensi, modul 3 mengenai Model Hidrodinamika 1 Dimensi, dan yang terakhir untuk modul 4 mengenai Model Hidrodinamika 2 Dimensi. 
+Pemodelan Oseanografi ini merupakan suatu sistem pembelajaran berbagai fenomena oseanografi dengan persamaan-persamaan diskrit atau numerik. Dalam Praktikum Pemodelan Oseanografi ini dipelajari 4 modul yaitu modul 1 mengenai Adveksi-Difusi 1 Dimensi, modul 2 mengenai Adveksi-Difusi 2 Dimensi, modul 3 mengenai Model Hidrodinamika 1 Dimensi, dan yang terakhir untuk modul 4 mengenai Model Hidrodinamika 2 Dimensi. Pemodelan tersebut diaplikasikan dalam oseanografi melalui diskritisasi program _python_ sehingga akan menghasilkan data parameter atau fenomena oseanografi dalam bentuk skenario maupun grafik.
+
 **📌 6.2. Saran**
 
+1. Tipe pembuatan grafik dapat dikreasikan dari segi ukuran, bentuk, dan warnanya
+2. Jenis fenomena yang dimodelkan dapat ditambahkan lagi di setiap modulnya
+3. j
+
 **📌 6.3. Ucapan Terima Kasih**
+
+Demikianlah tugas akhir repository ini kami buat. Kami dari kelompok 7 selaku authors memohon maaf apabila masih terdapat kekurangan dan kesalahan. Terimakasih pula kami ucapkan khususnya kepada :
+1. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+2. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+3. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+4. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
+5. Tim asisten Praktikum Pemodelan Oseanografi yang telah membimbing selama keberlangsungan praktikum
+6. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repository ini
 
 # 7. Referensi
 Diisi jurnal atau buku semisal mengambil materi dari pustaka
