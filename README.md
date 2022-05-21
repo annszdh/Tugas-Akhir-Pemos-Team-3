@@ -284,7 +284,7 @@ Pemodelan Oseanografi ini merupakan suatu sistem pembelajaran berbagai fenomena 
 
 1. Tipe pembuatan grafik dapat dikreasikan dari segi ukuran, bentuk, dan warnanya
 2. Jenis fenomena yang dimodelkan dapat ditambahkan lagi di setiap modulnya
-3. j
+3. Script yang dibuat dapat diberi keterangan lebih lanjut
 
 **📌 6.3. Ucapan Terima Kasih**
 
