@@ -270,10 +270,18 @@ Kelebihan dari model hidrodinamika 2 dimensi adalah sebagai berikut :
 5. Dapat menunjukkan anomali yang terjadi
 
 Kekurangan dari model hidrodinamika 2 dimensi adalah sebagai berikut :
-1. Membutuhkan data yang cukup banyak untuk menghasilkan model yang lebih valid
+1. Membutuhkan data yang cukup banyak untuk melihat anomali
+2. Pengumpulan data memerlukan waktu yang cukup lama
+3. Keterbatasan data di beberapa wilayah
 
 # 6. Penutup
-yang kebagian ini berarti otomatis nulis juga bagian kegunaan dan penerapan script (dikerjain sama 1 orang)
+
+**📌 6.1. Kesimpulan**
+
+Pemodelan Oseanografi ini 
+**📌 6.2. Saran**
+
+**📌 6.3. Ucapan Terima Kasih**
 
 # 7. Referensi
 Diisi jurnal atau buku semisal mengambil materi dari pustaka
