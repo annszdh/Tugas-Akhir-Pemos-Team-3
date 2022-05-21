@@ -232,7 +232,7 @@ Adapun langkah instalasi miniconda sebagai berikut :
 6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
 ![23](https://user-images.githubusercontent.com/76476526/169627309-cfd8a27a-f026-4eea-8d25-c589565490e2.PNG)
 7. Langkah selanjutnya, masukan _time series plot_ dari gambar grafik yang akan dijadikan _outputnya_. Sesuaikan ukuran gambar agar hasil grafik terlihat jelas.
-![image](https://user-images.githubusercontent.com/105660616/169587027-2b8afdd2-ea97-4bf7-b70d-ac59df317fa6.png)
+![22](https://user-images.githubusercontent.com/76476526/169628129-1ecae11a-afbd-47ea-84a6-519e36ba3ac2.PNG)
 8. Tambahkan grafik parameter gelombang yang akan dianalisa meliputi tekanan (_presurre_), angin (_wind speed, gust, and direction_), dan suhu (_water temperature_) dengan cara menuliskan _plot_ yang sesuai dengan_data frame_. Sesuaikan juga ukuran dan warna grafik dari masing-masing parameter serta pada kolom nama diubah menjadi Nama_NIM_Kelas.
 ![image](https://user-images.githubusercontent.com/105660616/169579069-767e1e87-d547-4fea-9933-93bf0c7f043a.png)
 9. Tampilkan hasil _script_ dengan menggunakan _directory matplotlib plt_.
