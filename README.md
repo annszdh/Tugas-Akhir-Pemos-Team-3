@@ -278,7 +278,7 @@ Kekurangan dari model hidrodinamika 2 dimensi adalah sebagai berikut :
 
 **📌 6.1. Kesimpulan**
 
-Pemodelan Oseanografi ini 
+Pemodelan Oseanografi ini merupakan suatu sistem pembelajaran berbagai fenomena oseanografi dengan persamaan-persamaan diskrit atau numerik. Dalam Praktikum Pemodelan Oseanografi ini dipelajari 4 modul yaitu modul 1 mengenai Adveksi-Difusi 1 Dimensi, modul 2 mengenai Adveksi-Difusi 2 Dimensi, modul 3 mengenai Model Hidrodinamika 1 Dimensi, dan yang terakhir untuk modul 4 mengenai Model Hidrodinamika 2 Dimensi. 
 **📌 6.2. Saran**
 
 **📌 6.3. Ucapan Terima Kasih**
