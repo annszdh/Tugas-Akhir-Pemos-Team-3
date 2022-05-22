@@ -108,15 +108,25 @@ Dalam pemodelan oseanografi dilakukan untuk mensimulasikan suatu dinamika dan fe
 **Anomali** merupakan penyimpangan dari keadaan normal dalam suatu lingkungan. Anomali suatu nilai dapat dikarenakan adanya perubahan pada jangka waktu ketika terjadinya kenaikan atau penurunan nlai karena faktor perubahan musim, curah hujan, badai, dan angin siklon sehingga mampu mengubah nilai pada parameter dan berdampak pada hasil dari pemodelan yang berbeda. Anomali dalam grafik terlihat dari ketidakstabilan grafik di setiap grid.
 
 **Hasil _Output_ Pemoodelan 🖥️**
+
 **a).Grafik 1**
+
 ![Grafik 1 Perubahan Kecepatan Arus (2)](https://user-images.githubusercontent.com/105702913/169355176-43cbee1c-d14e-4c48-a4d2-058079e6692e.png)
+
 **b).Grafik 2**
+
 ![Grafik 2 Perubahan Elevasi Muka air (2)](https://user-images.githubusercontent.com/105702913/169355283-f0df2609-93fa-4a93-8b21-930428dce19e.png)
+
 **c).Grafik 3**
+
 ![Grafik 3 Perubahan Kecepatan arus (2)](https://user-images.githubusercontent.com/105702913/169355425-3db37fa4-d723-4b10-aec9-c0994e45b8ae.png)
+
 **d).Grafik 4**
+
 ![Grafik 4 Perubahan Elevasi Muka air (2)](https://user-images.githubusercontent.com/105702913/169355512-c401c14c-9b10-4f32-a167-333b85ab3eb0.png)
+
 **e.) Grafik 5**
+
 ![Hasil modul 4 (1)](https://user-images.githubusercontent.com/105702913/169522601-39369da4-0dff-432b-a403-9d48569a6df1.png) 
 
 **2.2.4 Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi**
