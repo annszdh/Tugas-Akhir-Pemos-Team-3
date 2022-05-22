@@ -253,8 +253,11 @@ ini lebih ke penjelasan dari kegunaan dan penerapannya di ose bisa buat apa aja,
 Dalam model hidrodinamika mempelajari mengenai sifat-sifat penjalaran fenomena oseanografi terkait gelombang pasang surut dan memahami model kaitannya dengan stabilitas numerik dengan metode eksplisit. Model hidrodinamika dalam air laut dapat digunakan untuk mengkaji disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut, serta untuk pengkajian klimatologi laut, Meneliti konsentrasi unsur kimia di perairan terhadap kedalaman; dapat juga memodelkan mengenai tumpahan minyak (_oil spill_) di perairan terhadap luasan laut (ini pindahan dari yang Zahra tulis)
 
 **📌 5.1. Adveksi Difusi 1 Dimensi**
+
 **📌 5.2. Adveksi Difusi 2 Dimensi**
+
 **📌 5.3. Model Hidrodinamika 1 Dimensi**
+
 **📌 5.4. Model Hidrodinamika 2 Dimensi**
 
 Contoh penerapan model hidrodinamika 2 dimensi dalam oseanografi adalah sebagai berikut :
