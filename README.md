@@ -78,9 +78,11 @@ Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liq
 
 - Persamaan Pengatur Fluida yaitu persamaan kontinuitas dan momentum
 
-∂ζ/∂t+H ∂u/∂x=0 --> Persamaan Kontinuitas
+Persamaan Kontinuitas
+![image](https://user-images.githubusercontent.com/105660616/169678671-ad04a9f9-e0e9-4e7d-99c9-1c3982dd3672.png)
 
-∂u/∂t+g ∂ζ/∂x=0 --> Persamaan Momentum
+Persamaan Momentum
+![image](https://user-images.githubusercontent.com/105660616/169678691-a40aaf1f-1830-4454-b2b1-abaa8c0e6092.png)
 
 Dimana, persamaan pengatur ini mempunyai arti fisis yaitu u merupakan kecepatan sesaat (m/s), ζ adalah elevasi (m), ∂ adalah total (m), H adalah kedalaman terukur (m) yang konstan terhadap ruang, dan g adalah koefisien gravitasi bumi (m²/s). Persamaan hidrodinamika sederhana ini dapat di diskretisasi secara ekplisit dengan metode FTCS beda maju untuk waktu (t) dan beda pusat untuk ruang (x).
 
@@ -95,12 +97,15 @@ Diskretisasi numerik persamaan hidrodinamika 1 dimensi secara eksplisit harus me
 
 Dari kedua persamaan tersebut, nantinya akan dilakukan penyelesaian secara analitik sehingga memberikan nilai elevasi secara sinusoidal dan solusi analitik kecepatan; dimana nantinya akan menghasilkan nilai awal dan syarat batas pemodelan hidrodinamika. 
 
-**2.2.3 Contoh Model Hidrodinamika 1 Dimensi**
+**2.2.3 Contoh Hasil Pemodelan Oseanografi**
 
-Dalam model hidrodinamika 1 dimensi (modul 3) nantinya akan mempelajari mengenai sifat-sifat penjalaran fenomena oseanografi terkait gelombang pasang surut dan memahami model kaitannya dengan stabilitas numerik dengan metode eksplisit. Model hidrodinamika dalam air laut dapat digunakan untuk mengkaji disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut, serta untuk pengkajian klimatologi laut, Meneliti konsentrasi unsur kimia di perairan terhadap kedalaman; dapat juga memodelkan mengenai tumpahan minyak (_oil spill_) di perairan terhadap luasan laut. Sedangkan, dalam model hidrodinamika 2 dimensi (modul 4) dapat digunakan untuk memodelkan gelombang karena angin, memodelkan sampah plastik di laut, memodelkan coastal dynamics dan sedimentasi di Pantai.
+Dalam pemodelan oseanografi dilakukan untuk mensimulasikan suatu dinamika dan fenomena yang terjadi dalam bidang oseanografi dan kelautan. Pemodelan didasarkan kepada beberapa **parameter dan anomali**. 
 
-Dalam model 3, dilakukan untuk mensimulasikan elevasi muka air laut dan arus yang dipengaruhi oleh beberapa parameter. Pada praktikum kali ini, hasil dari pemodelan hidrodinamika 1 dimensi adalah grafik pemodelan perubahan kecepatan arus terhadap ruang, perubahan kecepatan arus terhadap waktu, perubahan elevasi permukaan air terhadap ruang, dan perubahan elevasi permukaan air terhadap waktu. Ketika memodelkan keempat kasus tersebut adanya parameter yang dikaji yaitu kecepatan arus dan elevasi permukaan air dan anomali.	Anomali sering kali ditemukan dalam melakukan pemodelan oseanografi atau pemodelan lainnya. Anomali merupakan penyimpangan dari keadaan normal dalam suatu lingkungan. Anomali suatu nilai dapat dikarenakan adanya perubahan pada jangka waktu ketika terjadinya kenaikan atau penurunan nlai karena faktor perubahan musim, curah hujan, badai, dan angin siklon sehingga mampu mengubah nilai pada parameter dan berdampak pada hasil dari pemodelan yang berbeda. Anomali dalam grafik terlihat dari ketidakstabilan grafik di setiap grid.
+**Parameter** merupakan ukuran suatu keadaan secara relatif. Parameter berguna dalam menentukan analisis dan mengidentifikasi suatu sistem atau model. 
 
+**Anomali** merupakan penyimpangan dari keadaan normal dalam suatu lingkungan. Anomali suatu nilai dapat dikarenakan adanya perubahan pada jangka waktu ketika terjadinya kenaikan atau penurunan nlai karena faktor perubahan musim, curah hujan, badai, dan angin siklon sehingga mampu mengubah nilai pada parameter dan berdampak pada hasil dari pemodelan yang berbeda. Anomali dalam grafik terlihat dari ketidakstabilan grafik di setiap grid.
+
+**Hasil _Output_ Pemoodelan 🖥️**
 **a).Grafik 1**
 ![Grafik 1 Perubahan Kecepatan Arus (2)](https://user-images.githubusercontent.com/105702913/169355176-43cbee1c-d14e-4c48-a4d2-058079e6692e.png)
 
@@ -113,14 +118,8 @@ Dalam model 3, dilakukan untuk mensimulasikan elevasi muka air laut dan arus yan
 **d).Grafik 4**
 ![Grafik 4 Perubahan Elevasi Muka air (2)](https://user-images.githubusercontent.com/105702913/169355512-c401c14c-9b10-4f32-a167-333b85ab3eb0.png)
 
-Kesimpulan dari keempat grafik tersebut sangat dipengaruhi oleh _boundary_. Nilai amplitudo dan kedalaman juga sangat berpengaruh terhadap nilai yang dihasilkan. amplitudo yang tinggi berakibat pada kecepatan dan elevasi permukaan air yang lebih besar pula. Perairan yang memiliki kedalaman besar akan cenderung memiliki kestabilan yang tinggi karena tidak dipengaruhi oleh oleh gesekan dasar. Sementara itu, pada kedalaman yang rendah akan membentuk pola ketidakstabilan akibat adanya gesekan dasar perairan. 
-
-Dalam model 4, dilakukan untuk memodelkan peristiwa gelombang laut di suatu perairan yang dipengaruhi oleh beberapa parameter. Pada praktikum kali ini, hasil dari pemodelan hidrodinamika 2 dimensi adalah grafik parameter oseanografi yang mempengaruhi gelombang setiap pergantian waktu. Ketika memodelkan kasus tersebut adanya parameter yang dikaji yaitu tekanan (_pressure_), kecepatan angin (_wind speed_), arah angin (_wind direction_), dan suhu perairan (_water temperature_) dan anomali.	Anomali sering kali ditemukan dalam melakukan pemodelan oseanografi atau pemodelan lainnya. Anomali merupakan penyimpangan dari keadaan normal dalam suatu lingkungan. Anomali suatu nilai dapat dikarenakan adanya perubahan pada jangka waktu ketika terjadinya kenaikan atau penurunan nlai karena faktor perubahan musim, curah hujan, badai, dan angin siklon sehingga mampu mengubah nilai pada parameter dan berdampak pada hasil dari pemodelan yang berbeda. Anomali dalam grafik terlihat dari grafik yang putus-putus dan adanya kekosongan pada grafik.
-
-**Grafik**
-![Hasil modul 4 (1)](https://user-images.githubusercontent.com/105702913/169522601-39369da4-0dff-432b-a403-9d48569a6df1.png)
-
-Kesimpulan dari grafik tersebut dapat dilihat dari adanya korelasi antar parameter kecepatan angin, arah angin, suhu perairan. Menurut Suhanda _et al._(2021), gradien tekanan dapat memengaruhi distribusi angin dan suhu. Dengan kata lain, gradien tekanan yang berbeda dapat menyebabkan bertiupnya angin yang merupakan faktor utama penyebab gelombang laut. arus yang dihasilkan oleh angin membawa massa air bersuhu tinggi bergerak dari tekanan tinggi ke tekanan rendah. Selanjutnya, hubungan antara suhu dan gradien tekanan berbanding terbalik. Hal tersebut dijelaskan pada Haryanto _et al_.(2020), yang menjelaskan bahwa massa udara bergerak dari wilayah yang memiliki suhu lebih rendah dan memiliki tekanan yan lebih tinggi begitu pula sebaliknya.  
+**e.) Grafik 5**
+![Hasil modul 4 (1)](https://user-images.githubusercontent.com/105702913/169522601-39369da4-0dff-432b-a403-9d48569a6df1.png) 
 
 **2.2.4 Perbedaan Model Hidrodinamika 1 Dimensi dan 2 Dimensi**
 
@@ -251,6 +250,11 @@ Adapun langkah instalasi miniconda sebagai berikut :
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
 ini lebih ke penjelasan dari kegunaan dan penerapannya di ose bisa buat apa aja, tambahin kekurangan dan kelebihan dari penggunaan model hidrodinamika
 
+Dalam model hidrodinamika mempelajari mengenai sifat-sifat penjalaran fenomena oseanografi terkait gelombang pasang surut dan memahami model kaitannya dengan stabilitas numerik dengan metode eksplisit. Model hidrodinamika dalam air laut dapat digunakan untuk mengkaji disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut, serta untuk pengkajian klimatologi laut, Meneliti konsentrasi unsur kimia di perairan terhadap kedalaman; dapat juga memodelkan mengenai tumpahan minyak (_oil spill_) di perairan terhadap luasan laut (ini pindahan dari yang Zahra tulis)
+
+**📌 5.1. Adveksi Difusi 1 Dimensi**
+**📌 5.2. Adveksi Difusi 2 Dimensi**
+**📌 5.3. Model Hidrodinamika 1 Dimensi**
 **📌 5.4. Model Hidrodinamika 2 Dimensi**
 
 Contoh penerapan model hidrodinamika 2 dimensi dalam oseanografi adalah sebagai berikut :
@@ -282,19 +286,19 @@ Pemodelan Oseanografi ini merupakan suatu sistem pembelajaran berbagai fenomena 
 
 **📌 6.2. Saran**
 
-1. Tipe pembuatan grafik dapat dikreasikan dari segi ukuran, bentuk, dan warnanya
-2. Jenis fenomena yang dimodelkan dapat ditambahkan lagi di setiap modulnya
-3. Script yang dibuat dapat diberi keterangan lebih lanjut
+1. Tipe pembuatan grafik dapat dikreasikan dari segi ukuran, bentuk, dan warnanya.
+2. Jenis fenomena yang dimodelkan dapat ditambahkan lagi di setiap modulnya.
+3. Script yang dibuat dapat diberi keterangan lebih lanjut.
 
 **📌 6.3. Ucapan Terima Kasih**
 
 Demikianlah tugas akhir repository ini kami buat. Kami dari kelompok 7 selaku authors memohon maaf apabila masih terdapat kekurangan dan kesalahan. Terimakasih pula kami ucapkan khususnya kepada :
-1. Dr. Aris Ismanto, S. Si., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-2. Prof. Dr. Denny Nugroho Sugianto, S. T., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-3. Dr. Elis Indrayanti, S. T., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-4. Rikha Widiaratih, S. Si., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi
-5. Tim asisten Praktikum Pemodelan Oseanografi yang telah membimbing selama keberlangsungan praktikum
-6. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repository ini
+1. Dr. Aris Ismanto, S. Si., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
+2. Prof. Dr. Denny Nugroho Sugianto, S. T., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
+3. Dr. Elis Indrayanti, S. T., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
+4. Rikha Widiaratih, S. Si., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
+5. Tim asisten Praktikum Pemodelan Oseanografi yang telah membimbing selama keberlangsungan praktikum.
+6. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repository ini.
 
 # 7. Referensi
 Diisi jurnal atau buku semisal mengambil materi dari pustaka
