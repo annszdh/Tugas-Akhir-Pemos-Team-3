@@ -93,7 +93,7 @@ Persamaan kontinuitas dan persamaan momentum dengan Metode FTCS
 
 Diskretisasi numerik persamaan hidrodinamika 1 dimensi secara eksplisit harus mempunyai kriteria stabilitas Courant-Freiderichs-Lewy (CFL) sebagai berikut:
 
-![Screenshot (918)(1)](https://user-images.githubusercontent.com/105702913/169482788-09464d8c-c118-4bde-a23f-9a37361ff072.png)
+![image](https://user-images.githubusercontent.com/105660616/169679662-99241b2b-5855-4e1b-a2d1-cdc57c2fd9fe.png)
 
 Dari kedua persamaan tersebut, nantinya akan dilakukan penyelesaian secara analitik sehingga memberikan nilai elevasi secara sinusoidal dan solusi analitik kecepatan; dimana nantinya akan menghasilkan nilai awal dan syarat batas pemodelan hidrodinamika. 
 
