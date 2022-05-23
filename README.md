@@ -234,14 +234,11 @@ Adapun langkah instalasi miniconda sebagai berikut :
 4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script python_ yang akan digunakan dalam pemodelan.
 ![image](https://user-images.githubusercontent.com/105660616/169798029-6cbd2c6d-3497-4046-ad7a-afc0c620934b.png)
 5. Setelah itu, ketik _script python_ yang akan dijalankan, _import_ juga data _**import matplotlib**_ dan _**import NDBC**_ dari _Siphon_.
-![image](https://user-images.githubusercontent.com/105660616/169800347-957e7005-a70c-495b-b224-3d62b7119c57.png)
-
 ```
 import matplotlib.pyplot as plt
 
 from siphon.simplewebservice.ndbc import NDBC
 ```
-
 6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
 ![26](https://user-images.githubusercontent.com/76476526/169803371-991b009c-28a9-4e50-82d8-8afb337c3d26.PNG)
 7. Langkah selanjutnya, masukan _time series plot_ dari gambar grafik yang akan dijadikan _outputnya_. Sesuaikan ukuran gambar agar hasil grafik terlihat jelas.
@@ -352,9 +349,9 @@ Pemodelan Oseanografi ini merupakan suatu sistem pembelajaran berbagai fenomena 
 ## 📌 6.3. Ucapan Terima Kasih
 
 Demikianlah tugas akhir repository ini kami buat. Kami dari kelompok 7 selaku authors memohon maaf apabila masih terdapat kekurangan dan kesalahan. Terimakasih pula kami ucapkan khususnya kepada :
-1. Dr. Aris Ismanto, S. Si., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
-2. Prof. Dr. Denny Nugroho Sugianto, S. T., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
-3. Dr. Elis Indrayanti, S. T., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
-4. Rikha Widiaratih, S. Si., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
-5. Tim asisten Praktikum Pemodelan Oseanografi yang telah membimbing selama keberlangsungan praktikum.
-6. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repository ini.
+1. Prof. Dr. Denny Nugroho Sugianto, S. T., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
+2. Dr. Aris Ismanto, S. Si., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
+4. Dr. Elis Indrayanti, S. T., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
+5. Rikha Widiaratih, S. Si., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
+6. Tim asisten Praktikum Pemodelan Oseanografi yang telah membimbing selama keberlangsungan praktikum.
+7. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repository ini.
