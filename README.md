@@ -234,15 +234,15 @@ Adapun langkah instalasi miniconda sebagai berikut :
 4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script python_ yang akan digunakan dalam pemodelan.
 ![image](https://user-images.githubusercontent.com/105660616/169798029-6cbd2c6d-3497-4046-ad7a-afc0c620934b.png)
 5. Setelah itu, ketik _script python_ yang akan dijalankan, _import_ juga data _**import matplotlib**_ dan _**import NDBC**_ dari _Siphon_.
-![image](https://user-images.githubusercontent.com/105660616/169796771-8de66f28-6162-4a63-9fa4-d452208c3918.png)
+![image](https://user-images.githubusercontent.com/105660616/169800347-957e7005-a70c-495b-b224-3d62b7119c57.png)
 6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
-![image](https://user-images.githubusercontent.com/105660616/169796523-53c17344-9dbb-4064-9e5c-0fcc31dff1c1.png)
+![image](https://user-images.githubusercontent.com/105660616/169800187-7808f746-22e6-4cb3-9f6e-8ed7bab67fec.png)
 7. Langkah selanjutnya, masukan _time series plot_ dari gambar grafik yang akan dijadikan _outputnya_. Sesuaikan ukuran gambar agar hasil grafik terlihat jelas.
-![image](https://user-images.githubusercontent.com/105660616/169797023-e7bc61bd-5c18-4f30-8761-37105de61ef6.png)
+![image](https://user-images.githubusercontent.com/105660616/169800009-59ed21b5-7f10-4ad4-8263-bc6fb89f6753.png)
 8. Tambahkan grafik parameter gelombang yang akan dianalisa meliputi tekanan (_presurre_), angin (_wind speed, gust, and direction_), dan suhu (_water temperature_) dengan cara menuliskan _plot_ yang sesuai dengan_data frame_. Sesuaikan juga ukuran dan warna dari masing-masing parameter serta pada kolom nama diubah menjadi Nama_NIM_Kelas.
-![image](https://user-images.githubusercontent.com/105660616/169579069-767e1e87-d547-4fea-9933-93bf0c7f043a.png)
+![image](https://user-images.githubusercontent.com/105660616/169799857-becbac77-d653-44a7-9194-0a4c1357a6a7.png)
 9. Tampilkan hasil _script_ dengan menggunakan _directory matplotlib plt_.
-![image](https://user-images.githubusercontent.com/105660616/169797493-23c243b2-a321-4938-b230-2cc629a15c0f.png)
+![image](https://user-images.githubusercontent.com/105660616/169799654-c4b2d848-abea-4721-97ec-3cf22a8be0ae.png)
 10. Setelah itu, _run script_ yang sudah disesuaikan dengan _Station ID_. Kemudian simpan dan tinjau hasilnya.
 ![image](https://user-images.githubusercontent.com/105660616/169580310-77c79395-3d61-45ee-b327-d0143fca5958.png)
 11. Selanjutnya masuk ke laman _website_ **NDBC-NOAA**, _website_ ini dapat diakses melalui _browser_.
