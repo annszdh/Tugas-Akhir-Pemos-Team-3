@@ -12,11 +12,11 @@ Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang 
 7. Adzkia Fara Ananda 26050120120014 A
 
 # 2. Teori Dasar 📝📝
-**📌 2.1. Adveksi Difusi**
+## 📌 2.1. Adveksi Difusi
 
 Dalam melakukan suatu pemodelan pasti mempunyai dasar dari persamaannya, salah satunya menggunakan persamaan pengatur yaitu persamaan adveksi, difusi, dan adveksi-difusi.
 
-**- Persamaan Adveksi**
+### Persamaan Adveksi
 
 Persamaan adveksi termasuk ke dalam persamaan gelombang linear orde satu dan termasuk dalam persamaan differensial hiperbolik yang menggambarkan mekanisme transportasi suatu gas atau zat cair dengan arah tertentu. Adveksi menjelaskan tentang mekanisme perpindahan materi dari titik satu ke titik lainnya. 
 
@@ -53,13 +53,13 @@ U < 0 digunakan pendekatan beda maju untu turunan ruang
 ![image](https://user-images.githubusercontent.com/105660616/169571094-29e223be-cac0-4693-a282-f05848c55c98.png)
 
 
-**- Persamaan Difusi**
+### Persamaan Difusi
 
 Persamaan difusi termasuk ke dalam persamaan diferensial parsial yang merupakan representasi perpindahan suatu zat dalam pelarut dari bagian konsentrasi tinggi ke konsentrasi rendah tanpa dipengaruhi oleh kecepatan gerak fluida media.
 
 ![Screenshot (879)](https://user-images.githubusercontent.com/105702913/169318097-697d436c-157c-4ef4-bacd-ca42ce695cc6.png)
 
-**- Persamaan Adveksi-Difusi**
+### Persamaan Adveksi-Difusi
 
 Persamaan adveksi-difusi merupakan persamaan yang digunakan untuk memodelkan proses transportasi/adveksi dan sekaligus proses difusi. Penerapan model adveksi-difusi dapat diterapkan dalam berbagai masalah nyata, seperti memodelkan kualitas air, polusi udara, meteorologi, dan oseanografi. Dalam penerapannya dalam mencari solusi analitik yang cukup sulit menggunakan pendekatan metode numerik. 
 Persamaan adveksi-difusi dapat mensimulasikan bagaimana profil suhu perairan yang kemudian didistribusikan dari waktu ke waktu sebagaimana yang dicontohnya pada ilustrasi di atas. 
@@ -68,16 +68,16 @@ Persamaan adveksi-difusi dapat mensimulasikan bagaimana profil suhu perairan yan
 
 Perbedaan adveksi dan difusi yaitu adveksi pergerakkan konsentrasi suatu zat yang  dipengaruhi oleh arah arus sedangkan difusi pergerakkan konsentrasi suatu zat yang dipengaruhi oleh perbedaan konsentrasi menyebabkan adanya gradient konsentrasi menyebakan pergerakan dari konsentrasi tinggi ke rendah.
 
-**📌 2.2. Model Hidrodinamika**
+## 📌 2.2. Model Hidrodinamika
 
-**2.2.1 Apa itu Model Hidrodinamika?**
+### 2.2.1 Apa itu Model Hidrodinamika?
 
 Hidro adalah air.
 Dinamika adalah benda bergerak atau tenaga yang menggerakan.
 
 Hidrodinamika merupakan salah satu cabang ilmu yang berhubungan dengan gerak liquid atau lebih dikhususkan pada gerak air. Skala atau lingkup analisis ilmu ini adalah pada gerak partikel air atau dapat disebut dalam skala makroskopik. Skala makroskopik disini memiliki maksud air tersusun dari partikel-partikel fluida. Fluida bukanlah partikel dengan skala terkecil, tetapi partikel atomlah yang merupakan partikel skala terkecil di air. Bidang hidrodinamika merupakan aplikasi matematik bukan fisika. Model hidrodinamika adalah model yang disarankan kepada deskripsi proses-proses yang memengaruhi sirkulasi dan pencampuran massa air. Pembangun nya yaitu hukum konservasi massa dan hukum kekelan momentum. Model ini dapat mensimulasikan variasi tinggi muka air laut dan aliran arus yang dibangkitkan oleh parameter angin, pasang surut, gelombang laut, debit perairan, dan lain-lain. Permodelan hidrodinamika dapat mensimulasikan gerakan laut dengan memecahkan serangkaian persamaan yang memberikan hubungan antara gerakan fluida, yaitu tiga komponen kecepatan, dan gaya yang bekerja pada fluida, misalnya gaya gravitasi, gaya tekanan, angin dan gaya hambat dasar, dan gaya Coriolis. 
 
-**2.2.2 Persamaan-persamaan Model Hidrodinamika 1 Dimensi**
+### 2.2.2 Persamaan-persamaan Model Hidrodinamika 1 Dimensi
 
 - Persamaan Pengatur Fluida yaitu persamaan kontinuitas dan momentum
 
@@ -100,7 +100,7 @@ Diskretisasi numerik persamaan hidrodinamika 1 dimensi secara eksplisit harus me
 
 Dari kedua persamaan tersebut, nantinya akan dilakukan penyelesaian secara analitik sehingga memberikan nilai elevasi secara sinusoidal dan solusi analitik kecepatan; dimana nantinya akan menghasilkan nilai awal dan syarat batas pemodelan hidrodinamika. 
 
-**2.2.3 Contoh Hasil Pemodelan Oseanografi**
+### 2.2.3 Contoh Hasil Pemodelan Oseanografi
 
 Dalam pemodelan oseanografi dilakukan untuk mensimulasikan suatu dinamika dan fenomena yang terjadi dalam bidang oseanografi dan kelautan. Pemodelan didasarkan kepada beberapa **parameter dan anomali**. 
 
@@ -183,7 +183,7 @@ Adapun langkah instalasi miniconda sebagai berikut :
 2. Modul 3 : Model Hidrodinamika 1D
 3. Modul 4 : Model Hidrodinamika 2D
 
-**📌 4.1. Adveksi Difusi 2D**
+## 📌 4.1. Adveksi Difusi 2D
 
 1. Buka laman _jupyter notebook_, kemudian pilih _new pyhton 3_ untuk membuat script
 ![image](https://user-images.githubusercontent.com/105660616/169575203-41673726-0802-48cd-9562-83cce2747e62.png)
@@ -202,7 +202,7 @@ Adapun langkah instalasi miniconda sebagai berikut :
 8. Langkah terakhir klik  _running script_ yang terdapat pada menu
 ![image](https://user-images.githubusercontent.com/105741300/169250673-f9439955-97ad-45bf-bed9-78e5f07a7892.png)
 
-**📌 4.2. Model Hidrodinamika 1D**
+## 📌 4.2. Model Hidrodinamika 1D
 
 1. Buka laman _jupyter notebook_, kemudian dipilih _new phyton 3_ untuk membuat script
 ![13](https://user-images.githubusercontent.com/76476526/168938644-84a816b9-967b-440c-87a9-ddd69e17463c.PNG)
@@ -223,7 +223,7 @@ Adapun langkah instalasi miniconda sebagai berikut :
 9. Langkah terakhir _running script_ pada menu _cell_ dan dipilih _running all_
 ![14](https://user-images.githubusercontent.com/76476526/168939038-dfd3beb2-a039-4777-9f3e-4dee1012870c.PNG)
 
-**📌 4.3. Model Hidrodinamika 2D**
+## 📌 4.3. Model Hidrodinamika 2D
 
 1. Buka _**Anaconda prompt** (Miniconda 3)_ yang sudah di unduh sebelumnya.
 ![image](https://user-images.githubusercontent.com/105660616/169781430-c753acb3-fa42-46e7-8f0b-031316c1cfb3.png)
@@ -257,9 +257,7 @@ Adapun langkah instalasi miniconda sebagai berikut :
 ![image](https://user-images.githubusercontent.com/105660616/169581451-f2887d44-12a2-4744-9e3b-0d29131d0c0d.png)
 
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
-
-**📌 5.1. Adveksi Difusi 1 Dimensi**
-
+## 📌 5.1. Adveksi Difusi 1 Dimensi
 Contoh penerapan adveksi difusi 1 dimensi dalam oseanografi adalah sebagai berikut :
 1. Analisis perubahan konsentrasi polutan terhadap waktu dan ruang
 2. Pemodelan intrusi air laut
@@ -267,7 +265,6 @@ Contoh penerapan adveksi difusi 1 dimensi dalam oseanografi adalah sebagai berik
 4. pemeodelan sebaran nutrient
 5. Permodelan SPL dan salinitas
 6. Pemodelan sebaran limbah
-
 
 Kelebihan dari adveksi difusi 1 dimensi adalah sebagai berikut :
 1. Skema yang dihasilkan lebih konsisten
@@ -280,8 +277,7 @@ Kekurangan dari adveksi difusi 1 dimensi adalah sebagai berikut:
 2. Simulasi lebih lama jika menggunakan pendekatan eksplisit
 3. Pemodelan tidak dapat menampilkan pergerakan berdasarkan arah
 
-**📌 5.2. Adveksi Difusi 2 Dimensi**
-
+## 📌 5.2. Adveksi Difusi 2 Dimensi
 Contoh penerapan adveksi difusi 2 dimensi dalam oseanografi adalah sebagai berikut :
 1. Analisis perubahan konsentrasi polutan terhadap waktu dan ruang
 2. Pemodelan simulasi transpor sedimen kondisi sebelum dan sesudah dibangun breakwater
@@ -296,8 +292,7 @@ Kekurangan dari adveksi difusi 2 dimensi adalah sebagai berikut :
 2. _Running data_ membutuhkan waktu yang lama
 
 
-**📌 5.3. Model Hidrodinamika 1 Dimensi**
-
+## 📌 5.3. Model Hidrodinamika 1 Dimensi
 Contoh penerapan model hidrodinamika 1 dimensi dalam oseanografi adalah sebagai berikut :
 1. Pemodelan sedimen transport 
 2. Dapat memodelkan proses-proses yang mempengaruhi sirkulasi dan pencampuran massa air
@@ -313,8 +308,7 @@ Kekurangan dari model hidrodinamika 1 dimensi adalah sebagai berikut :
 2. Sering terjadi _error_ jika terdapat perhitungan rumit
 3. Lama waktu untuk simulasi ditentukan sehingga timestep cenderung harus kecil dan waktu _running_ kalkulasi
 
-
-**📌 5.4. Model Hidrodinamika 2 Dimensi**
+## 📌 5.4. Model Hidrodinamika 2 Dimensi
 
 Contoh penerapan model hidrodinamika 2 dimensi dalam oseanografi adalah sebagai berikut :
 1. Pemodelan gelombang karena angin
@@ -338,18 +332,17 @@ Kekurangan dari model hidrodinamika 2 dimensi adalah sebagai berikut :
 3. Keterbatasan data di beberapa wilayah
 
 # 6. Penutup
-
-**📌 6.1. Kesimpulan**
+## 📌 6.1. Kesimpulan
 
 Pemodelan Oseanografi ini merupakan suatu sistem pembelajaran berbagai fenomena oseanografi dengan persamaan-persamaan diskrit atau numerik. Dalam Praktikum Pemodelan Oseanografi ini dipelajari 4 modul yaitu modul 1 mengenai Adveksi-Difusi 1 Dimensi, modul 2 mengenai Adveksi-Difusi 2 Dimensi, modul 3 mengenai Model Hidrodinamika 1 Dimensi, dan yang terakhir untuk modul 4 mengenai Model Hidrodinamika 2 Dimensi. Pemodelan tersebut diaplikasikan dalam oseanografi melalui diskritisasi program _python_ sehingga akan menghasilkan data parameter atau fenomena oseanografi dalam bentuk skenario maupun grafik.
 
-**📌 6.2. Saran**
+## 📌 6.2. Saran
 
 1. Tipe pembuatan grafik dapat dikreasikan dari segi ukuran, bentuk, dan warnanya.
 2. Jenis fenomena yang dimodelkan dapat ditambahkan lagi di setiap modulnya.
 3. Script yang dibuat dapat diberi keterangan lebih lanjut.
 
-**📌 6.3. Ucapan Terima Kasih**
+## 📌 6.3. Ucapan Terima Kasih
 
 Demikianlah tugas akhir repository ini kami buat. Kami dari kelompok 7 selaku authors memohon maaf apabila masih terdapat kekurangan dan kesalahan. Terimakasih pula kami ucapkan khususnya kepada :
 1. Dr. Aris Ismanto, S. Si., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
@@ -358,6 +351,3 @@ Demikianlah tugas akhir repository ini kami buat. Kami dari kelompok 7 selaku au
 4. Rikha Widiaratih, S. Si., M. Si. selaku dosen pengampu mata kuliah Pemodelan Oseanografi.
 5. Tim asisten Praktikum Pemodelan Oseanografi yang telah membimbing selama keberlangsungan praktikum.
 6. Seluruh rekan-rekan Oseanografi 2020 yang turut mendukung tersusunnya repository ini.
-
-# 7. Referensi
-Diisi jurnal atau buku semisal mengambil materi dari pustaka
