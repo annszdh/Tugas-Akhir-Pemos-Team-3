@@ -235,6 +235,13 @@ Adapun langkah instalasi miniconda sebagai berikut :
 ![image](https://user-images.githubusercontent.com/105660616/169798029-6cbd2c6d-3497-4046-ad7a-afc0c620934b.png)
 5. Setelah itu, ketik _script python_ yang akan dijalankan, _import_ juga data _**import matplotlib**_ dan _**import NDBC**_ dari _Siphon_.
 ![image](https://user-images.githubusercontent.com/105660616/169800347-957e7005-a70c-495b-b224-3d62b7119c57.png)
+
+```
+import matplotlib.pyplot as plt
+
+from siphon.simplewebservice.ndbc import NDBC
+```
+
 6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
 ![26](https://user-images.githubusercontent.com/76476526/169803371-991b009c-28a9-4e50-82d8-8afb337c3d26.PNG)
 7. Langkah selanjutnya, masukan _time series plot_ dari gambar grafik yang akan dijadikan _outputnya_. Sesuaikan ukuran gambar agar hasil grafik terlihat jelas.
