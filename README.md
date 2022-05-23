@@ -240,13 +240,38 @@ import matplotlib.pyplot as plt
 from siphon.simplewebservice.ndbc import NDBC
 ```
 6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
-![26](https://user-images.githubusercontent.com/76476526/169803371-991b009c-28a9-4e50-82d8-8afb337c3d26.PNG)
+```
+df=NDBC.realtime_observations('....') #Station ID
+df.head()
+```
 7. Langkah selanjutnya, masukan _time series plot_ dari gambar grafik yang akan dijadikan _outputnya_. Sesuaikan ukuran gambar agar hasil grafik terlihat jelas.
-![image](https://user-images.githubusercontent.com/105660616/169800009-59ed21b5-7f10-4ad4-8263-bc6fb89f6753.png)
+```
+#Time Series Plot
+fig, (ax1, ax2, ax3) = plt.subplots(3, 1, figsize=(12, 10))
+ax2b = ax2.twinx()
+```
 8. Tambahkan grafik parameter gelombang yang akan dianalisa meliputi tekanan (_presurre_), angin (_wind speed, gust, and direction_), dan suhu (_water temperature_) dengan cara menuliskan _plot_ yang sesuai dengan_data frame_. Sesuaikan juga ukuran dan warna dari masing-masing parameter serta pada kolom nama diubah menjadi Nama_NIM_Kelas.
-![image](https://user-images.githubusercontent.com/105660616/169799857-becbac77-d653-44a7-9194-0a4c1357a6a7.png)
+```
+#Pressure
+ax1.plot(df['pressure'], color='black')
+ax1.set_ylabel('pressure[hPa]')
+fig.suptitle('Nama_NIM_Kelas', fontsize=18)
+
+#Wind Speed, gust, direction
+ax2.plot(df['time'], df['wind_speed'], color='tab:orange')
+ax2.plot(df['time'], df['wind_gust'], color='tab:olive', linestyle='--')
+ax2b.plot(df['time'], df['wind_direction'], color='tab:blue', linestyle='-')
+ax2.set_ylabel('Wind Speed [m/s]')
+ax2b.set_ylabel('Wind Direction')
+
+#Water Temprature
+ax3.plot(df['time'], df['water_temperature'], color='tab:brown')
+ax3.set_ylabel('Water Temperature[degC]')
+```
 9. Tampilkan hasil _script_ dengan menggunakan _directory matplotlib plt_.
-![image](https://user-images.githubusercontent.com/105660616/169799654-c4b2d848-abea-4721-97ec-3cf22a8be0ae.png)
+```
+plt.show()
+```
 10. Setelah itu, _run script_ yang sudah disesuaikan dengan _Station ID_. Kemudian simpan dan tinjau hasilnya.
 ![image](https://user-images.githubusercontent.com/105660616/169580310-77c79395-3d61-45ee-b327-d0143fca5958.png)
 11. Selanjutnya masuk ke laman _website_ **NDBC-NOAA**, _website_ ini dapat diakses melalui _browser_.
