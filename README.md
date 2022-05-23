@@ -149,9 +149,9 @@ Konsep Hidrodinamika 1 Dimensi vs. 2 Dimensi, adalah sebagai berikut.
 
 
 # 3. _Installasi Miniconda 3_ 
-Pembuatan Script Pyhton dapat dilakukan dengan menggunakan Miniconda atau menggunakan Google Colaboratory. Setup Miniconda dapat diunduh pada File Terlampir
+Pembuatan _Script Pyhton_ dapat dilakukan dengan menggunakan Miniconda atau menggunakan _Google Colaboratory. Setup Miniconda_ dapat diunduh pada File Terlampir
 Adapun langkah instalasi miniconda sebagai berikut :
-1. Pengguna dapat mengunduh **setup miniconda** terlebih dahulu kemudian dilakukan instalasi
+1. Pengguna dapat mengunduh _**setup miniconda**_ terlebih dahulu kemudian dilakukan _installasi_
 ![1](https://user-images.githubusercontent.com/76476526/169210880-481f7e89-8f5f-49e5-a9f0-aa84c69193eb.png)
 2. Kemudian _setup_ di klik hingga muncul jendela _installer_ dan dipilih _next_
 ![2](https://user-images.githubusercontent.com/76476526/169211002-36ce5bda-f41d-4a1c-8629-06a9c2bbbf91.PNG)
@@ -164,17 +164,17 @@ Adapun langkah instalasi miniconda sebagai berikut :
 6. Setelah itu dipilih _install_ pada pilihan berikutnya dan tunggu hingga proses instalasi selesai
 ![6](https://user-images.githubusercontent.com/76476526/169211430-ccf5f67d-88a8-4053-82e7-3e9309696217.PNG)
 ![7](https://user-images.githubusercontent.com/76476526/169211509-9c3adb74-4b8d-487b-8d15-70ea6bddd1a7.PNG)
-7. Setelah proses instalasi selesai kemudian dipilih _next_ pada bagian bawah jendela
+7. Setelah proses installasi selesai kemudian dipilih _next_ pada bagian bawah jendela
 ![8](https://user-images.githubusercontent.com/76476526/169211633-fc6adfb8-5c76-4821-a66c-e9181e6d2b24.PNG)
 8. Pada jendela berikutnya dipilih _finish_ setelah itu laptop dapat dilakukan _restart_ atau langsung digunakan
 ![9](https://user-images.githubusercontent.com/76476526/169211679-3c04f8ac-65cc-4032-970b-6f28992c3356.PNG)
-10. Setelah itu, pengguna dapat membuka **Anaconda Prompt** untuk membuka **_jupyter notebook_**
+10. Setelah itu, pengguna dapat membuka **Anaconda Prompt** untuk membuka _**jupyter notebook**_
 ![1](https://user-images.githubusercontent.com/76476526/168938548-9f5fcaeb-66ec-4aa1-9d76-a03874283c4f.png)
-11. Kemudian dilakukan instalasi **Jupyterlab** dengan perintah **_pip install jupyterlab_** kemudian enter. _Library_ _**siphon**_ sudah masuk dalam instalasi namun apabila ingin melakukan instalasi kembali dapat dilakukan dengan perintah _**pip install siphon**_ atau **_ conda install siphon_**
+11. Kemudian dilakukan instalasi **Jupyterlab** dengan perintah _**pip install jupyterlab**_ kemudian enter. _Library_ _**siphon**_ sudah masuk dalam instalasi namun apabila ingin melakukan instalasi kembali dapat dilakukan dengan perintah _**pip install siphon**_ atau _**conda install siphon**_
 ![13](https://user-images.githubusercontent.com/76476526/169211855-0aa39807-e870-438f-b671-2703411d41b5.PNG)
-12. Setelah itu, dilakukan instalasi **Library Matplotlib** dengan perintah _**pip install matplotlib**_  atau dengan perintah _**conda install matplotlib**_kemudian enter
+12. Setelah itu, dilakukan instalasi **Library Matplotlib** dengan perintah _**pip install matplotlib**_  atau dengan perintah _**conda install matplotlib**_ kemudian enter
 ![12](https://user-images.githubusercontent.com/76476526/169213321-e6e37ce4-10be-40d7-bbbe-6a058a935b71.PNG)
-13. Setelah itu, dilakukan instalasi **Library Numpy** dengan perintah _**pip install numpy**_  atau dengan perintah _**conda install numpy**_kemudian enter
+13. Setelah itu, dilakukan instalasi **Library Numpy** dengan perintah _**pip install numpy**_  atau dengan perintah _**conda install numpy**_ kemudian enter
 ![22](https://user-images.githubusercontent.com/76476526/169213723-008394bd-5201-4319-a5cd-5e2d3932d73e.PNG)
 
 
