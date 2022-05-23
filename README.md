@@ -207,13 +207,11 @@ Adapun langkah instalasi miniconda sebagai berikut :
 1. Buka laman _jupyter notebook_, kemudian dipilih _new phyton 3_ untuk membuat script
 ![13](https://user-images.githubusercontent.com/76476526/168938644-84a816b9-967b-440c-87a9-ddd69e17463c.PNG)
 2. Setelah itu, dilakukan **_import library python matplotlib_** untuk memberikan efek visual berupa grafik dan **_numpy_** untuk perhitungan numerik
-![5](https://user-images.githubusercontent.com/76476526/168938673-e9d229be-3649-4da6-9db6-1127555f524e.png)
 ```
 import matplotlib.pyplot as plt
 import numpy as np
 ```
 3. Langkah selanjutnya dimasukkan parameter yang akan digunakan 
-![6](https://user-images.githubusercontent.com/76476526/168938702-24782b41-815f-4485-8970-8943018b4d3c.png)
 ```
 p = 5000 #Panjang Grid
 T = 1200 #Waktu Simulasi 
@@ -231,15 +229,92 @@ L = C*To #Panjang Gelombang
 k = 2*pi/L #Koefisien Panjang Gelombang
 ```
 4. Kemudian dibuat _script_ perhitungan 
+```
+Mmax = int(p//dx)
+Nmax = int(T//dt) 
 
+zo = [None for _ in range(Mmax)]
+uo = [None for _ in range(Mmax)]
+
+hasilu = [None for _ in range(Nmax)]
+hasilz = [None for _ in range(Nmax)]
+
+for i in range(1, Mmax+1):
+    zo[i-1] = A*np.cos(k*(i)*dx)
+    uo[i-1] = A*C*np.cos(k*((i)*dx+(0.5)*dx))/(D+zo[i-1])
+for i in range(1, Nmax+1):
+    zb = [None for _ in range(Mmax)]
+    ub = [None for _ in range(Mmax)]
+    zb[0] = A*np.cos(s*(i)*dt)
+    ub[-1] = A*C*np.cos(k*L-s*(i)*dt)/(D+zo[-1])
+    for j in range(1, Mmax):
+        ub[j-1] = uo[j-1]-g*(dt/dx)*(zo[j]-zo[j-1])
+    for k in range(2, Mmax+1):
+        zb[k-1] = zo[k-1]-(D+zo[k-1])*(dt/dx)*(ub[k-1]-ub[k-2])
+        hasilu[i-1] = ub
+        hasilz[i-1] = zb
+    for p in range(0, Mmax):
+        uo[p] = ub[p]
+        zo[p] = zb[p]
+```
 5. Langkah berikutnya membuat script untuk grafik Perubahan Kecepatan Arus Dalam _Grid_ Tertentu di Sepanjang Waktu
-![8](https://user-images.githubusercontent.com/76476526/168938751-0614c475-c2c8-4acc-9a8e-13b42711be44.PNG)
+```
+def rand_col_hex_string():
+    return f'#{format(np.random.randint(0,16777215), "#08x")[2:]}'
+
+hasilu_np = np.array(hasilu)
+hasilz_np = np.array(hasilz)
+
+fig0, ax0 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+    col0 = rand_col_hex_string()
+    line, = ax0.plot(hasilu_np[:,i-1], c=col0, label=f'n={i}')
+    ax0.legend()
+
+    ax0.set(xlabel='Waktu', ylabel='Kecepatan Arus',
+            title=''' Nama_NIM_Kelas
+            Perubahan Kecepatan Arus Dalam Grid Tertentu di Sepanjang Waktu''')
+    ax0.grid()
+```
 6. Selanjutnya dibuat _script_ untuk grafik Perubahan Elevasi Permukaan Air Dalam _Grid_ Tertentu di Sepanjang Waktu
-![9](https://user-images.githubusercontent.com/76476526/168938780-a50af0f5-8d0b-4136-a236-4c523dab1b76.PNG)
+```
+fig1, ax1 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+    col1 = rand_col_hex_string()
+    line, = ax1.plot(hasilz_np[:,i-1], c=col1, label=f'n={i}')
+    ax1.legend()
+
+    ax1.set(xlabel='Waktu', ylabel='Elevasi Muka Air',
+            title=''' Nama_NIM_Kelas
+            Perubahan Elevasi Permukaan Air Dalam Grid Tertentu di Sepanjang Waktu''')
+    ax1.grid()
+```
 7. Kemudian dibuat _script_ untuk grafik Perubahan Kecepatan Arus Dalam Waktu Tertentu di sepanjang _Grid_
-![10](https://user-images.githubusercontent.com/76476526/168938813-9df167ad-e4bd-4791-b64e-e0967d2840b3.PNG)
+```
+fig2, ax2 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+    col2 = rand_col_hex_string()
+    line, = ax2.plot(hasilu_np[i-1], c=col2, label=f't={i}')
+    ax2.legend()
+
+    ax2.set(xlabel='Grid', ylabel='Kecepatan Arus',
+            title=''' Nama_NIM_Kelas
+            Perubahan Kecepatan Arus Dalam Waktu Tertentu di Sepanjang Grid''')
+    ax2.grid()
+```
 8. Berikutnya dibuat _script_ untuk grafik Perubahan Elevasi Permukaan Air Dalam Waktu Tertentu di Sepanjang _Grid_ dan menampilkan hasil grafik secara keseluruhan
-![11](https://user-images.githubusercontent.com/76476526/168938845-a05e65ca-e402-4a73-9cd5-b493f00e5c19.PNG)
+```
+fig3, ax3 = plt.subplots(figsize=(12,8))
+for i in range(1, 16):
+    col3 = rand_col_hex_string()
+    line, = ax3.plot(hasilz_np[i-1], c=col3, label=f't={i}')
+    ax3.legend()
+
+    ax3.set(xlabel='Grid', ylabel='Elevasi Muka Air',
+            title=''' Nama_NIM_Kelas
+            Perubahan Elevasi Permukaan Air Dalam Waktu Tertentu di Sepanjang Grid''')
+    ax3.grid()
+```
 9. Langkah terakhir _running script_ pada menu _cell_ dan dipilih _running all_
 ![14](https://user-images.githubusercontent.com/76476526/168939038-dfd3beb2-a039-4777-9f3e-4dee1012870c.PNG)
 
