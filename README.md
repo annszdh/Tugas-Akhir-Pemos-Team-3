@@ -1,5 +1,5 @@
 # Tugas Akhir Pemos Team 3
-Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat teori, metode pengerjaan, dan _intallisasi software_ yang dapat memproses beberapa persamaan adveksi difusi dan model hidrodinamika untuk penyelesaian dalam pemodelan dari suatu fenomena atau dinamika oseanografi.
+Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat teori, metode pengerjaan, dan _intallisasi software_ yang dapat memproses beberapa persamaan adveksi difusi dan model hidrodinamika untuk penyelesaian dalam pemodelan dari suatu fenomena dan dinamika oseanografi.
 Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory_ dan _Jupyter Notebook._ Sedangkan untuk _library_ yang digunakan kali ini adalah _Numpy, Matplotlib, Siphon_ dan _Pprint._ Seluruh script yang dibuat adalah hasil Team 3 Oseanografi 2020. Semoga dapat bermanfaat bagi kita semua!
 
 # 1. AUTHORS of TEAM 3 👥
