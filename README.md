@@ -236,7 +236,7 @@ Adapun langkah instalasi miniconda sebagai berikut :
 5. Setelah itu, ketik _script python_ yang akan dijalankan, _import_ juga data _**import matplotlib**_ dan _**import NDBC**_ dari _Siphon_.
 ![image](https://user-images.githubusercontent.com/105660616/169800347-957e7005-a70c-495b-b224-3d62b7119c57.png)
 6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
-![image](https://user-images.githubusercontent.com/105660616/169800187-7808f746-22e6-4cb3-9f6e-8ed7bab67fec.png)
+![26](https://user-images.githubusercontent.com/76476526/169803371-991b009c-28a9-4e50-82d8-8afb337c3d26.PNG)
 7. Langkah selanjutnya, masukan _time series plot_ dari gambar grafik yang akan dijadikan _outputnya_. Sesuaikan ukuran gambar agar hasil grafik terlihat jelas.
 ![image](https://user-images.githubusercontent.com/105660616/169800009-59ed21b5-7f10-4ad4-8263-bc6fb89f6753.png)
 8. Tambahkan grafik parameter gelombang yang akan dianalisa meliputi tekanan (_presurre_), angin (_wind speed, gust, and direction_), dan suhu (_water temperature_) dengan cara menuliskan _plot_ yang sesuai dengan_data frame_. Sesuaikan juga ukuran dan warna dari masing-masing parameter serta pada kolom nama diubah menjadi Nama_NIM_Kelas.
@@ -262,6 +262,12 @@ Adapun langkah instalasi miniconda sebagai berikut :
 
 Contoh penerapan adveksi difusi 1 dimensi dalam oseanografi adalah sebagai berikut :
 1. Analisis perubahan konsentrasi polutan terhadap waktu dan ruang
+2. Pemodelan intrusi air laut
+3. Pemodelan pergerakan radionuklida
+4. pemeodelan sebaran nutrient
+5. Permodelan SPL dan salinitas
+6. Pemodelan sebaran limbah
+
 
 Kelebihan dari adveksi difusi 1 dimensi adalah sebagai berikut :
 1. Skema yang dihasilkan lebih konsisten
@@ -272,6 +278,7 @@ Kelebihan dari adveksi difusi 1 dimensi adalah sebagai berikut :
 Kekurangan dari adveksi difusi 1 dimensi adalah sebagai berikut:
 1. Penyelesaian lebih rumit untuk pendekatan implisit
 2. Simulasi lebih lama jika menggunakan pendekatan eksplisit
+3. Pemodelan tidak dapat menampilkan pergerakan berdasarkan arah
 
 **📌 5.2. Adveksi Difusi 2 Dimensi**
 
@@ -282,6 +289,7 @@ Contoh penerapan adveksi difusi 2 dimensi dalam oseanografi adalah sebagai berik
 Kelebihan dari adveksi difusi 2 dimensi adalah sebagai berikut :
 1. Pemodelan distribusi polutan dapat divisualisasikan
 2. Pergerakan dari polutan dapat dengan mudah diketahui untuk analisa tumpahan minyak di suatu perairan
+3. Arah pergerakan partikel dapat diketahui
 
 Kekurangan dari adveksi difusi 2 dimensi adalah sebagai berikut :
 1. Data yang dibutuhkan banyak untuk mengetahui pergerakan polutan dari lokasi yang luas
