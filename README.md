@@ -267,7 +267,7 @@ Contoh penerapan adveksi difusi 1 dimensi dalam oseanografi adalah sebagai berik
 3. Analisis sebaran BOD
 4. Analisis sebaran nutrient
 5. Pembuatan Model intrusi air laut
-6. Pembuatan Modes distribusi SPL dan salinitas
+6. Pembuatan Model distribusi SPL dan salinitas
 
 Kelebihan dari adveksi difusi 1 dimensi adalah sebagai berikut :
 
@@ -276,6 +276,9 @@ Kelebihan dari adveksi difusi 1 dimensi adalah sebagai berikut :
 Contoh penerapan adveksi difusi 2 dimensi dalam oseanografi adalah sebagai berikut :
 1. Analisis perubahan konsentrasi polutan terhadap waktu dan ruang
 2. Pemodelan simulasi transpor sedimen kondisi sebelum dan sesudah dibangun breakwater
+3. Pemodelan sebaran limbah perairan
+4. Pemodelan sebaran suhu perairan
+5. Pemodelan pergerakan radionuklida
 
 Kelebihan dari adveksi difusi 2 dimensi adalah sebagai berikut :
 
