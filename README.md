@@ -265,15 +265,21 @@ Dalam model hidrodinamika mempelajari mengenai sifat-sifat penjalaran fenomena o
 
 Contoh penerapan adveksi difusi 1 dimensi dalam oseanografi adalah sebagai berikut :
 1. Analisis perubahan konsentrasi polutan terhadap waktu dan ruang
+
+Kelebihan dari adveksi difusi 1 dimensi adalah sebagai berikut :
 **📌 5.2. Adveksi Difusi 2 Dimensi**
 
 Contoh penerapan adveksi difusi 2 dimensi dalam oseanografi adalah sebagai berikut :
 1. Analisis perubahan konsentrasi polutan terhadap waktu dan ruang
 2. Pemodelan simulasi transpor sedimen
+
+Kelebihan dari adveksi difusi 2 dimensi adalah sebagai berikut :
 **📌 5.3. Model Hidrodinamika 1 Dimensi**
 
 Contoh penerapan model hidrodinamika 1 dimensi dalam oseanografi adalah sebagai berikut :
 1. Pemodelan sedimen transport
+
+Kelebihan dari model hidrodinamika 1 dimensi adalah sebagai berikut :
 **📌 5.4. Model Hidrodinamika 2 Dimensi**
 
 Contoh penerapan model hidrodinamika 2 dimensi dalam oseanografi adalah sebagai berikut :
