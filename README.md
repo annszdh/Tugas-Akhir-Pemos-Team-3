@@ -257,7 +257,6 @@ Adapun langkah instalasi miniconda sebagai berikut :
 ![image](https://user-images.githubusercontent.com/105660616/169581451-f2887d44-12a2-4744-9e3b-0d29131d0c0d.png)
 
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
-Dalam model hidrodinamika mempelajari mengenai sifat-sifat penjalaran fenomena oseanografi terkait gelombang pasang surut dan memahami model kaitannya dengan stabilitas numerik dengan metode eksplisit. Model hidrodinamika dalam air laut dapat digunakan untuk mengkaji disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut, serta untuk pengkajian klimatologi laut, Meneliti konsentrasi unsur kimia di perairan terhadap kedalaman; dapat juga memodelkan mengenai tumpahan minyak (_oil spill_) di perairan terhadap luasan laut (ini pindahan dari yang Zahra tulis)
 
 **📌 5.1. Adveksi Difusi 1 Dimensi**
 
@@ -265,7 +264,14 @@ Contoh penerapan adveksi difusi 1 dimensi dalam oseanografi adalah sebagai berik
 1. Analisis perubahan konsentrasi polutan terhadap waktu dan ruang
 
 Kelebihan dari adveksi difusi 1 dimensi adalah sebagai berikut :
-1. Dapat
+1. Skema yang dihasilkan lebih konsisten
+2. Dapat memodelkan konsentrasi polutan sesuai stabilitas hitungan
+3. Penyelesaian lebih mudah untuk pendekatan eksplisit
+4. Simulasi lebih cepat untuk pendekatan implisit
+
+Kekurangan dari adveksi difusi 1 dimensi adalah sebagai berikut:
+1. Penyelesaian lebih rumit untuk pendekatan implisit
+2. Simulasi lebih lama jika menggunakan pendekatan eksplisit
 
 **📌 5.2. Adveksi Difusi 2 Dimensi**
 
@@ -278,8 +284,9 @@ Kelebihan dari adveksi difusi 2 dimensi adalah sebagai berikut :
 2. Pergerakan dari polutan dapat dengan mudah diketahui untuk analisa tumpahan minyak di suatu perairan
 
 Kekurangan dari adveksi difusi 2 dimensi adalah sebagai berikut :
-1. Data yang dibutuhkan banyak untuk mengetahui pergerakan polutan
+1. Data yang dibutuhkan banyak untuk mengetahui pergerakan polutan dari lokasi yang luas
 2. _Running data_ membutuhkan waktu yang lama
+
 
 **📌 5.3. Model Hidrodinamika 1 Dimensi**
 
@@ -297,6 +304,7 @@ Kekurangan dari model hidrodinamika 1 dimensi adalah sebagai berikut :
 1. Banyak data yang dibutuhkan
 2. Sering terjadi _error_ jika terdapat perhitungan rumit
 3. Lama waktu untuk simulasi ditentukan sehingga timestep cenderung harus kecil dan waktu _running_ kalkulasi
+
 
 **📌 5.4. Model Hidrodinamika 2 Dimensi**
 
