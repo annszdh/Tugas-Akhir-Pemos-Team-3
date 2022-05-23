@@ -323,6 +323,7 @@ for i in range(1, 16):
 1. Buka _**Anaconda prompt** (Miniconda 3)_ yang sudah di unduh sebelumnya.
 ![image](https://user-images.githubusercontent.com/105660616/169781430-c753acb3-fa42-46e7-8f0b-031316c1cfb3.png)
 2. _Install_ terlebih dahulu _mandatory library_ yang digunakan yaitu _**Matplotlib**_ dan _**Siphon**_ dengan menuliskan _**pip install Matplotlib**_ dan _**pip install Siphon**_.
+
 ![image](https://user-images.githubusercontent.com/105660616/169585224-3bb39d56-3d09-4fc4-84a0-3acf7e2ec5ac.png)
 3. Setelah _**Matplotlib**_ dan _**Siphon**_ _terinstall_, buka _jupyter notebook_ atau _text editor lainnya_ 
 ![image](https://user-images.githubusercontent.com/105660616/169797892-b71d010b-1fa2-44f7-b93c-013110e7b383.png)
