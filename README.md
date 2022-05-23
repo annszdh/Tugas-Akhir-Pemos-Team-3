@@ -1,6 +1,6 @@
 # Tugas Akhir Pemos Team 3
-Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat executable (.exe) file yang dapat memproses beberapa persamaan model hidrodinamika untuk penyelesaian dalam pemodelan dari suatu fenomena atau dinamika oseanografi.
-Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti Google Colaboratory dan Jupyter Notebook. Sedangkan untuk library yang digunakan kali ini adalah Numpy, Matplotlib, dan Pprint. Seluruh script yang dibuat adalah hasil Team 3 Oseanografi 2020. Semoga dapat bermanfaat!
+Repositori ini dibuat untuk memenuhi Tugas Akhir Praktikum Pemodelan Oseanografi 2022. Repositori ini memuat teori, metode pengerjaan, dan _intallisasi software_ yang dapat memproses beberapa persamaan adveksi difusi dan model hidrodinamika untuk penyelesaian dalam pemodelan dari suatu fenomena atau dinamika oseanografi.
+Pengerjaan untuk repositori kali ini menggunakan bahasa pemrograman python yang dapat dilakukan pada beberapa platform seperti _Google Colaboratory_ dan _Jupyter Notebook._ Sedangkan untuk _library_ yang digunakan kali ini adalah _Numpy, Matplotlib, Siphon_ dan _Pprint._ Seluruh script yang dibuat adalah hasil Team 3 Oseanografi 2020. Semoga dapat bermanfaat bagi kita semua!
 
 # 1. AUTHORS of TEAM 3 👥
 1. Hanna Sazidah 26050120120002 A
@@ -226,13 +226,13 @@ Adapun langkah instalasi miniconda sebagai berikut :
 **📌 4.3. Model Hidrodinamika 2D**
 
 1. Buka _**Anaconda prompt** (Miniconda 3)_ yang sudah di unduh sebelumnya.
-![image](https://user-images.githubusercontent.com/105660616/169584779-2bc7e183-dbe9-4fd6-aef0-ef073d321db6.png)
+![image](https://user-images.githubusercontent.com/105660616/169781430-c753acb3-fa42-46e7-8f0b-031316c1cfb3.png)
 2. _Install_ terlebih dahulu _mandatory library_ yang digunakan yaitu _**Matplotlib**_ dan _**Siphon**_ dengan menuliskan _**pip install Matplotlib**_ dan _**pip install Siphon**_.
 ![image](https://user-images.githubusercontent.com/105660616/169585224-3bb39d56-3d09-4fc4-84a0-3acf7e2ec5ac.png)
 3. Setelah _**Matplotlib**_ dan _**Siphon**_ _terinstall_, buka _jupyter notebook_ atau _text editor lainnya_ 
-![image](https://user-images.githubusercontent.com/105660616/169586358-c123031f-9e46-41c4-8040-9c4fa878d506.png)
+![image](https://user-images.githubusercontent.com/105660616/169781775-4f430fd1-04f7-4bf9-b69b-e9ba38362fdc.png)
 4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script python_ yang akan digunakan dalam pemodelan.
-![image](https://user-images.githubusercontent.com/105660616/169586505-fdd23d0a-6ba3-485a-98a3-5ff1f35c2362.png)
+![image](https://user-images.githubusercontent.com/105660616/169782000-e3c4a207-e990-4a8b-87c7-1bacb0cd22b2.png)
 5. Setelah itu, ketik _script python_ yang akan dijalankan, _import_ juga data _**import matplotlib**_ dan _**import NDBC**_ dari _Siphon_.
 ![image](https://user-images.githubusercontent.com/105660616/169586719-5f3bf9e1-13c2-467b-856e-84b207b07bbf.png)
 6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
@@ -257,8 +257,6 @@ Adapun langkah instalasi miniconda sebagai berikut :
 ![image](https://user-images.githubusercontent.com/105660616/169581451-f2887d44-12a2-4744-9e3b-0d29131d0c0d.png)
 
 # 5. Kegunaan dan Penerapan Script dalam Oseanografi
-ini lebih ke penjelasan dari kegunaan dan penerapannya di ose bisa buat apa aja, tambahin kekurangan dan kelebihan dari penggunaan model hidrodinamika
-
 Dalam model hidrodinamika mempelajari mengenai sifat-sifat penjalaran fenomena oseanografi terkait gelombang pasang surut dan memahami model kaitannya dengan stabilitas numerik dengan metode eksplisit. Model hidrodinamika dalam air laut dapat digunakan untuk mengkaji disipasi panas di laut, sebaran radionuklida yang terlepas ke badan air laut, serta untuk pengkajian klimatologi laut, Meneliti konsentrasi unsur kimia di perairan terhadap kedalaman; dapat juga memodelkan mengenai tumpahan minyak (_oil spill_) di perairan terhadap luasan laut (ini pindahan dari yang Zahra tulis)
 
 **📌 5.1. Adveksi Difusi 1 Dimensi**
@@ -267,19 +265,29 @@ Contoh penerapan adveksi difusi 1 dimensi dalam oseanografi adalah sebagai berik
 1. Analisis perubahan konsentrasi polutan terhadap waktu dan ruang
 
 Kelebihan dari adveksi difusi 1 dimensi adalah sebagai berikut :
+
 **📌 5.2. Adveksi Difusi 2 Dimensi**
 
 Contoh penerapan adveksi difusi 2 dimensi dalam oseanografi adalah sebagai berikut :
 1. Analisis perubahan konsentrasi polutan terhadap waktu dan ruang
-2. Pemodelan simulasi transpor sedimen
+2. Pemodelan simulasi transpor sedimen kondisi sebelum dan sesudah dibangun breakwater
 
 Kelebihan dari adveksi difusi 2 dimensi adalah sebagai berikut :
+
 **📌 5.3. Model Hidrodinamika 1 Dimensi**
 
 Contoh penerapan model hidrodinamika 1 dimensi dalam oseanografi adalah sebagai berikut :
-1. Pemodelan sedimen transport
+1. Pemodelan sedimen transport 
+2. Pemodelan tinggi muka air laut dan aliran arus akibat parameter oseanografi 
 
 Kelebihan dari model hidrodinamika 1 dimensi adalah sebagai berikut :
+
+Kekurangan dari model hidrodinamika 1 dimensi adalah sebagai berikut :
+1. Banyak data yang dibutuhkan
+2. Sering terjadi error jika terdapat perhitungan rumit
+3. Banyaknya waktu untuk simulasi ditentukan seperti timestep yang mempengaruhi kalkulasi _running data_
+
+
 **📌 5.4. Model Hidrodinamika 2 Dimensi**
 
 Contoh penerapan model hidrodinamika 2 dimensi dalam oseanografi adalah sebagai berikut :
