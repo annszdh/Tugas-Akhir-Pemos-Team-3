@@ -230,10 +230,9 @@ Adapun langkah instalasi miniconda sebagai berikut :
 2. _Install_ terlebih dahulu _mandatory library_ yang digunakan yaitu _**Matplotlib**_ dan _**Siphon**_ dengan menuliskan _**pip install Matplotlib**_ dan _**pip install Siphon**_.
 ![image](https://user-images.githubusercontent.com/105660616/169585224-3bb39d56-3d09-4fc4-84a0-3acf7e2ec5ac.png)
 3. Setelah _**Matplotlib**_ dan _**Siphon**_ _terinstall_, buka _jupyter notebook_ atau _text editor lainnya_ 
-
-![image](https://user-images.githubusercontent.com/105660616/169781775-4f430fd1-04f7-4bf9-b69b-e9ba38362fdc.png)
+![image](https://user-images.githubusercontent.com/105660616/169797892-b71d010b-1fa2-44f7-b93c-013110e7b383.png)
 4. Setelah laman _jupyter notebook_ terbuka, kemudian pilih _new python 3_ untuk membuat _script python_ yang akan digunakan dalam pemodelan.
-![image](https://user-images.githubusercontent.com/105660616/169782000-e3c4a207-e990-4a8b-87c7-1bacb0cd22b2.png)
+![image](https://user-images.githubusercontent.com/105660616/169798029-6cbd2c6d-3497-4046-ad7a-afc0c620934b.png)
 5. Setelah itu, ketik _script python_ yang akan dijalankan, _import_ juga data _**import matplotlib**_ dan _**import NDBC**_ dari _Siphon_.
 ![image](https://user-images.githubusercontent.com/105660616/169796771-8de66f28-6162-4a63-9fa4-d452208c3918.png)
 6. Tulis _data frame_ yang akan dibuat berdasarkan data dari _website_ NDBC _(National Data Bouy Center)_ dengan data observasi _realtime_. Pada bagian _Station ID_ ubah _script_ sesuai dengan _Station ID_ yang akan dimodelkan.
