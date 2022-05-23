@@ -208,10 +208,31 @@ Adapun langkah instalasi miniconda sebagai berikut :
 ![13](https://user-images.githubusercontent.com/76476526/168938644-84a816b9-967b-440c-87a9-ddd69e17463c.PNG)
 2. Setelah itu, dilakukan **_import library python matplotlib_** untuk memberikan efek visual berupa grafik dan **_numpy_** untuk perhitungan numerik
 ![5](https://user-images.githubusercontent.com/76476526/168938673-e9d229be-3649-4da6-9db6-1127555f524e.png)
+```
+import matplotlib.pyplot as plt
+import numpy as np
+```
 3. Langkah selanjutnya dimasukkan parameter yang akan digunakan 
 ![6](https://user-images.githubusercontent.com/76476526/168938702-24782b41-815f-4485-8970-8943018b4d3c.png)
+```
+p = 5000 #Panjang Grid
+T = 1200 #Waktu Simulasi 
+A = 0.5 #Amplitudo
+D = 15 #Depth/kedalaman
+dt = 2
+dx = 100
+To = 300 #Periode
+
+g = 9.8
+pi = np.pi
+C = np.sqrt(g*D) #Kecepatan Arus
+s = 2*pi/To #Kecepatan Sudut Gelombang
+L = C*To #Panjang Gelombang
+k = 2*pi/L #Koefisien Panjang Gelombang
+```
 4. Kemudian dibuat _script_ perhitungan 
-![7](https://user-images.githubusercontent.com/76476526/168938721-b8bd682a-85f6-42b5-9dc8-a6b6a482a50d.png)
+```
+
 5. Langkah berikutnya membuat script untuk grafik Perubahan Kecepatan Arus Dalam _Grid_ Tertentu di Sepanjang Waktu
 ![8](https://user-images.githubusercontent.com/76476526/168938751-0614c475-c2c8-4acc-9a8e-13b42711be44.PNG)
 6. Selanjutnya dibuat _script_ untuk grafik Perubahan Elevasi Permukaan Air Dalam _Grid_ Tertentu di Sepanjang Waktu
