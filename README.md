@@ -231,7 +231,6 @@ L = C*To #Panjang Gelombang
 k = 2*pi/L #Koefisien Panjang Gelombang
 ```
 4. Kemudian dibuat _script_ perhitungan 
-```
 
 5. Langkah berikutnya membuat script untuk grafik Perubahan Kecepatan Arus Dalam _Grid_ Tertentu di Sepanjang Waktu
 ![8](https://user-images.githubusercontent.com/76476526/168938751-0614c475-c2c8-4acc-9a8e-13b42711be44.PNG)
