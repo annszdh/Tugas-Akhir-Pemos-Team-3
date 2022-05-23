@@ -263,38 +263,40 @@ Dalam model hidrodinamika mempelajari mengenai sifat-sifat penjalaran fenomena o
 
 Contoh penerapan adveksi difusi 1 dimensi dalam oseanografi adalah sebagai berikut :
 1. Analisis perubahan konsentrasi polutan terhadap waktu dan ruang
-2. Analisis pergerakan molekul
-3. Analisis sebaran BOD
-4. Analisis sebaran nutrient
-5. Pembuatan Model intrusi air laut
-6. Pembuatan Model distribusi SPL dan salinitas
 
 Kelebihan dari adveksi difusi 1 dimensi adalah sebagai berikut :
+1. Dapat
 
 **📌 5.2. Adveksi Difusi 2 Dimensi**
 
 Contoh penerapan adveksi difusi 2 dimensi dalam oseanografi adalah sebagai berikut :
 1. Analisis perubahan konsentrasi polutan terhadap waktu dan ruang
 2. Pemodelan simulasi transpor sedimen kondisi sebelum dan sesudah dibangun breakwater
-3. Pemodelan sebaran limbah perairan
-4. Pemodelan sebaran suhu perairan
-5. Pemodelan pergerakan radionuklida
 
 Kelebihan dari adveksi difusi 2 dimensi adalah sebagai berikut :
+1. Pemodelan distribusi polutan dapat divisualisasikan
+2. Pergerakan dari polutan dapat dengan mudah diketahui untuk analisa tumpahan minyak di suatu perairan
+
+Kekurangan dari adveksi difusi 2 dimensi adalah sebagai berikut :
+1. Data yang dibutuhkan banyak untuk mengetahui pergerakan polutan
+2. _Running data_ membutuhkan waktu yang lama
 
 **📌 5.3. Model Hidrodinamika 1 Dimensi**
 
 Contoh penerapan model hidrodinamika 1 dimensi dalam oseanografi adalah sebagai berikut :
 1. Pemodelan sedimen transport 
-2. Pemodelan tinggi muka air laut dan aliran arus akibat parameter oseanografi 
+2. Dapat memodelkan proses-proses yang mempengaruhi sirkulasi dan pencampuran massa air
+3. Pemodelan variasi tinggi muka air laut dan aliran arus akibat parameter oseanografi 
 
 Kelebihan dari model hidrodinamika 1 dimensi adalah sebagai berikut :
+1. Cocok digunakan untuk pemodelan daerah dengan gradien rendah
+2. Dapat memodelkan parameter oseanografi di laut dangkal
+3. Dapat menghasilkan hasil data yang seragam di seluruh penampang
 
 Kekurangan dari model hidrodinamika 1 dimensi adalah sebagai berikut :
 1. Banyak data yang dibutuhkan
-2. Sering terjadi error jika terdapat perhitungan rumit
-3. Banyaknya waktu untuk simulasi ditentukan seperti timestep yang mempengaruhi kalkulasi _running data_
-
+2. Sering terjadi _error_ jika terdapat perhitungan rumit
+3. Lama waktu untuk simulasi ditentukan sehingga timestep cenderung harus kecil dan waktu _running_ kalkulasi
 
 **📌 5.4. Model Hidrodinamika 2 Dimensi**
 
